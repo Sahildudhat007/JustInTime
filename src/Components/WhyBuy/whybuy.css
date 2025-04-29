@@ -1,0 +1,36 @@
+.swiper1 {
+    width: 100%;
+    height: 50vh;
+}
+
+.swiper-slide1 {
+    background-color: black;
+}
+
+.swiper-pagination-progressbar {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.swiper-pagination-progressbar-fill {
+    background-color: #C1271B !important;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper1 {
+        width: 100%;
+        height: 65vh;
+    }
+
+    .swiper-pagination-progressbar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .why-body {
+        width: 100%;
+    }
+}
