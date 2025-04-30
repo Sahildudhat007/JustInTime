@@ -17,9 +17,9 @@ import offer13 from "../../assets/offer13.webp"
 import offer14 from "../../assets/offer14.webp"
 
 // css import
-import './offers.css'
+import './discount.css'
 
-function Offers() {
+function Discount() {
 
     const offerImages = [
         offer1, offer2, offer3, offer4, offer5, offer6, offer7,
@@ -55,4 +55,4 @@ function Offers() {
     )
 }
 
-export default Offers
+export default Discount

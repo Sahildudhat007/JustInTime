@@ -14,7 +14,7 @@ import { FiFilter } from "react-icons/fi";
 
 function MensWatches() {
 
-    const brands = ["All", "Casio", "Fossil", "Seiko", "Tissot", "Automatic", "50% Off"];
+    const brands = ["All", "Casio", "Fossil", "Timex", "Tissot", "Armani Exchange", "Guess"];
 
     const [isExpanded, setIsExpanded] = useState(false);
     const [selectedBrand, setSelectedBrand] = useState("All");

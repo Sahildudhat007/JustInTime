@@ -11,6 +11,7 @@ import WatchAccessories from './Pages/WatchAccessories/WatchAccessories';
 import Gifting from './Pages/Gifting/Gifting';
 import MensWatches from './Pages/MensWatches/MensWatches';
 import WomensWatches from './Pages/WomensWatches/WomensWatches';
+import Offers from './Pages/Offers/Offers';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/gifting' element={<Gifting />} />
           <Route path='/mensWatches' element={<MensWatches />} />
           <Route path='/womensWatches' element={<WomensWatches />} />
+          <Route path='/offers' element={<Offers />} />
         </Routes>
         <Footer />
       </BrowserRouter>

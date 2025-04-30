@@ -27,9 +27,9 @@ function Header() {
             <section className='bg-black'>
                 {/* header */}
                 <header className='container mx-auto px-[15px] md:px-[50px] pt-3.5 pb-3 flex items-center justify-between'>
-                    <a href="...">
+                    <Link to={"/"}>
                         <img src={white_logo} alt="" className='w-full max-w-[182px] h-auto' />
-                    </a>
+                    </Link>
                     <div className='flex items-center '>
                         <ul className='flex items-center'>
                             <li className='cursor-pointer pr-[18px]'>
@@ -95,7 +95,7 @@ function Header() {
                             <Link to={"gifting"} className='text-sm text-white'>Gifting</Link>
                         </li>
                         <li>
-                            <Link to={""} className='text-sm text-white'>Offers</Link>
+                            <Link to={"offers"} className='text-sm text-white'>Offers</Link>
                         </li>
                         <li>
                             <Link to={"watchAccessories"} className='text-sm text-white'>Watch Accessories</Link>

@@ -13,7 +13,7 @@ import { FiFilter } from "react-icons/fi";
 
 function WomensWatches() {
 
-    const brands = ["All", "Casio", "Fossil", "Seiko", "Tissot", "Automatic", "50% Off"];
+    const brands = ["All", "Casio", "Fossil", "Guess", "Tissot", "Michael Kors", "Timex"];
 
     const [isExpanded, setIsExpanded] = useState(false);
     const [selectedBrand, setSelectedBrand] = useState("All");
@@ -101,29 +101,29 @@ function WomensWatches() {
                                     Smartwatches: Women today have a very hectic lifestyle and smartwatches help in making their life easy. Smartwatches for women are a blend of luxury, functionality, and design. With a smartwatch, one can send a message, record one's footsteps or read an email, the possibilities are endless. For a tech enthusiast, a smartwatch is a perfect investment. Smartwatches can look good with anything. But, they look extremely sophisticated with jeans, office wear, and t-shirt dresses. They also look great with athleisure clothes.
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Dress Watches:</span>
+                                    <span>Dress Watches: </span>
                                     <a href="..." className='text-[#007aff] underline'><span>Dress watches for women</span></a>
-                                    <span>are classic and sophisticated watches that are supposed to be worn with a gown or a short dress. Dress watches suit almost every woman. They are considered to be luxury watches and symbolize class. Dress watches add a finishing touch to women's daily wear and formal wear outfits. They are often passed down to generations as family assets. A dress watch is something that every woman must own in her wardrobe.</span>
+                                    <span> are classic and sophisticated watches that are supposed to be worn with a gown or a short dress. Dress watches suit almost every woman. They are considered to be luxury watches and symbolize class. Dress watches add a finishing touch to women's daily wear and formal wear outfits. They are often passed down to generations as family assets. A dress watch is something that every woman must own in her wardrobe.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Quartz Watches:</span>
+                                    <span>Quartz Watches: </span>
                                     <a href="..." className='text-[#007aff] underline'><span>Quartz watches for women</span></a>
-                                    <span>are watches that work with quartz crystal oscillation. These watches are known for giving the most accurate time. Quartz women's watches are extremely durable and at the same time, they are highly desirable by millions of women. Styling a quartz watch is pretty easy. They look nice in every outfit. So, a quartz watch can be paired with anything without any doubt.</span>
+                                    <span> are watches that work with quartz crystal oscillation. These watches are known for giving the most accurate time. Quartz women's watches are extremely durable and at the same time, they are highly desirable by millions of women. Styling a quartz watch is pretty easy. They look nice in every outfit. So, a quartz watch can be paired with anything without any doubt.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Chronograph Watches:</span>
+                                    <span>Chronograph Watches: </span>
                                     <a href="..." className='text-[#007aff] underline'><span>Women's chronograph watche</span></a>
-                                    <span>s have a distinctive layout in the dial. Chronograph watches do a lot more than just tell time. They have a stopwatch feature that allows tracking time intervals. Chronograph watches look mesmerizing with an adventurous look and should be styled with pieces of denim, cargo pants, and leather jackets.</span>
+                                    <span> s have a distinctive layout in the dial. Chronograph watches do a lot more than just tell time. They have a stopwatch feature that allows tracking time intervals. Chronograph watches look mesmerizing with an adventurous look and should be styled with pieces of denim, cargo pants, and leather jackets.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Swiss Watches: A Swiss watch is a benchmark for every watchmaker. They are the most recognized, respected, and admired watches in the world. A Swiss watch can easily pass the test of time and can be useful for generations. They are extremely durable and high in quality. Almost all Swiss watches are handmade and well-crafted which makes them so distinguishable from other watches.</span>
+                                    <span>Swiss Watches: A Swiss watch is a benchmark for every watchmaker. They are the most recognized, respected, and admired watches in the world. A Swiss watch can easily pass the test of time and can be useful for generations. They are extremely durable and high in quality. Almost all Swiss watches are handmade and well-crafted which makes them so distinguishable from other watches. </span>
                                     <a href="..." className='text-[#007aff] underline'><span>Swiss watches for women</span></a>
-                                    <span>are made up of strong materials that make them last a lifetime. Hence, things like corrosion, scratches, or normal tear wear are never a problem with Swiss watches. A Swiss watch can complement any woman and in any attire. But they always look best with semi-formals. Every woman should own at least one Swiss watch.</span>
+                                    <span> are made up of strong materials that make them last a lifetime. Hence, things like corrosion, scratches, or normal tear wear are never a problem with Swiss watches. A Swiss watch can complement any woman and in any attire. But they always look best with semi-formals. Every woman should own at least one Swiss watch.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Sports Watches:</span>
+                                    <span>Sports Watches: </span>
                                     <a href="..." className='text-[#007aff] underline'><span>Sports watches for women</span></a>
-                                    <span>combine style with functionality, making it perfect for active lifestyles. Designed with features like water resistance, fitness tracking, and durable materials, it ensures reliability during workouts or outdoor adventures. Sports watches offer comfort and performance, whether you prefer a sleek digital design or a rugged analogue look. Ideal for running, swimming, or gym sessions, they keep you on track while complementing your sporty style.</span>
+                                    <span> combine style with functionality, making it perfect for active lifestyles. Designed with features like water resistance, fitness tracking, and durable materials, it ensures reliability during workouts or outdoor adventures. Sports watches offer comfort and performance, whether you prefer a sleek digital design or a rugged analogue look. Ideal for running, swimming, or gym sessions, they keep you on track while complementing your sporty style.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
                                     <strong>Why Women Are Buying Watches More Than Ever</strong>
@@ -141,9 +141,9 @@ function WomensWatches() {
                                     <strong>Luxury Watches for Women - A Real Investment</strong>
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Imagine an investment that not only acts as an asset but also adds a spark to your persona. Sounds fantastic, isn't it? A luxury woman's watch is just that. Luxury watches come with a set of values and add charm to a woman's life. Most Swiss watches are luxury watches and are highly valued in the watch market. In India, a premium or a luxury watch can start from Rs. 10000 and can go up to lakhs. Some of the best female watch brands for</span>
+                                    <span>Imagine an investment that not only acts as an asset but also adds a spark to your persona. Sounds fantastic, isn't it? A luxury woman's watch is just that. Luxury watches come with a set of values and add charm to a woman's life. Most Swiss watches are luxury watches and are highly valued in the watch market. In India, a premium or a luxury watch can start from Rs. 10000 and can go up to lakhs. Some of the best female watch brands for </span>
                                     <a href="..." className='text-[#007aff] underline'>luxury women's watches</a>
-                                    <span>are Calvin Klein, Rado, Tissot, Seiko, Versace, Fossil, Emporio Armani, and many others. For women, luxury watches symbolize their class and independence. She might be wearing the most expensive gown in town, but without a luxury watches, her look might still look incomplete. A luxury watch for a woman is much more than just an accessory; it elegantly tells the onlooker who she is and where she stands in life. And hence, most women love their elegant watches to death. Luxury isn't just about owning an accessory; it's about owning a lifestyle. It's also about showing the world where she belongs. And a luxury watch helps her do that with much style and panache.</span>
+                                    <span> are Calvin Klein, Rado, Tissot, Seiko, Versace, Fossil, Emporio Armani, and many others. For women, luxury watches symbolize their class and independence. She might be wearing the most expensive gown in town, but without a luxury watches, her look might still look incomplete. A luxury watch for a woman is much more than just an accessory; it elegantly tells the onlooker who she is and where she stands in life. And hence, most women love their elegant watches to death. Luxury isn't just about owning an accessory; it's about owning a lifestyle. It's also about showing the world where she belongs. And a luxury watch helps her do that with much style and panache.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
                                     <strong>Top Watch Brands for Women</strong>
@@ -160,61 +160,61 @@ function WomensWatches() {
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>GUESS:</span>
+                                            <span>GUESS: </span>
                                             <a href="..." className='text-[#007aff] underline'>GUESS watches</a>
-                                            <span>blend fashion and function perfectly, offering bold designs for trend-conscious women. With eye-catching dials, crystal embellishments, and stylish straps, they add a touch of glamour to any outfit. These watches are ideal for casual and semi-formal occasions, making them versatile accessories.</span>
+                                            <span> blend fashion and function perfectly, offering bold designs for trend-conscious women. With eye-catching dials, crystal embellishments, and stylish straps, they add a touch of glamour to any outfit. These watches are ideal for casual and semi-formal occasions, making them versatile accessories.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Obaku:</span>
+                                            <span>Obaku: </span>
                                             <a href="..." className='text-[#007aff] underline'>Obaku watches</a>
-                                            <span>reflect Danish minimalism, featuring sleek designs with a timeless appeal. Known for their clean dials and ultra-slim cases, these watches are perfect for women who love elegance without excess. The brand focuses on high-quality materials like stainless steel and leather for a refined look.</span>
+                                            <span> reflect Danish minimalism, featuring sleek designs with a timeless appeal. Known for their clean dials and ultra-slim cases, these watches are perfect for women who love elegance without excess. The brand focuses on high-quality materials like stainless steel and leather for a refined look.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Fossil:</span>
+                                            <span>Fossil: </span>
                                             <a href="..." className='text-[#007aff] underline'>Fossil</a>
-                                            <span>is a go-to watch for women who love a mix of classic and contemporary watch designs. With leather, stainless steel, and mesh straps, these watches suit various styles and occasions. Fossil offers quality craftsmanship with features like chronographs and interchangeable bands for a personalised touch.</span>
+                                            <span> is a go-to watch for women who love a mix of classic and contemporary watch designs. With leather, stainless steel, and mesh straps, these watches suit various styles and occasions. Fossil offers quality craftsmanship with features like chronographs and interchangeable bands for a personalised touch.</span>
                                         </p>
                                     </li>
                                 </ul>
                                 <h2 className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>Luxury Brands:</strong>
+                                    <strong>Luxury Brands: Movado, Philipp Plein, Longines</strong>
                                 </h2>
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Rado: In the men's watches category,</span>
-                                            <a href="..." className='text-[#007aff] underline'>Rado</a>
-                                            <span>watches are known for their innovative use of materials such as ceramic and high-tech tungsten. Rado men's luxury watches offer sleek, modern designs that stand out for their scratch-resistant surfaces and exceptional durability.</span>
+                                            <span>Movado: </span>
+                                            <a href="..." className='text-[#007aff] underline'>Movado</a>
+                                            <span> is known for its signature minimalist design, featuring a sleek dial with a single dot at noon. These watches exude sophistication and are perfect for women who appreciate understated luxury. Crafted with premium materials like stainless steel and sapphire crystal, they offer durability and elegance. Movado timepieces seamlessly transition from office wear to evening glamour.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Versace:</span>
-                                            <a href="..." className='text-[#007aff] underline'>Versace</a>
-                                            <span>watches cater to the male customer segment seeking bold style and sophistication. These luxury men's watches are known for unique, eye-catching designs, often featuring the iconic Versace logo and high-quality craftsmanship, making them a perfect statement timepiece.</span>
+                                            <span>Philipp Plein: </span>
+                                            <a href="..." className='text-[#007aff] underline'>Philipp Plein</a>
+                                            <span> watches are bold, extravagant, and designed for women who love to stand out. They make a strong fashion statement with eye-catching skull motifs, diamond accents, and oversized designs. These watches combine luxury with a rebellious edge, reflecting Philipp Plein’s signature style. Perfect for fashion-forward women, they add a touch of glamour and confidence to any look.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Ferragamo:</span>
-                                            <a href="..." className='text-[#007aff] underline'>Ferragamo men's watches</a>
-                                            <span>are the epitome of refined elegance, with the brand's signature being attention to detail. With sleek, minimalist designs, these watches exude sophistication, making them a perfect symbol of understated luxury.</span>
+                                            <span>Longines: </span>
+                                            <a href="..." className='text-[#007aff] underline'>Longines</a>
+                                            <span> is a symbol of timeless elegance, offering exquisite designs with Swiss craftsmanship. These watches for women are perfect for women who value precision and sophistication, with delicate dials and luxurious materials. They exude femininity and feature classic Roman numerals, mother-of-pearl dials, and diamond embellishments.</span>
                                         </p>
                                     </li>
                                 </ul>
                                 <h2 className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>Fitness and Sports Watches:</strong>
+                                    <strong>Gramin Leaders: Timex</strong>
                                 </h2>
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Garmin: Garmin fitness watches are for men who value performance and innovation. Garmin offers a wide range of watches that track various fitness activities, from running to swimming and golf. Known for their precision and GPS capabilities, Garmin men's watches are engineered to withstand the rigours of outdoor adventures while providing valuable fitness data. Garmin's sports watches, like the</span>
-                                            <a href="..." className='text-[#007aff] underline'>Garmin Unisex Amoled Digital-Smart Watch,</a>
-                                            <span>are perfect for athletes or fitness enthusiasts who are involved in intense training sessions.</span>
+                                            <span>Garmin: </span>
+                                            <a href="..." className='text-[#007aff] underline'>Garmin</a>
+                                            <span> smartwatches blend classic design with modern technology, making them a perfect choice for women who seek style and functionality. They support an active lifestyle with features like heart rate monitoring, activity tracking, and Bluetooth calling. Their durable build, stylish straps, and user-friendly interface make them ideal for everyday wear. Whether for fitness, work, or casual outings, Garmin smartwatches offer ultimate versatility.</span>
                                         </p>
                                     </li>
                                 </ul>
@@ -222,210 +222,209 @@ function WomensWatches() {
                                     <strong>How to Buy the Right Watch</strong>
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>When buying a men's watch, several factors will guide you toward the best choice. Here's a breakdown of what to consider to ensure that you pick a men's watch that perfectly suits your style and utility requirements.</span>
+                                    <span>Selecting the perfect watch for women requires careful consideration of several factors:</span>
                                 </p>
-                                <h2 className='my-[1em] text-sm md:text-[16px]'>
-                                    <strong>Purpose:</strong>
-                                </h2>
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Are you buying a men's watch that can be worn to work, for casual outings, or while taking up sports? While purchasing a wrist watch for men, the purpose or occasion is crucial in narrowing down your options. For example, if you're looking for a men's watch for formal work settings, a sleek and minimalist watch with leather straps is the best option.</span>
+                                            <span>Purpose - A watch should match your lifestyle, whether it’s for formal events, casual wear, or fitness activities. A luxury timepiece like Longines is perfect for formal occasions, while a Fossil watch fits casual looks. If you need a fitness-focused option, Timex smartwatches offer advanced tracking features. Choose based on where and how often you plan to wear it.</span>
                                         </p>
                                     </li>
-                                </ul>
-                                <h2 className='my-[1em] text-sm md:text-[16px]'>
-                                    <strong>Material:</strong>
-                                </h2>
-                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>The material of the men's watch affects its durability, comfort, and aesthetic appeal. Stainless steel watches for men are durable, timeless, and versatile, making them suitable for casual and formal settings. Many premium watches for men are made of high-quality materials that enhance their longevity and contribute to their overall elegance and value.</span>
+                                            <span>Material - The material affects durability and style, making it a key factor in your purchase. Leather straps exude elegance and are ideal for professional settings, while stainless steel options like Movado offer a sleek, modern touch. Ceramic watches provide a premium feel with scratch-resistant properties. Pick a material that complements your wardrobe and comfort preference.</span>
                                         </p>
                                     </li>
-                                </ul>
-                                <h2 className='my-[1em] text-sm md:text-[16px]'>
-                                    <strong>Features:</strong>
-                                </h2>
-                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>When selecting a men's watch, it's essential to consider the desired product features. Some may simply opt for a classic watch with timekeeping functionality, while others require advanced features. For tech-savvy individuals, a smartwatch for men could be the best option, offering tech features such as tracking of heart rate , fitness monitoring, and other notifications.</span>
+                                            <span>Features - Watches today come with various features beyond just telling time. Water resistance is essential for durability, especially for daily or outdoor wear. Smart features like fitness tracking, heart rate monitoring, and notifications are perfect for active users. Philipp Plein watches stand out with their bold design and cutting-edge technology. Look for features that enhance functionality and convenience.</span>
                                         </p>
                                     </li>
-                                </ul>
-                                <h2 className='my-[1em] text-sm md:text-[16px]'>
-                                    <strong>Budget:</strong>
-                                </h2>
-                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>The price of a men's watch can vary widely, with options available for every price category. Whether you're looking for an affordable or premium men's watch, setting a budget helps in shortlisting watches that match your financial parameters. Affordable men's watches offer great value for their functionality, while luxury watches deliver craftsmanship, precision, and timeless appeal.</span>
+                                            <span>Budget - Finding a watch within your budget doesn't mean compromising on quality. Affordable brands like Obaku and GUESS offer stylish yet budget-friendly options.</span>
+                                            <span> <a href="..." className='text-[#007aff] underline'>under ₹5,000.</a> </span>
+                                            <span>Mid-range brands like Fossil balance price and premium appeal between</span>
+                                            <span> <a href="..." className='text-[#007aff] underline'>₹5,000 - ₹20,000.</a> </span>
+                                            <span>For those seeking luxury, brands like Longines and Movado provide timeless elegance</span>
+                                            <span> <a href="..." className='text-[#007aff] underline'> above ₹20,000.</a> </span>
+                                            <span>Set a realistic budget to find the perfect watch that fits your style.</span>
                                         </p>
                                     </li>
                                 </ul>
                                 <p className='my-[1em] text-sm md:text-[16px] text-[#6F6F6F]'>
-                                    By considering these key factors - purpose, material, features, and budget - you'll find the perfect men's watch that complements your personal style and utility.
+                                    Avoid buying based on trends alone—choose a watch that reflects your personality and meets your needs.
+                                </p>
+                                <h2 className='my-[1em] text-xl md:text-2xl'>
+                                    <strong>Choosing the Right Watch for Every Occasion</strong>
+                                </h2>
+                                <p className='my-[1em] text-sm md:text-[16px] text-[#6F6F6F]'>
+                                    The perfect watch for women isn't just about style—it's about matching it to the right occasion.
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
                                     <strong>Watches for Different Occasions</strong>
                                 </h2>
-                                <p className='my-[1em] text-sm md:text-[16px] text-[#6F6F6F]'>
-                                    The perfect men's watch should be versatile and suitable for various occasions. Here's a quick guide to choosing the right men's watch for different occasions:
-                                </p>
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Formal Events: For formal events, a dress watch with a sleek leather band and a simple dial works well. Choose a classic men's dress watch to pair with your suit or tuxedo for a polished, sophisticated look.</span>
+                                            <span>Formal Events: A sleek Longines or Movado watch with a leather strap enhances elegance. Minimalist dials and timeless designs add a refined touch. Perfect for weddings, galas, or corporate events.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Casual Outings: Whether you're grabbing a cup of coffee with friends or hanging out at a weekend party, a casual men's watch is perfect. Choose fabric designs or rubber watch bands for additional comfort and ease of wear.</span>
+                                            <span>Casual Outings: A Fossil or Obaku watch offers comfort and style for everyday wear. Lightweight designs with versatile colours complement relaxed outfits. It is ideal for brunches, shopping, or casual meetups.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Workplace: A men's watch with a minimalist design and a professional appearance is the perfect workplace accessory. A stainless-steel watch or a leather band with a classic dial works well in corporate environments.</span>
+                                            <span>Workplace: Minimalistic yet professional styles, like</span>
+                                            <span> <a href="..." className='text-[#007aff] underline'>GUESS</a> </span>
+                                            <span>or Philipp Plein, elevate office attire. Neutral tones and elegant metal or leather straps add sophistication—an excellent choice for business meetings and daily workwear.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Outdoor Adventures: Men's sports watches or smartwatches are ideal to be worn during outdoor activities such as hiking, biking, or swimming. These watches are built to withstand outdoor pressures and keep you on track with fitness goals.</span>
+                                            <span>Outdoor Adventures: Rugged </span>
+                                            <span><a href="..." className='text-[#007aff] underline'>Timex</a> </span>
+                                            <span>smartwatches or sports watches are built for durability. Features like water resistance and fitness tracking support an active lifestyle. Best for hiking, workouts, and outdoor activities.</span>
                                         </p>
                                     </li>
                                 </ul>
+                                <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
+                                    <span>No matter where you go, there's always a perfect watch for every occasion.</span>
+                                </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
-                                    <strong>How to Shop for Men's Watches Online</strong>
+                                    <strong>How to Shop for Watches Online</strong>
                                 </h2>
-                                <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    Online shopping is the go-to choice to buy watches for men, with convenience, access to product variety, and ease of price comparison being its advantages.
-                                </p>
-                                <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    Authenticity Matters: When shopping for a men's watch, it’s important to opt for authorised sellers or well-known online retailers. Be sure to check for warranties and return policies to safeguard your purchase.
-                                </p>
                                 <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Check Serial Numbers and Packaging: Verify the serial number and product packaging to ensure that the product is authentic.</span>
+                                            Authenticity Matters: Always buy from authorised sellers to ensure you get a genuine product. Check for official warranties, brand authentication, and seller credibility. Avoid deals that seem too good to be true.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
+                                            Check Authorized Sellers and Warranties: Purchase from verified retailers or the brand's official website. Ensure the watch comes with a valid warranty and original documentation. This protects against counterfeit products and defects.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
+                                            Verify Serial Numbers and Packaging Details: Authentic watches have unique serial numbers and high-quality packaging. Cross-check the serial number on the brand's website. Poor packaging or missing details can indicate a fake product.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
+                                            Things to Look For: Ensure listings have high-resolution images from multiple angles. Read product descriptions carefully for specifications and features. Customer reviews provide insights into quality and authenticity.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
+                                            Advantages of Online Shopping: Enjoy a wider selection, competitive discounts, and doorstep delivery. Compare models, features, and prices with ease. Online shopping offers convenience with secure payment options.
                                         </p>
                                     </li>
                                 </ul>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
-                                    <strong>Watches for Men: Pricelist!</strong>
+                                    <strong>Price List of Watches for Women</strong>
                                 </h2>
-                                <ul className='my-[1em] list-decimal pl-5 md:pl-10'>
+                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Budget-Friendly Watches: We have numerous options for affordable men's watches priced</span>
-                                            <a href="..." className='text-[#007aff] underline'>below ₹5,000.</a>
-                                            <span>Timex and Casio offer high-quality yet budget watches for men.</span>
+                                            <span>Budget-Friendly Watches (Under ₹5,000): Stylish and affordable options for everyday use. Perfect for casual wear and essential timekeeping.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Mid-Range Watches: Men's watches priced between</span>
-                                            <a href="..." className='text-[#007aff] underline'>₹5,000 and ₹20,000</a>
-                                            <span>offer a balance of style and affordability. Fossil and Citizen have a range of reliable and stylish options.</span>
+                                            <span>Mid-Range Watches (₹5,000 – ₹20,000): A balance of quality and elegance with reliable features. Ideal for work, parties, and semi-formal events.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Luxury Watches: If budget is not a concern, choose from our range of luxury men's watches. Choose from the appealing designs of Rado and Longines watches that are priced</span>
-                                            <a href="..." className='text-[#007aff] underline'>above ₹20,000.</a>
-                                            <span>These luxury watches are a combination of both style and status.</span>
+                                            <span>Luxury Watches (₹20,000 and above): Premium craftsmanship with timeless designs. Best for special occasions and making a statement.</span>
                                         </p>
                                     </li>
                                 </ul>
-                                <h2 className='my-[1em] text-xl md:text-2xl'>
-                                    <strong>Conclusion</strong>
-                                </h2>
-                                <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    In conclusion, the purpose of a men's watch is not limited to time tracking. A watch is a personal style statement, a functional tool, and an investment. Whether you're looking for a men's watch for a formal event or a sports watch for outdoor activities,  there's a watch that perfectly suits every occasion. From affordable options to luxury brands, choose your best fit from our men's watch range.
-                                </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
                                     <strong>Shop the Perfect Watch at Just In Time!</strong>
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <span>Explore the vast collection of premium trending watches for men</span>
-                                    <a href="..." className='text-[#007aff] underline'>men's watches</a>
-                                    <span>at Just In Time. Whether you need a classic timepiece, a sporty smartwatch, or a luxury watch, we have the perfect match for you. Visit the Just In Time website and shop online watches men today for the best deals! You can also visit our 75+ stores across 15+ cities.</span>
+                                    Explore our vast collection of premium watches for women at Just In Time. Whether you need a classic timepiece, a sporty smartwatch, or a luxury watch, we have the perfect match for you. Visit <span><a href="..." className='text-[#007aff] underline'>Just In Time</a> </span>today for the best deals!
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
-                                    <strong>FAQs</strong>
+                                    <strong>FAQ</strong>
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>1. How to select the best watch for a man?</strong>
-                                    <span>Watches make a perfect gift for men, though choosing the right one can be overwhelming! While investing in a timepiece, consider his personality, lifestyle, and personal preferences. Set a budget, research your options, compare styles and features, and invest in a reputable brand that fits his needs.</span>
+                                    <strong>1. How do I select my watch? - A guide for every woman who loves watches.</strong>
+                                    <p>Finding the right watch can be overwhelming, but these key factors will help you make the best choice:</p>
                                 </p>
-                                <ul className='my-[1em] list-decimal pl-5 md:pl-10'>
+                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Think of the end-user - Consider his interests, hobbies, and profession. A classic watch would suit a businessman, while a sports enthusiast may opt for a rugged design.</span>
+                                            <span>Evaluate Your Persona - Your watch reflects your personality. A smartwatch suits sports enthusiasts, while a dress watch complements a fashion-forward lifestyle..</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Analyse the end user's location and climatic conditions - Metal bracelet watches are suitable in dry climatic conditions, whereas water-resistant watches suit humid or rainy region conditions.</span>
+                                            <span>Consider Your Location & Climate - A bracelet watch works well in dry climates, while a water-resistant watch is ideal for rainy regions.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Set a budget - Choose from our range of affordable to luxury watches based on your budget. Decide your spending capability and willingness before finalising your purchase.</span>
+                                            <span>Set Your Budget - Watches range from affordable to luxury. Decide your budget first to narrow down your options.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Research well - Do your research on the quality, durability, and price of a watch in terms of materials and mode of operation.  Quartz watches are affordable, while automatic ones are pricier. Stainless steel is budget-friendly, while titanium or carbon fibre watches are costlier. </span>
+                                            <span>Research Before Buying - Learn about watch movements (quartz is budget-friendly, automatic is premium) and materials (stainless steel is more affordable than titanium).</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Consider styles and features - The choice of a watch needs to suit the wearer's personality. We also have handwatches for men. A classic three-hand watch suits a traditionalist and not a tech-savvy person. Features such as chronographs and water resistance should meet the user's needs.</span>
+                                            <span>Pick the Right Style & Features - Choose between classic, sporty, or modern designs. Features like chronographs or water resistance add extra functionality.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Select the brand - Once you've decided on style and function, research on brands and their USPs. Choose a brand that fits your budget and requirements.</span>
+                                            <span>Select the Brand - Research brands based on their unique features and your budget to find the perfect match.</span>
                                         </p>
                                     </li>
                                 </ul>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>2. How do I match a watch with my outfit?</strong>
-                                    <span>Pairing the right watch with the right outfit enhances your look. Choose a watch that complements your attire and occasion.</span>
+                                    <strong>2. How to match my watch with my outfit?</strong>
+                                    <p>A watch completes your look, so pairing it correctly is essential. Follow these tips:</p>
                                 </p>
-                                <ul className='my-[1em] list-decimal pl-5 md:pl-10'>
+                                <ul className='my-[1em] list-disc pl-5 md:pl-10'>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Customise your watchstrap to match your outfit - Leather straps suit formal outfits, while metal straps suit semi-casual wear. Casual watches go well with jeans and T-shirts.</span>
+                                            <span>Match the Strap with Your Outfit - Leather-strapped watches suit formal attire like suits and blazers, while metal-strapped watches complement semi-casual outfits, ethnic wear, and party dresses.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Match with the occasion - Dress codes matter. A gold or black watch suits business events, while silver or smartwatches work for casual occasions.</span>
+                                            <span>Consider the Occasion - Formal events call for classic watches, gold or black designs, while casual occasions pair well with silver watches or smartwatches.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                            <span>Match your watch with your shoes - Coordinate your watch with your shoes for a refined look. Black shoes pair well with black watches, and leather-strapped watches complement leather shoes.</span>
+                                            <span>Coordinate with Your Shoes - Match metallic stilettos with vintage or metal-strapped watches. Leather boots go well with leather-strapped watches, and black heels pair best with a black watch. Flats and loafers also complement leather-strapped watches.</span>
                                         </p>
                                     </li>
                                 </ul>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>3. Where to buy and service men's watches?</strong>
-                                    <p>Find a wide range of men's watches at Just In Time stores or online. With over 65+ stores across India, we also offer after-sales services like battery replacements and strap changes.</p>
+                                    <strong>3. Where to buy and service women's watches?</strong>
+                                    <p>If you want to buy a woman's watch, look no further. You are at the right place,</p>
+                                    <span><a href="..." className='text-[#007aff] underline'> Just in Time.</a></span>
+                                    <span>Select from our wide range of women's watch collections, featuring top ladies watch brands with price options listed so you get the best value and discounts available. Not just that, we are well-known in the industry for after-purchase services. From battery replacements to changing straps, we cater to every watch need. Visit any Just In Time store near you and enjoy the joy of owning a watch from the leading womens watch brands with price options that suit every budget. We have more than 50+ stores across major cities in India.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>4. Are men's watches water-resistant?</strong>
-                                    <p>Yes, many men's watches are water-resistant, making them ideal for various conditions.</p>
+                                    Complete your look with a timepiece from our Women's Watch Collection. Whether you're after sophisticated minimalism or bold statement pieces, our range has something to match your style.
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>5. Do men's watches come with interchangeable straps?</strong>
-                                    <p>Yes, some watches have interchangeable straps for versatile styling.</p>
+                                    <strong>4. What are the latest designs in watches for girls?</strong>
+                                    <p>Our collection features the new design watch for girl options that cater to every style. From trending watches for girls that reflect modern trends to classic designs, you'll find the perfect fit. We regularly update our catalogue with new model watches for girl selections to ensure that you have access to the most stylish and innovative pieces.</p>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    <strong>6. Where can I purchase men's watches?</strong>
-                                    <p>You can buy men's watches online or at Just In Time stores across India.</p>
+                                    <strong>5 . Are there any special deals on ladies' watches?</strong>
+                                    <p>Yes! We frequently offer discounts and deals as part of our ladies watches sale. Whether you're looking for a girls watch set for gifting or simply want to update your collection with new trend watches, our promotions ensure you get quality at an unbeatable price.</p>
                                 </p>
                             </>
                         )}

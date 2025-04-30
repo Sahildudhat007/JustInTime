@@ -4,7 +4,7 @@ import Hero from '../../Components/Hero/Hero'
 import Templates from '../../Components/Templates/Templates'
 import NewArrivals from '../../Components/NewArrivals/NewArrivals'
 import LovedBrands from '../../Components/LovedBrands/LovedBrands'
-import Offers from '../../Components/Offers/Offers'
+import Discount from '../../Components/Discount/Discount'
 import WhyBuy from '../../Components/WhyBuy/WhyBuy'
 import TrendingSwipe from '../../Components/TrendingSwipe/TrendingSwipe'
 import GiftAdvice from '../../Components/GiftAdvice/GiftAdvice'
@@ -20,7 +20,7 @@ function Home() {
             <Templates />
             <NewArrivals />
             <LovedBrands />
-            <Offers />
+            <Discount />
             <WhyBuy />
             <TrendingSwipe />
             <GiftAdvice />
