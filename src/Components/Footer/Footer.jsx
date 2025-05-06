@@ -2,12 +2,13 @@ import React from 'react'
 
 // react icon
 import { FaXTwitter, FaSquareFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <>
             <hr className='h-1.5 bg-[#C1271B]' />
-            <footer className='container mx-auto bg-[#060d36] py-9'>
+            <footer className='bg-[#060d36] py-9'>
                 <div className='pb-[2%]'>
                     <div className='flex justify-evenly items-center pb-4 border-b border-[#707070]'>
                         <div className='flex items-center gap-4 pl-[3%] md:pl-0'>
@@ -82,7 +83,7 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>About Company</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>About Us</a>
+                                    <Link to="aboutUs" className=''>About Us</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
                                     <a href="..." className=''>Store Locator</a>

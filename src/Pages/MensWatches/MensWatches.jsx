@@ -6,7 +6,7 @@ import mens_watches_lending_mobile from "../../assets/mens_watches_landing_mobil
 
 // components import
 import Men from './Men';
-import MenWatchData from './MenWatchData';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 
 // react icon
 import { FiFilter } from "react-icons/fi";
@@ -24,8 +24,8 @@ function MensWatches() {
     };
 
     const filteredWatches = selectedBrand === "All"
-        ? MenWatchData
-        : MenWatchData.filter(watch => watch.brand === selectedBrand);
+        ? MenWomenData.menData
+        : MenWomenData.menData.filter(watch => watch.brand === selectedBrand);
 
     return (
         <>

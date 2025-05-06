@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,12 +8,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+// css import
 import './templates.css';
 
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 //  import components
-import TempData from './TempData'
+import TempData from './TempData';
 import TempItem from './TempItem';
 
 function Templates() {

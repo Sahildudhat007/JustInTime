@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,19 +12,19 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import trending1 from "../../assets/trending1.webp"
-import trending2 from "../../assets/trending2.webp"
-import trending3 from "../../assets/trending3.webp"
-import trending4 from "../../assets/trending4.webp"
-import trending5 from "../../assets/trending5.webp"
-import trending6 from "../../assets/trending6.webp"
-import trending7 from "../../assets/trending7.webp"
-import trending8 from "../../assets/trending8.webp"
-import trending9 from "../../assets/trending9.webp"
-import trending10 from "../../assets/trending10.webp"
-import trending11 from "../../assets/trending11.webp"
-import trending12 from "../../assets/trending12.webp"
+import wishlist from "../../assets/wishlist.png";
+import trending1 from "../../assets/trending1.webp";
+import trending2 from "../../assets/trending2.webp";
+import trending3 from "../../assets/trending3.webp";
+import trending4 from "../../assets/trending4.webp";
+import trending5 from "../../assets/trending5.webp";
+import trending6 from "../../assets/trending6.webp";
+import trending7 from "../../assets/trending7.webp";
+import trending8 from "../../assets/trending8.webp";
+import trending9 from "../../assets/trending9.webp";
+import trending10 from "../../assets/trending10.webp";
+import trending11 from "../../assets/trending11.webp";
+import trending12 from "../../assets/trending12.webp";
 
 const trendingData = [
     {

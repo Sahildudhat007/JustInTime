@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import explore_store from "../../assets/explore_store.webp"
+import explore_store from "../../assets/explore_store.webp";
 
 function ExploreJIT() {
     return (

@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import JIT_Lux_Logo from "../../assets/JIT_Luxe_logo.webp"
-import rado_luxe from "../../assets/rado_luxe.webp"
-import longinese_luxe from "../../assets/longinese_luxe.webp"
-import ferragamo from "../../assets/ferragamo.webp"
+import JIT_Lux_Logo from "../../assets/JIT_Luxe_logo.webp";
+import rado_luxe from "../../assets/rado_luxe.webp";
+import longinese_luxe from "../../assets/longinese_luxe.webp";
+import ferragamo from "../../assets/ferragamo.webp";
 
 function ShopifySection() {
     return (

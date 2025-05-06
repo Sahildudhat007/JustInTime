@@ -1,19 +1,21 @@
-import React from 'react'
+import React from 'react';
 
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // image import
-import white_logo from "../../assets/white_logo.png"
-import bnpl from "../../assets/bnpl.avif"
-import after from "../../assets/after.png"
-import watches from "../../assets/watches.avif"
+import white_logo from "../../assets/white_logo.png";
+import bnpl from "../../assets/bnpl.avif";
+import after from "../../assets/after.png";
+import watches from "../../assets/watches.avif";
 
 // css import
-import "./whybuy.css"
+import "./whybuy.css";
 
 const sliderData = [
     {
@@ -56,10 +58,10 @@ function WhyBuy() {
                         pagination={{
                             type: "progressbar",
                         }}
-                        className='swiper1 max-w-[79.63%] mx-auto'
+                        className='swiper1 max-w-[79.63%] mx-auto bg-black'
                     >
                         {sliderData.map((item, index) => (
-                            <SwiperSlide key={index} className='swiper-slide1'>
+                            <SwiperSlide key={index} className='swiper-slide1 bg-black'>
                                 <div className='why-body flex flex-col items-center text-center gap-[15px] w-[36%] mx-auto bg-black'>
                                     <div className='flex flex-col justify-center items-center w-[63px] h-[63px]'>
                                         <img src={item.img} alt="" className='w-[63px] h-[63px]' />

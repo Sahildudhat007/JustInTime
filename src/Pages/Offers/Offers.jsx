@@ -5,8 +5,8 @@ import desk_img1 from "../../assets/desk_img1.webp"
 import mobile_img1 from "../../assets/mobile_img1.png"
 
 // components import
-import Off from './off';
-import OfferData from './OfferData'
+import Off from './Off';
+import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 
 // react icon
 import { FiFilter } from "react-icons/fi";
@@ -23,8 +23,8 @@ function Offers() {
   };
 
   const filteredWatches = selectedBrand === "All"
-    ? OfferData
-    : OfferData.filter(watch => watch.brand === selectedBrand);
+    ? MenWomenData.offerData
+    : MenWomenData.offerData.filter(watch => watch.brand === selectedBrand);
 
   return (
     <>
@@ -55,7 +55,7 @@ function Offers() {
 
         <div className='px-[10px] lg:px-[50px] xl:px-[10%] pb-9 grid grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-[25px]'>
           {filteredWatches.length > 0 ? (
-            OfferData.map((value, ind) => (
+            filteredWatches.map((value, ind) => (
               <Off
                 key={ind}
                 id={value.id}

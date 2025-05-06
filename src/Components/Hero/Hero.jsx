@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 // swiper components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 
 // swiper style
 import 'swiper/css';
@@ -13,12 +13,12 @@ import 'swiper/css/navigation';
 import './hero.css';
 
 // image import
-import desk_img1 from "../../assets/desk_img1.webp"
-import mobile_img1 from "../../assets/mobile_img1.png"
-import desk_vedio1 from "../../assets/desk_video1.mp4"
-import mobile_vedio1 from "../../assets/mobile_video1.mp4"
-import desk_vedio2 from "../../assets/desk_video2.mp4"
-import mobile_vedio2 from "../../assets/mobile_video2.mp4"
+import desk_img1 from "../../assets/desk_img1.webp";
+import mobile_img1 from "../../assets/mobile_img1.png";
+import desk_vedio1 from "../../assets/desk_video1.mp4";
+import mobile_vedio1 from "../../assets/mobile_video1.mp4";
+import desk_vedio2 from "../../assets/desk_video2.mp4";
+import mobile_vedio2 from "../../assets/mobile_video2.mp4";
 
 function Hero() {
 

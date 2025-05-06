@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import collection0 from "../../assets/collection0.webp"
-import collection1 from "../../assets/collection1.webp"
-import collection2 from "../../assets/collection2.webp"
-import collection3 from "../../assets/collection3.webp"
-import collection4 from "../../assets/collection4.webp"
-import collection5 from "../../assets/collection5.webp"
+import collection0 from "../../assets/collection0.webp";
+import collection1 from "../../assets/collection1.webp";
+import collection2 from "../../assets/collection2.webp";
+import collection3 from "../../assets/collection3.webp";
+import collection4 from "../../assets/collection4.webp";
+import collection5 from "../../assets/collection5.webp";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,8 +20,7 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // css import
-import "./lovedBrands.css"
-import { GiInkSwirl } from 'react-icons/gi'
+import "./lovedBrands.css";
 
 const collectionData = [
     {
@@ -101,10 +100,8 @@ function Collections() {
                         >
                             {collectionData.map((brand) => (
                                 <SwiperSlide key={brand.id}>
-                                    <a href={brand.link}>
-                                        <div>
-                                            <img src={brand.img} autoPlay muted loop className='rounded-md'></img>
-                                        </div>
+                                    <a href={brand.link} className='bg-[#060d36]'>
+                                        <img src={brand.img} autoPlay muted loop className='rounded-md'></img>
                                     </a>
                                 </SwiperSlide>
                             ))}

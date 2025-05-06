@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import add1 from "../../assets/add1.mp4"
-import add2 from "../../assets/add2.mp4"
-import add3 from "../../assets/add3.mp4"
-import add4 from "../../assets/add4.mp4"
-import add5 from "../../assets/add5.mp4"
+import add1 from "../../assets/add1.mp4";
+import add2 from "../../assets/add2.mp4";
+import add3 from "../../assets/add3.mp4";
+import add4 from "../../assets/add4.mp4";
+import add5 from "../../assets/add5.mp4";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,14 +15,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import Collections from '../Collections/Collections'
+// component import
+import Collections from '../Collections/Collections';
 
 // import required modules
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // css import
-import "./lovedBrands.css"
-
+import "./lovedBrands.css";
 
 const brandData = [
     {
@@ -108,11 +108,11 @@ function LovedBrands() {
                         >
                             {brandData.map((brand) => (
                                 <SwiperSlide key={brand.id}>
-                                    <a href={brand.link}>
-                                        <div>
+                                    <a href={brand.link} className=''>
+                                        <div className='bg-[#060d36]'>
                                             <video src={brand.video} autoPlay muted loop className='rounded-t-md'></video>
                                         </div>
-                                        <div className='bg-white flex justify-between overflow-hidden items-center px-4 py-[11px] rounded-b-md'>
+                                        <div className='bg-white flex justify-between overflow-hidden items-center px-4 py-[11px]'>
                                             <h3 className='text-[18px] relative before:contant-[""] before:w-[7px] before:h-14 before:bg-[#C1271B] before:absolute before:-right-5 before:-bottom-3 before:py-0 before:rotate-12'>
                                                 {brand.name}
                                             </h3>
