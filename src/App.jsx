@@ -18,6 +18,9 @@ import { Provider } from 'react-redux';
 import Store from './Store'
 import Wishlist from './Components/Wishlist/Wishlist';
 import AboutUs from './Pages/AboutUs/AboutUs';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
+import SmartWatches from './Pages/SmartWatches/SmartWatches';
+import ArrivalWatches from './Pages/ArrivalWatches/ArrivalWatches';
 
 
 function App() {
@@ -25,6 +28,7 @@ function App() {
     <>
       <Provider store={Store}>
         <BrowserRouter>
+          <ScrollToTop />
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />
@@ -33,12 +37,14 @@ function App() {
             <Route path='/watchAccessories' element={<WatchAccessories />} />
             <Route path='/gifting' element={<Gifting />} />
             <Route path='/mensWatches' element={<MensWatches />} />
-            <Route path='/productDetails/:id' element={<ProductDetails />} />
             <Route path='/womensWatches' element={<WomensWatches />} />
+            <Route path='/productDetails/:id' element={<ProductDetails />} />
             <Route path='/offers' element={<Offers />} />
             <Route path='/wishlist' element={<Wishlist />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/aboutUs' element={<AboutUs />} />
+            <Route path='/arrivalWatches' element={<ArrivalWatches />} />
+            <Route path='/smartWatches' element={<SmartWatches />} />
           </Routes>
           <Footer />
         </BrowserRouter>

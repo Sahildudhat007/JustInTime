@@ -66,7 +66,7 @@ function Footer() {
                                             <path id="Path_6888" data-name="Path 6888" d="M4.494,12.327,0,2.409l.5-.161L4.456,10.98,5.7,7.793l3.513,1.47L5.181.158,5.682,0l4.5,10.173L6.011,8.428Z"></path>
                                         </g>
                                         <g id="Group_14585" data-name="Group 14585" transform="translate(7.864 5.76)">
-                                            <path id="Path_6889" data-name="Path 6889" d="M-943.89,762.392l-.929,2.038-2.226.254a.623.623,0,0,0-.522.426.623.623,0,0,0,.172.652l1.651,1.514-.446,2.195a.623.623,0,0,0,.244.628.623.623,0,0,0,.673.038l1.95-1.1,1.95,1.1a.624.624,0,0,0,.673-.038.623.623,0,0,0,.244-.628l-.446-2.195,1.651-1.514a.623.623,0,0,0,.172-.652.623.623,0,0,0-.522-.426l-2.225-.254-.929-2.038a.622.622,0,0,0-.567-.364.623.623,0,0,0-.567.364Zm.338.154a.252.252,0,0,1,.229-.147.253.253,0,0,1,.229.147l.973,2.134a.187.187,0,0,0,.148.108l2.33.266a.252.252,0,0,1,.21.172.251.251,0,0,1-.069.263l-1.728,1.585a.187.187,0,0,0-.057.174l.467,2.3a.251.251,0,0,1-.1.253.251.251,0,0,1-.271.015l-2.041-1.154a.188.188,0,0,0-.183,0l-2.041,1.154a.252.252,0,0,1-.272-.015.25.25,0,0,1-.1-.253l.467-2.3a.187.187,0,0,0-.057-.174l-1.729-1.585a.251.251,0,0,1-.069-.263.252.252,0,0,1,.21-.172l2.33-.266a.186.186,0,0,0,.148-.108l.973-2.134Z" transform="translate(947.597 -762.028)" fill-rule="evenodd"></path>
+                                            <path id="Path_6889" data-name="Path 6889" d="M-943.89,762.392l-.929,2.038-2.226.254a.623.623,0,0,0-.522.426.623.623,0,0,0,.172.652l1.651,1.514-.446,2.195a.623.623,0,0,0,.244.628.623.623,0,0,0,.673.038l1.95-1.1,1.95,1.1a.624.624,0,0,0,.673-.038.623.623,0,0,0,.244-.628l-.446-2.195,1.651-1.514a.623.623,0,0,0,.172-.652.623.623,0,0,0-.522-.426l-2.225-.254-.929-2.038a.622.622,0,0,0-.567-.364.623.623,0,0,0-.567.364Zm.338.154a.252.252,0,0,1,.229-.147.253.253,0,0,1,.229.147l.973,2.134a.187.187,0,0,0,.148.108l2.33.266a.252.252,0,0,1,.21.172.251.251,0,0,1-.069.263l-1.728,1.585a.187.187,0,0,0-.057.174l.467,2.3a.251.251,0,0,1-.1.253.251.251,0,0,1-.271.015l-2.041-1.154a.188.188,0,0,0-.183,0l-2.041,1.154a.252.252,0,0,1-.272-.015.25.25,0,0,1-.1-.253l.467-2.3a.187.187,0,0,0-.057-.174l-1.729-1.585a.251.251,0,0,1-.069-.263.252.252,0,0,1,.21-.172l2.33-.266a.186.186,0,0,0,.148-.108l.973-2.134Z" transform="translate(947.597 -762.028)" fillRule="evenodd"></path>
                                         </g>
                                     </g>
                                 </svg>
@@ -86,7 +86,7 @@ function Footer() {
                                     <Link to="aboutUs" className=''>About Us</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Store Locator</a>
+                                    <Link to="findstores" className=''>Store Locator</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
                                     <a href="..." className=''>Blogs</a>
@@ -109,19 +109,19 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Online Shopping</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>New Arrivals</a>
+                                    <Link to="arrivalWatches" className=''>New Arrivals</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Men's Watches</a>
+                                    <Link to="mensWatches" className=''>Men's Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Women's Watches</a>
+                                    <Link to="womensWatches" className=''>Women's Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Smart Watches</a>
+                                    <Link to="smartWatches" className=''>Smart Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Watch Offers</a>
+                                    <Link to="offers" className=''>Watch Offers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
                                     <a href="..." className=''>Watch Servicing</a>

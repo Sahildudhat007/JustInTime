@@ -50,7 +50,6 @@ function Header() {
 
     const cartItems = useSelector((state) => state.cartreducer.carts);
     const quantities = useSelector((state) => state.cartreducer.quantities);
-    console.log(cartItems);
 
     const wishlistItems = useSelector((state) => state.cartreducer.wishlists);
 
@@ -185,11 +184,11 @@ function Header() {
                             </div>
                             {/* mobile manu */}
                             <a href="..." className='block lg:hidden'>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-hamburger" width="23.098" height="13.628" viewBox="0 0 23.098 13.628">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-hamburger" width="23.098" height="13.628" viewBox="0 0 23.098 13.628">
                                     <g id="Group_16114" data-name="Group 16114" transform="translate(-5071.5 -1073.286)">
-                                        <line id="Line_3078" data-name="Line 3078" x2="22.098" transform="translate(5072 1073.786)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="1"></line>
-                                        <line id="Line_3079" data-name="Line 3079" x2="11.049" transform="translate(5083.049 1080.1)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="1"></line>
-                                        <line id="Line_3080" data-name="Line 3080" x2="22.098" transform="translate(5072 1086.414)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="1"></line>
+                                        <line id="Line_3078" data-name="Line 3078" x2="22.098" transform="translate(5072 1073.786)" fill="none" stroke="#ffffff" strokeLinecap="round" strokeWidth="1"></line>
+                                        <line id="Line_3079" data-name="Line 3079" x2="11.049" transform="translate(5083.049 1080.1)" fill="none" stroke="#ffffff" strokeLinecap="round" strokeWidth="1"></line>
+                                        <line id="Line_3080" data-name="Line 3080" x2="22.098" transform="translate(5072 1086.414)" fill="none" stroke="#ffffff" strokeLinecap="round" strokeWidth="1"></line>
                                     </g>
                                 </svg>
                             </a>
