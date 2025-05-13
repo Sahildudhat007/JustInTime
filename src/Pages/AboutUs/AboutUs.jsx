@@ -3,7 +3,7 @@ import React from 'react';
 // image import
 import about_desktop from "../../assets/about_desktop.webp";
 import about_mobile from "../../assets/about_mobile.webp";
-import black_logo from "../../assets/black_logo.png";
+import black_logo from "../../assets/black_logo.svg";
 import timeline_journey_1 from "../../assets/timeline_journey_1.webp"
 import time_line_mobile from "../../assets/time_line_mobile.webp"
 import raju_sir from "../../assets/raju_sir.jpg"

@@ -15,10 +15,12 @@ import './hero.css';
 // image import
 import desk_img1 from "../../assets/desk_img1.webp";
 import mobile_img1 from "../../assets/mobile_img1.png";
-import desk_vedio1 from "../../assets/desk_video1.mp4";
-import mobile_vedio1 from "../../assets/mobile_video1.mp4";
-import desk_vedio2 from "../../assets/desk_video2.mp4";
-import mobile_vedio2 from "../../assets/mobile_video2.mp4";
+import desk_video1 from "../../assets/desk_video1.mp4";
+import mobile_video1 from "../../assets/mobile_video1.mp4";
+import desk_video2 from "../../assets/desk_video2.mp4";
+import mobile_video2 from "../../assets/mobile_video2.mp4";
+import desk_video3 from "../../assets/desk_video3.mp4";
+import mobile_video3 from "../../assets/mobile_video3.mp4";
 
 function Hero() {
 
@@ -35,47 +37,71 @@ function Hero() {
 
     return (
         <>
-            <Swiper
-                spaceBetween={30}
-                centeredSlides={true}
-                loop={true}
-                autoplay={{
-                    delay: 5000,
-                    disableOnInteraction: false,
-                }}
-                pagination={{
-                    clickable: true,
-                }}
-                modules={[Autoplay]}
-                onAutoplayTimeLeft={onAutoplayTimeLeft}
-                className="mySwiper"
-            >
-                <SwiperSlide>
-                    <div className='relative w-full h-screen'>
-                        <img src={desk_img1} alt="Slide 1" className='w-full h-full object-cover hidden md:block' />
-                        <img src={mobile_img1} alt="Slide 1" className='w-full h-full object-cover block md:hidden' />
-                        <div className='absolute bottom-36 left-10 md:left-44'>
-                            <button className='text-sm md:text-base bg-transparent border border-white text-white px-6 py-2 md:px-8 md:py-3 rounded-sm'>SHOPE NOW</button>
+            <div className=''>
+                <Swiper
+                    spaceBetween={30}
+                    centeredSlides={true}
+                    loop={true}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    modules={[Autoplay]}
+                    onAutoplayTimeLeft={onAutoplayTimeLeft}
+                    className="mySwiper"
+                >
+                    <SwiperSlide>
+                        <div className='relative w-full h-screen'>
+                            <div className='block md:hidden w-full h-full object-cover'>
+                                <img src={mobile_img1} alt="" className='w-full h-full object-cover' />
+                            </div>
+                            <div className='hidden md:block w-full h-full object-cover'>
+                                <img src={desk_img1} alt="" className='w-full h-full object-cover' />
+                            </div>
+                            <div className='absolute bottom-36 left-10 md:left-44'>
+                                <button className='text-sm md:text-base bg-transparent border border-white text-white px-6 py-2 md:px-8 md:py-3 rounded-sm'>SHOPE NOW</button>
+                            </div>
                         </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='relative w-full h-screen'>
-                        <video src={desk_vedio1} autoPlay loop muted playsInline className='hidden md:block'></video>
-                        <video src={mobile_vedio1} autoPlay loop muted playsInline className='block md:hidden'></video>
-                        <div className='absolute bottom-40 left-8 md:left-24 text-white text-left'>
-                            <h1 className='text-2xl md:text-5xl font-serif leading-tight'>Watches That <br /> Define You</h1>
-                            <button className='bg-white text-black mt-4 px-4 py-2 rounded-md text-sm md:text-base'>Shop Now</button>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='relative w-full h-screen'>
+                            <div className='block md:hidden w-full h-full'>
+                                <video src={mobile_video1} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                            <div className='hidden md:block w-full h-full'>
+                                <video src={desk_video1} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                            <div className='absolute bottom-40 left-8 md:left-24 text-white text-left'>
+                                <h1 className='text-2xl md:text-5xl font-serif leading-tight'>Watches That <br /> Define You</h1>
+                                <button className='bg-white text-black mt-4 px-4 py-2 rounded-md text-sm md:text-base'>Shop Now</button>
+                            </div>
                         </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='w-full h-screen'>
-                        <video src={desk_vedio2} autoPlay loop muted playsInline className='w-full h-full object-cover hidden md:block'></video>
-                        <video src={mobile_vedio2} autoPlay loop muted playsInline className='w-full h-full object-cover block md:hidden'></video>
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='w-full h-screen'>
+                            <div className='block md:hidden w-full h-full'>
+                                <video src={mobile_video2} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                            <div className='hidden md:block w-full h-full'>
+                                <video src={desk_video2} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='w-full h-screen'>
+                            <div className='block md:hidden w-full h-full'>
+                                <video src={mobile_video3} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                            <div className='hidden md:block w-full h-full'>
+                                <video src={desk_video3} autoPlay loop muted playsInline className='w-full h-full object-cover'></video>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
         </>
     )
 }

@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // image import
-import white_logo from "../../assets/white_logo.png";
+import white_logo from "../../assets/white_logo.svg";
 import bnpl from "../../assets/bnpl.avif";
 import after from "../../assets/after.png";
 import watches from "../../assets/watches.avif";
@@ -44,7 +44,7 @@ function WhyBuy() {
             <section className='mb-[90px] pt-10 pb-12 bg-black'>
                 <div className='flex flex-col items-center justify-center mb-[30px] gap-1'>
                     <h2 className='text-3xl text-white font-serif'>Why Buy from</h2>
-                    <img src={white_logo} alt="" />
+                    <img src={white_logo} alt="" className='w-[159px]' />
                 </div>
                 <div>
                     <Swiper

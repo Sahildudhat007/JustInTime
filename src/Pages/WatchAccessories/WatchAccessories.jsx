@@ -12,6 +12,7 @@ import WatchWinder from "../../Components/WatchWinder/WatchWinder"
 import WatchCase from '../../Components/WatchCase/WatchCase'
 import LookBook from '../../Components/LookBook/LookBook'
 import Reading from '../../Components/Reading/Reading'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 
 function WatchAccessories() {
 
@@ -19,6 +20,9 @@ function WatchAccessories() {
 
     return (
         <>
+            <div className='hidden lg:block'>
+                <Breadcrumb goBackLink="Home" pageTitle="Watch Accessories" />
+            </div>
             <section className=''>
                 <div className=''>
                     <div className='relative w-full h-full flex items-end md:items-center'>
@@ -28,6 +32,9 @@ function WatchAccessories() {
                             <h1 className='text-white text-[9.3vw] md:text-[3.66vw] font-serif    leading-[10.5vw] md:leading-[4vw]'>Watch <br />Accessories</h1>
                         </div>
                     </div>
+                </div>
+                <div className='block lg:hidden'>
+                    <Breadcrumb goBackLink="Home" pageTitle="Watch Accessories" />
                 </div>
                 <div>
                     <div className='container mx-auto pt-[2.928vw] px-[6.149vw] pb-[3.66vw]'>

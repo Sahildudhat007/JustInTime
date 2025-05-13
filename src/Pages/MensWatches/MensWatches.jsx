@@ -10,6 +10,7 @@ import MenWomenData from '../../Components/MenWomenData/MenWomenData';
 
 // react icon
 import { FiFilter } from "react-icons/fi";
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 
 function MensWatches() {
@@ -29,6 +30,9 @@ function MensWatches() {
 
     return (
         <>
+            <div className='hidden lg:block'>
+                <Breadcrumb goBackLink="Home" pageTitle="Men's Watches" />
+            </div>
             <section className='w-full'>
                 <div className='relative w-full h-full'>
                     <img src={mens_watches_landing} alt="" className='w-full h-full object-cover hidden md:block' />
@@ -37,6 +41,9 @@ function MensWatches() {
                         <h1 className='text-[9.3vw] md:text-[3.66vw] font-serif text-white'>Men's Watches</h1>
                         <p className='text-[3.33vw] md:text-[1.318vw] text-white uppercase opacity-70'>3124 Watches | 35 Brands</p>
                     </div>
+                </div>
+                <div className='block lg:hidden'>
+                    <Breadcrumb goBackLink="Home" pageTitle="Men's Watches" />
                 </div>
                 <div className='container mx-auto py-6 px-2.5 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-4'>
                     <div className='flex flex-wrap gap-3'>

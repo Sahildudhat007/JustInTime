@@ -15,6 +15,7 @@ import mask_group_mobile from "../../assets/mask_group_mobile.avif"
 import { MdArrowOutward } from "react-icons/md";
 import OurCollections from '../../Components/OurCollections/OurCollections'
 import WatchBrands from '../../Components/WatchBrands/WatchBrands'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
 
 function Gifting() {
 
@@ -26,6 +27,9 @@ function Gifting() {
 
     return (
         <>
+            <div className='hidden lg:block'>
+                <Breadcrumb goBackLink="Home" pageTitle="Gifting" />
+            </div>
             <section>
                 <div>
                     <div className='relative w-full h-full'>
@@ -34,6 +38,9 @@ function Gifting() {
                         <div className='absolute left-[10vw] bottom-[3vw]'>
                             <h1 className='text-white text-[9.3vw] md:text-[3.66vw] leading-[10.5vw] md:leading-[4vw] w-[80%] font-serif'>Festive Gifts</h1>
                         </div>
+                    </div>
+                    <div className='block lg:hidden'>
+                        <Breadcrumb goBackLink="Home" pageTitle="Gifting" />
                     </div>
                 </div>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { useDispatch } from "react-redux";
@@ -19,17 +19,19 @@ import bajaj from "../../assets/bajaj.svg";
 import paytm from "../../assets/paytm.svg";
 import bg_img from "../../assets/bg_img.svg";
 import month from "../../assets/month.webp";
+// import wishlist from "../../assets/wishlist.png";
 
 // react icon
 import { GoArrowRight } from "react-icons/go";
+import { FaHeart } from "react-icons/fa6";
 
-// react icon
-import wishlist from "../../assets/wishlist.png";
 
 // component import
 import MenWomenData from '../MenWomenData/MenWomenData';
 
 function ProductDetails() {
+
+    const [isRed, setIsRed] = useState(false);
 
     const dispatch = useDispatch();
     const { id } = useParams();
@@ -40,7 +42,9 @@ function ProductDetails() {
     const product =
         MenWomenData.menData.find(item => item.id === productId) ||
         MenWomenData.womenData.find(item => item.id === productId) ||
-        MenWomenData.offerData.find(item => item.id === productId);
+        MenWomenData.offerData.find(item => item.id === productId) ||
+        MenWomenData.arrivalData.find(item => item.id === productId) ||
+        MenWomenData.smartData.find(item => item.id === productId);
 
     // Handle if product is not found
     if (!product) {
@@ -49,10 +53,13 @@ function ProductDetails() {
 
     const { img, brand, text, price } = product;
 
+    // add and remove to wishlist
     const addToWishlist = () => {
         dispatch(ADD_WISHLIST(product));
+        setIsRed(true);
     };
 
+    // add to cart
     const addToCart = () => {
         dispatch(ADD_CART(product));
     };
@@ -252,8 +259,8 @@ function ProductDetails() {
                         </div>
                     </div>
                     <div className='flex items-center gap-3.5'>
-                        <button className='py-5 cursor-pointer'>
-                            <img src={wishlist} alt="" onClick={addToWishlist} className='w-[20px] h-[18px]' />
+                        <button className='py-5 cursor-pointer' onClick={addToWishlist}>
+                            <FaHeart className={`text-[22px] ${isRed ? 'text-red-500' : ''}`} />
                         </button>
                         <button className='w-[33.879vw] lg:w-[13.616vw] h-[50px] border text-xs rounded-[5px] uppercase py-[15px] px-2.5 cursor-pointer'>
                             Buy Now

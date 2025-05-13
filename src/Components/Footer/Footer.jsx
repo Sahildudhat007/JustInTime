@@ -89,19 +89,19 @@ function Footer() {
                                     <Link to="findstores" className=''>Store Locator</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Blogs</a>
+                                    <Link to="" className=''>Blogs</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Franchise</a>
+                                    <Link to="franchise" className=''>Franchise</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Careers</a>
+                                    <Link to="" className=''>Careers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Annual Results</a>
+                                    <Link to="" className=''>Annual Results</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Press Releases</a>
+                                    <Link to="" className=''>Press Releases</Link>
                                 </li>
                             </ul>
                         </div>
@@ -124,7 +124,7 @@ function Footer() {
                                     <Link to="offers" className=''>Watch Offers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Watch Servicing</a>
+                                    <Link to="" className=''>Watch Servicing</Link>
                                 </li>
                             </ul>
                         </div>
@@ -132,25 +132,25 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Useful Links</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Corporate Gifting</a>
+                                    <Link to="corporateGift" className=''>Corporate Gifting</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Track Order</a>
+                                    <Link to="" className=''>Track Order</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Return Request</a>
+                                    <Link to="returnRefunds" className=''>Return Request</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Terms and Condition</a>
+                                    <Link to="termsCondition" className=''>Terms and Condition</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Cancellation Return & Refund</a>
+                                    <Link to="" className=''>Cancellation Return & Refund</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Privacy Policy</a>
+                                    <Link to="privacyPolicy" className=''>Privacy Policy</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <a href="..." className=''>Shipping and Dispatch Policy</a>
+                                    <Link to="" className=''>Shipping and Dispatch Policy</Link>
                                 </li>
                             </ul>
                         </div>

@@ -14,6 +14,7 @@ import delhi from "../../assets/delhi.avif"
 import noida from "../../assets/noida.webp"
 import chandigarh from "../../assets/chandigarh.webp"
 import bhavnagar from "../../assets/bhavnagar.webp"
+import Breadcrumb from '../Breadcrumb/Breadcrumb'
 
 const cityData = [
     {
@@ -86,6 +87,9 @@ const cityData = [
 function Findstores() {
     return (
         <>
+            <div className=''>
+                <Breadcrumb goBackLink="Home" pageTitle="Find Stores" />
+            </div>
             <section>
                 <div className='m-auto px-[5%] pt-[4%] pb-[5%]'>
                     <div>

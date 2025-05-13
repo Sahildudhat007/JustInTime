@@ -13,15 +13,20 @@ import MensWatches from './Pages/MensWatches/MensWatches';
 import WomensWatches from './Pages/WomensWatches/WomensWatches';
 import Offers from './Pages/Offers/Offers';
 import ProductDetails from './Components/ProductDetails/ProductDetails';
-import Cart from './Components/Cart/Cart';
 import { Provider } from 'react-redux';
-import Store from './Store'
+import Store from './Store';
 import Wishlist from './Components/Wishlist/Wishlist';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import SmartWatches from './Pages/SmartWatches/SmartWatches';
 import ArrivalWatches from './Pages/ArrivalWatches/ArrivalWatches';
-
+import User from './Components/User/User';
+import Franchise from './Pages/Franchise/Franchise';
+import Contact from './Pages/Contact/Contact';
+import CorporateGift from './Pages/CorporateGift/CorporateGift';
+import TermsCondition from './Pages/TermsCondition/TermsCondition';
+import ReturnRefunds from './Pages/ReturnRefunds/ReturnRefunds';
+import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   return (
@@ -41,10 +46,16 @@ function App() {
             <Route path='/productDetails/:id' element={<ProductDetails />} />
             <Route path='/offers' element={<Offers />} />
             <Route path='/wishlist' element={<Wishlist />} />
-            <Route path='/cart' element={<Cart />} />
             <Route path='/aboutUs' element={<AboutUs />} />
             <Route path='/arrivalWatches' element={<ArrivalWatches />} />
             <Route path='/smartWatches' element={<SmartWatches />} />
+            <Route path='/user' element={<User />} />
+            <Route path='/franchise' element={<Franchise />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/corporateGift' element={<CorporateGift />} />
+            <Route path='/termsCondition' element={<TermsCondition />} />
+            <Route path='/returnRefunds' element={<ReturnRefunds />} />
+            <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
           </Routes>
           <Footer />
         </BrowserRouter>
