@@ -1,7 +1,7 @@
 const initial_state = {
-    carts: [],
-    wishlists: [],
-    quantities: {},
+    carts: JSON.parse(localStorage.getItem('carts')) || [],
+    wishlists: JSON.parse(localStorage.getItem('wishlists')) || [],
+    quantities: JSON.parse(localStorage.getItem('quantities')) || {},
 }
 
 export const cartreducer = (state = initial_state, action) => {

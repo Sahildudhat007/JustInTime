@@ -24,10 +24,15 @@ import month from "../../assets/month.webp";
 // react icon
 import { GoArrowRight } from "react-icons/go";
 import { FaHeart } from "react-icons/fa6";
-
+import { CiHeart } from "react-icons/ci";
 
 // component import
 import MenWomenData from '../MenWomenData/MenWomenData';
+
+// react toastify
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Bounce } from 'react-toastify';
 
 function ProductDetails() {
 
@@ -53,7 +58,7 @@ function ProductDetails() {
 
     const { img, brand, text, price } = product;
 
-    // add and remove to wishlist
+    // add to wishlist
     const addToWishlist = () => {
         dispatch(ADD_WISHLIST(product));
         setIsRed(true);
@@ -101,11 +106,11 @@ function ProductDetails() {
                                                 <g id="Icon" transform="translate(-0.493 -2.5)">
                                                     <g id="Artboard" transform="translate(0.745 3)">
                                                         <g id="watch" transform="translate(0)">
-                                                            <circle id="Oval" cx="7" cy="7" r="7" transform="translate(0.248 1.756)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></circle>
-                                                            <path id="Shape" d="M11.462,16.078,11.114,17.7a1.989,1.989,0,0,1-1.989,1.81H4.818A1.989,1.989,0,0,1,2.828,17.7L2.48,16.493m0-11.657L2.838,3.81A1.989,1.989,0,0,1,4.818,2H9.145a1.989,1.989,0,0,1,1.989,1.81l.348,1.624" transform="translate(0.267 -2)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" fill-rule="evenodd"></path>
+                                                            <circle id="Oval" cx="7" cy="7" r="7" transform="translate(0.248 1.756)" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></circle>
+                                                            <path id="Shape" d="M11.462,16.078,11.114,17.7a1.989,1.989,0,0,1-1.989,1.81H4.818A1.989,1.989,0,0,1,2.828,17.7L2.48,16.493m0-11.657L2.838,3.81A1.989,1.989,0,0,1,4.818,2H9.145a1.989,1.989,0,0,1,1.989,1.81l.348,1.624" transform="translate(0.267 -2)" fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" fillRule="evenodd"></path>
                                                             <g id="Group_48403" data-name="Group 48403" transform="translate(2.529 4.051)">
                                                                 <g id="Group_48402" data-name="Group 48402" transform="translate(0 0)">
-                                                                    <line id="Line_4625" data-name="Line 4625" y1="4.941" x2="4.941" transform="translate(2.273 2.235)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="0.7"></line>
+                                                                    <line id="Line_4625" data-name="Line 4625" y1="4.941" x2="4.941" transform="translate(2.273 2.235)" fill="none" stroke="#000" strokeLinecap="round" strokeWidth="0.7"></line>
                                                                     <path id="Polygon_334" data-name="Polygon 334" d="M1.482,0,2.965,1.976H0Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 7.307, 0)"></path>
                                                                     <path id="Polygon_335" data-name="Polygon 335" d="M1.482,0,2.965,1.976H0Z" transform="matrix(-0.719, -0.695, 0.695, -0.719, 2.133, 9.41)"></path>
                                                                 </g>
@@ -227,7 +232,7 @@ function ProductDetails() {
                                 <button className='bg-white border border-[#E5E5E5] p-2.5 flex items-center gap-2 rounded-[5px]'>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20.063" height="20.153" viewBox="0 0 20.063 20.153">
-                                            <path id="_359de351d95fad8e27d4552078092a3b" data-name="359de351d95fad8e27d4552078092a3b" d="M17.14,2.929A9.991,9.991,0,0,0,1.417,14.978L0,20.153l5.3-1.389a9.985,9.985,0,0,0,4.774,1.216h0A9.99,9.99,0,0,0,17.14,2.929M10.074,18.293h0a8.292,8.292,0,0,1-4.226-1.157l-.3-.18L2.4,17.781l.839-3.063-.2-.314a8.3,8.3,0,1,1,7.034,3.89m4.554-6.216c-.25-.125-1.477-.729-1.706-.812s-.4-.125-.562.125-.645.812-.79.978-.291.187-.541.062a6.818,6.818,0,0,1-2.007-1.238A7.521,7.521,0,0,1,7.634,9.464c-.146-.25-.015-.385.109-.509s.25-.291.374-.437a1.7,1.7,0,0,0,.25-.416.459.459,0,0,0-.021-.437c-.062-.125-.562-1.353-.77-1.853s-.408-.421-.562-.428-.312-.009-.478-.009a.917.917,0,0,0-.666.312A2.8,2.8,0,0,0,5,7.768a4.853,4.853,0,0,0,1.019,2.581,11.125,11.125,0,0,0,4.264,3.768,14.377,14.377,0,0,0,1.423.526,3.424,3.424,0,0,0,1.572.1,2.571,2.571,0,0,0,1.685-1.187,2.085,2.085,0,0,0,.146-1.187c-.062-.1-.229-.167-.478-.291" fill="#060d36" fill-rule="evenodd"></path>
+                                            <path id="_359de351d95fad8e27d4552078092a3b" data-name="359de351d95fad8e27d4552078092a3b" d="M17.14,2.929A9.991,9.991,0,0,0,1.417,14.978L0,20.153l5.3-1.389a9.985,9.985,0,0,0,4.774,1.216h0A9.99,9.99,0,0,0,17.14,2.929M10.074,18.293h0a8.292,8.292,0,0,1-4.226-1.157l-.3-.18L2.4,17.781l.839-3.063-.2-.314a8.3,8.3,0,1,1,7.034,3.89m4.554-6.216c-.25-.125-1.477-.729-1.706-.812s-.4-.125-.562.125-.645.812-.79.978-.291.187-.541.062a6.818,6.818,0,0,1-2.007-1.238A7.521,7.521,0,0,1,7.634,9.464c-.146-.25-.015-.385.109-.509s.25-.291.374-.437a1.7,1.7,0,0,0,.25-.416.459.459,0,0,0-.021-.437c-.062-.125-.562-1.353-.77-1.853s-.408-.421-.562-.428-.312-.009-.478-.009a.917.917,0,0,0-.666.312A2.8,2.8,0,0,0,5,7.768a4.853,4.853,0,0,0,1.019,2.581,11.125,11.125,0,0,0,4.264,3.768,14.377,14.377,0,0,0,1.423.526,3.424,3.424,0,0,0,1.572.1,2.571,2.571,0,0,0,1.685-1.187,2.085,2.085,0,0,0,.146-1.187c-.062-.1-.229-.167-.478-.291" fill="#060d36" fillRule="evenodd"></path>
                                         </svg>
                                     </div>
                                     <p className='text-sm font-semibold'>Talk To Us</p>
@@ -260,7 +265,7 @@ function ProductDetails() {
                     </div>
                     <div className='flex items-center gap-3.5'>
                         <button className='py-5 cursor-pointer' onClick={addToWishlist}>
-                            <FaHeart className={`text-[22px] ${isRed ? 'text-red-500' : ''}`} />
+                            <FaHeart className={`text-[22px] ${isRed ? 'text-red-500' : 'text-stone-400'}`} />
                         </button>
                         <button className='w-[33.879vw] lg:w-[13.616vw] h-[50px] border text-xs rounded-[5px] uppercase py-[15px] px-2.5 cursor-pointer'>
                             Buy Now
@@ -271,9 +276,9 @@ function ProductDetails() {
                             <svg xmlns="http://www.w3.org/2000/svg" width="16.44" height="18.154" viewBox="0 0 16.44 18.154">
                                 <g id="Icon_feather-shopping-bag" data-name="Icon feather-shopping-bag" transform="translate(0.5 0.5)">
                                     <g id="Group_10684" data-name="Group 10684" transform="translate(0 0)">
-                                        <path id="Path_93" data-name="Path 93" d="M7.073,3,4.5,6.431V18.439a1.715,1.715,0,0,0,1.715,1.715H18.223a1.715,1.715,0,0,0,1.715-1.715V6.431L17.366,3Z" transform="translate(-4.5 -3)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-                                        <path id="Path_94" data-name="Path 94" d="M4.5,9H19.939" transform="translate(-4.499 -5.569)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
-                                        <path id="Path_95" data-name="Path 95" d="M18.862,15A3.431,3.431,0,0,1,12,15" transform="translate(-7.711 -8.138)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></path>
+                                        <path id="Path_93" data-name="Path 93" d="M7.073,3,4.5,6.431V18.439a1.715,1.715,0,0,0,1.715,1.715H18.223a1.715,1.715,0,0,0,1.715-1.715V6.431L17.366,3Z" transform="translate(-4.5 -3)" fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path>
+                                        <path id="Path_94" data-name="Path 94" d="M4.5,9H19.939" transform="translate(-4.499 -5.569)" fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path>
+                                        <path id="Path_95" data-name="Path 95" d="M18.862,15A3.431,3.431,0,0,1,12,15" transform="translate(-7.711 -8.138)" fill="none" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1"></path>
                                     </g>
                                 </g>
                             </svg>

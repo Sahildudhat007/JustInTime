@@ -313,8 +313,8 @@ function Header() {
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
                                                     <p className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Shop by Brand</span>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" class="icon icon-plus" width="15px" height="15px" fill="none" viewBox="0 0 10 10">
-                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" className="icon icon-plus" width="15px" height="15px" fill="none" viewBox="0 0 10 10">
+                                                            <path fillRule="evenodd" clipRule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
                                                             </path>
                                                         </svg>
                                                     </p>
@@ -326,8 +326,8 @@ function Header() {
                                                         <span>Men's Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -339,8 +339,8 @@ function Header() {
                                                         <span>Women's Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -352,8 +352,8 @@ function Header() {
                                                         <span>Smart Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -365,8 +365,8 @@ function Header() {
                                                         <span>Watch Advisor</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -378,8 +378,8 @@ function Header() {
                                                         <span>Offers</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -391,8 +391,8 @@ function Header() {
                                                         <span>Gifiting</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -404,8 +404,8 @@ function Header() {
                                                         <span>Watch Accessories</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -417,8 +417,8 @@ function Header() {
                                                         <span>JIT Boutique</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
-                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" stroke-width="1"></line>
-                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" stroke-width="1"></path>
+                                                                <line id="Line_1192" data-name="Line 1192" x2="17" transform="translate(365.5 113.5)" fill="none" stroke="#000" strokeWidth="1"></line>
+                                                                <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
                                                     </p>
@@ -449,16 +449,16 @@ function Header() {
                                             <div>
                                                 <a href="..." className='text-center'>
                                                     <div className='flex justify-center'>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.675" height="26.318" viewBox="0 0 23.675 26.318">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="23.675" height="26.318" viewBox="0 0 23.675 26.318">
                                                             <defs>
                                                                 <clipPath id="clip-path">
-                                                                    <rect id="Rectangle_3815" data-name="Rectangle 3815" width="23.675" height="26.318" stroke="#000" stroke-width="1"></rect>
+                                                                    <rect id="Rectangle_3815" data-name="Rectangle 3815" width="23.675" height="26.318" stroke="#000" strokeWidth="1"></rect>
                                                                 </clipPath>
                                                             </defs>
                                                             <g id="Group_15327" data-name="Group 15327" transform="translate(2 5)">
-                                                                <g id="Group_12193" data-name="Group 12193" transform="translate(-2 -5)" clip-path="url(#clip-path)">
-                                                                    <path id="Path_5856" data-name="Path 5856" d="M31.748,10.1A5.051,5.051,0,1,1,36.8,5.051,5.057,5.057,0,0,1,31.748,10.1m0-9.519a4.468,4.468,0,1,0,4.468,4.468A4.473,4.473,0,0,0,31.748.583" transform="translate(-19.91 3.999)" stroke="#000" stroke-width="1"></path>
-                                                                    <path id="Path_5857" data-name="Path 5857" d="M20.476,67.387H0V66.174a10.238,10.238,0,1,1,20.476,0ZM.583,66.8H19.893v-.63a9.655,9.655,0,0,0-19.311,0Z" transform="translate(1.6 -41.069)" stroke="#000" stroke-width="1"></path>
+                                                                <g id="Group_12193" data-name="Group 12193" transform="translate(-2 -5)" clipPath="url(#clip-path)">
+                                                                    <path id="Path_5856" data-name="Path 5856" d="M31.748,10.1A5.051,5.051,0,1,1,36.8,5.051,5.057,5.057,0,0,1,31.748,10.1m0-9.519a4.468,4.468,0,1,0,4.468,4.468A4.473,4.473,0,0,0,31.748.583" transform="translate(-19.91 3.999)" stroke="#000" strokeWidth="1"></path>
+                                                                    <path id="Path_5857" data-name="Path 5857" d="M20.476,67.387H0V66.174a10.238,10.238,0,1,1,20.476,0ZM.583,66.8H19.893v-.63a9.655,9.655,0,0,0-19.311,0Z" transform="translate(1.6 -41.069)" stroke="#000" strokeWidth="1"></path>
                                                                 </g>
                                                             </g>
                                                         </svg>
@@ -469,7 +469,7 @@ function Header() {
                                             <div>
                                                 <a href="..." className='text-center'>
                                                     <div className='flex justify-center'>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35.222" height="27.906" viewBox="0 0 35.222 27.906" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="35.222" height="27.906" viewBox="0 0 35.222 27.906" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                             <defs>
                                                                 <clipPath id="clip-path">
                                                                     <rect id="Rectangle_3817" data-name="Rectangle 3817" width="35.222" height="27.906" fill="#080101"></rect>
@@ -480,7 +480,7 @@ function Header() {
                                                                 <rect id="Rectangle_3816" data-name="Rectangle 3816" width="8.972" height="0.719" transform="translate(0 6.836)" fill="#080101"></rect>
                                                                 <path id="Path_5859" data-name="Path 5859" d="M93.361,31.744h7.151l4.434,5.912v9.006H93.361Zm-.719-.719V47.381h13.024V37.417l-4.794-6.392Z" transform="translate(-70.443 -23.591)" fill="#080101"></path>
                                                                 <g id="Group_12195" data-name="Group 12195">
-                                                                    <g id="Group_12194" data-name="Group 12194" clip-path="url(#clip-path)">
+                                                                    <g id="Group_12194" data-name="Group 12194" clipPath="url(#clip-path)">
                                                                         <path id="Path_5860" data-name="Path 5860" d="M29.062,101.869A3.455,3.455,0,0,1,25.61,98.42a3.394,3.394,0,0,1,.2-1.149l.677.243a2.678,2.678,0,0,0-.156.906,2.732,2.732,0,1,0,5.31-.909l.679-.237a3.454,3.454,0,0,1-3.255,4.6" transform="translate(-19.473 -73.963)" fill="#080101"></path>
                                                                         <path id="Path_5861" data-name="Path 5861" d="M108.868,101.869a3.453,3.453,0,0,1-3.449-3.449,3.4,3.4,0,0,1,.2-1.149l.677.243a2.666,2.666,0,0,0-.156.906,2.732,2.732,0,0,0,5.463,0,2.765,2.765,0,0,0-.153-.909l.678-.237a3.454,3.454,0,0,1-3.258,4.6" transform="translate(-80.159 -73.963)" fill="#080101"></path>
                                                                     </g>
@@ -494,13 +494,13 @@ function Header() {
                                             <div>
                                                 <a href="..." className='text-center'>
                                                     <div className='flex justify-center'>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_12592" data-name="Group 12592" width="30.961" height="30.987" viewBox="0 0 30.961 30.987" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" id="Group_12592" data-name="Group 12592" width="30.961" height="30.987" viewBox="0 0 30.961 30.987" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                             <defs>
                                                                 <clipPath id="clip-path">
                                                                     <rect id="Rectangle_4006" data-name="Rectangle 4006" width="30.961" height="30.987" fill="#080101"></rect>
                                                                 </clipPath>
                                                             </defs>
-                                                            <g id="Group_12592-2" data-name="Group 12592" transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <g id="Group_12592-2" data-name="Group 12592" transform="translate(0 0)" clipath="url(#clip-path)">
                                                                 <path id="Path_5990" data-name="Path 5990" d="M23.917,30.987l-.2,0a14.691,14.691,0,0,1-7.3-2.3A38.637,38.637,0,0,1,2.061,14.1,15.272,15.272,0,0,1,.05,8.113,8.292,8.292,0,0,1,1.6,2.227,5.127,5.127,0,0,1,6.269.01,1.4,1.4,0,0,1,7.325.557C8.241,2.1,9.186,3.747,10.3,5.747a3.369,3.369,0,0,1,.3.876c.019.078.038.156.058.232a1.272,1.272,0,0,1-.744,1.618,19.249,19.249,0,0,0-1.99,1.105,2.074,2.074,0,0,0-1.051,1.238A1.883,1.883,0,0,0,7.3,12.239a24.588,24.588,0,0,0,2.754,3.311c2.266,2.264,4.629,4.512,6.913,6.685l.926.881a5.212,5.212,0,0,0,1.121.743,1.451,1.451,0,0,0,2.131-.487,16.812,16.812,0,0,0,1.3-2.237A1.269,1.269,0,0,1,24.22,20.4c1.236.54,2.7,1.192,4.166,1.928A8.183,8.183,0,0,1,29.451,23c.252.179.49.349.74.495a1.529,1.529,0,0,1,.77,1.462,5.361,5.361,0,0,1-2.652,4.733,8,8,0,0,1-4.393,1.3M5.912.846A4.294,4.294,0,0,0,2.28,2.725a7.471,7.471,0,0,0-1.388,5.3A14.45,14.45,0,0,0,2.8,13.687,37.806,37.806,0,0,0,16.848,27.958a13.881,13.881,0,0,0,6.885,2.18h0a7.171,7.171,0,0,0,4.118-1.159,4.506,4.506,0,0,0,2.263-4.021c0-.4-.082-.575-.35-.731-.283-.165-.549-.353-.8-.536a7.433,7.433,0,0,0-.954-.61c-1.451-.727-2.9-1.373-4.126-1.909-.236-.1-.435-.144-.67.335a17.622,17.622,0,0,1-1.372,2.351,2.282,2.282,0,0,1-3.224.746,5.889,5.889,0,0,1-1.3-.875l-.926-.881c-2.289-2.177-4.655-4.428-6.928-6.7a25.411,25.411,0,0,1-2.849-3.425,2.676,2.676,0,0,1-.564-2.076A2.861,2.861,0,0,1,7.475,8.861,20.039,20.039,0,0,1,9.553,7.708c.318-.15.38-.287.288-.634-.022-.083-.043-.168-.063-.252a2.731,2.731,0,0,0-.217-.663C8.451,4.166,7.51,2.523,6.6.99A.743.743,0,0,0,6.222.855c-.1-.006-.208-.009-.31-.009" transform="translate(0 0)" fill="#080101"></path>
                                                             </g>
                                                         </svg>
@@ -531,7 +531,7 @@ function Header() {
                             <div>
                                 <Link
                                     onClick={toggleDropdown}
-                                    className={`text-sm px-3 py-3 opacity-70 ${isOpen ? 'bg-[#ffffff83] text-black' : ''} ${isWhiteTheme ? 'text-black' : 'text-white'} `}>
+                                    className={`text-sm px-3 py-3 ${isOpen ? 'bg-[#ffffff83] text-black' : ''} ${isWhiteTheme ? 'text-black' : 'text-white'} `}>
                                     Shop by Brand
                                 </Link>
                             </div>
@@ -552,22 +552,22 @@ function Header() {
                             )}
                         </li>
                         <li className=''>
-                            <Link to="mensWatches" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>Men's Watches</Link>
+                            <Link to="mensWatches" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Men's Watches</Link>
                         </li>
                         <li>
-                            <Link to="womensWatches" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>Women's Watches</Link>
+                            <Link to="womensWatches" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Women's Watches</Link>
                         </li>
                         <li>
-                            <Link to="gifting" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>Gifting</Link>
+                            <Link to="gifting" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Gifting</Link>
                         </li>
                         <li>
-                            <Link to="offers" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>Offers</Link>
+                            <Link to="offers" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Offers</Link>
                         </li>
                         <li>
-                            <Link to="watchAccessories" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>Watch Accessories</Link>
+                            <Link to="watchAccessories" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Watch Accessories</Link>
                         </li>
                         <li>
-                            <Link to="findstores" className={`text-sm opacity-70 ${isWhiteTheme ? "text-black" : "text-white"}`}>JIT Boutique</Link>
+                            <Link to="findstores" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>JIT Boutique</Link>
                         </li>
                     </ul>
                 </nav >
