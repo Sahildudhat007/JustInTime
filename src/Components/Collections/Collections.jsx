@@ -1,12 +1,12 @@
 import React from 'react';
 
 // image import
-import collection0 from "../../assets/collection0.webp";
-import collection1 from "../../assets/collection1.webp";
-import collection2 from "../../assets/collection2.webp";
-import collection3 from "../../assets/collection3.webp";
-import collection4 from "../../assets/collection4.webp";
-import collection5 from "../../assets/collection5.webp";
+import collection0 from "../../assets/images/collection0.webp";
+import collection1 from "../../assets/images/collection1.webp";
+import collection2 from "../../assets/images/collection2.webp";
+import collection3 from "../../assets/images/collection3.webp";
+import collection4 from "../../assets/images/collection4.webp";
+import collection5 from "../../assets/images/collection5.webp";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // image import
-import gift_desck from "../../assets/gift_desck.mp4";
+import gift_desck from "../../assets/video/gift_desck.mp4";
 
 function GiftAdvice() {
     return (

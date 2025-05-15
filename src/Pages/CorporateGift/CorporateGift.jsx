@@ -5,13 +5,13 @@ import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 import Contact from '../Contact/Contact';
 
 // image import
-import corporategift_desk from "../../assets/corporategift_desk.webp";
-import corporategift_mobile from "../../assets/corporategift_mobile.webp";
-import embossing from "../../assets/embossing.avif";
-import embossing_1 from "../../assets/embossing_1.webp";
-import embossing_2 from "../../assets/embossing_2.webp";
-import embossing_3 from "../../assets/embossing_3.webp";
-import gift_card from "../../assets/gift_card.webp";
+import corporategift_desk from "../../assets/images/corporategift_desk.webp";
+import corporategift_mobile from "../../assets/images/corporategift_mobile.webp";
+import embossing from "../../assets/images/embossing.avif";
+import embossing_1 from "../../assets/images/embossing_1.webp";
+import embossing_2 from "../../assets/images/embossing_2.webp";
+import embossing_3 from "../../assets/images/embossing_3.webp";
+import gift_card from "../../assets/images/gift_card.webp";
 
 function CorporateGift() {
 

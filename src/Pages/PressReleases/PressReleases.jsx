@@ -4,12 +4,12 @@ import React from 'react';
 import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 // image import
-import smb_story_logo from "../../assets/smb_story_logo.png";
-import pr_news from "../../assets/pr_news.avif";
-import indian_express from "../../assets/indian_express.avif";
-import indian_retailing from "../../assets/india_retailing.avif";
-import india_today from "../../assets/india_today.avif";
-import ani_news from "../../assets/ani_news.avif";
+import smb_story_logo from "../../assets/images/smb_story_logo.png";
+import pr_news from "../../assets/images/pr_news.avif";
+import indian_express from "../../assets/images/indian_express.avif";
+import indian_retailing from "../../assets/images/india_retailing.avif";
+import india_today from "../../assets/images/india_today.avif";
+import ani_news from "../../assets/images/ani_news.avif";
 
 const pressData = [
     {

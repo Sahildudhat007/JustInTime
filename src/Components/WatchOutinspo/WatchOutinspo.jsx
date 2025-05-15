@@ -13,13 +13,13 @@ import 'swiper/css/pagination';
 import "./watchoutinspo.css";
 
 // image import
-import outinspo1 from "../../assets/outinspo1.mp4";
-import outinspo2 from "../../assets/outinspo2.mp4";
-import outinspo3 from "../../assets/outinspo3.mp4";
-import outinspo4 from "../../assets/outinspo4.mp4";
-import outinspo5 from "../../assets/outinspo5.mp4";
-import outinspo6 from "../../assets/outinspo6.mp4";
-import outinspo7 from "../../assets/outinspo7.mp4";
+import outinspo1 from "../../assets/video/outinspo1.mp4";
+import outinspo2 from "../../assets/video/outinspo2.mp4";
+import outinspo3 from "../../assets/video/outinspo3.mp4";
+import outinspo4 from "../../assets/video/outinspo4.mp4";
+import outinspo5 from "../../assets/video/outinspo5.mp4";
+import outinspo6 from "../../assets/video/outinspo6.mp4";
+import outinspo7 from "../../assets/video/outinspo7.mp4";
 
 function WatchOutinspo() {
 

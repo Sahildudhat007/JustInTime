@@ -1,13 +1,13 @@
 import React from 'react'
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import watch4 from "../../assets/watch4.webp"
-import hover_watch4 from "../../assets/hover_watch4.webp"
-import watch2 from "../../assets/watch2.webp"
-import hover_watch2 from "../../assets/hover_watch2.webp"
-import watch3 from "../../assets/watch3.webp"
-import hover_watch3 from "../../assets/hover_watch3.webp"
+import wishlist from "../../assets/images/wishlist.png"
+import watch4 from "../../assets/images/watch4.webp"
+import hover_watch4 from "../../assets/images/hover_watch4.webp"
+import watch2 from "../../assets/images/watch2.webp"
+import hover_watch2 from "../../assets/images/hover_watch2.webp"
+import watch3 from "../../assets/images/watch3.webp"
+import hover_watch3 from "../../assets/images/hover_watch3.webp"
 
 function WatchWinder() {
     return (

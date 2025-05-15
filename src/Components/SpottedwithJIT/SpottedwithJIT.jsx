@@ -10,9 +10,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // image import
-import spotted1 from "../../assets/spotted1.mp4";
-import spotted2 from "../../assets/spotted2.mp4";
-import spotted3 from "../../assets/spotted3.mp4";
+import spotted1 from "../../assets/video/spotted1.mp4";
+import spotted2 from "../../assets/video/spotted2.mp4";
+import spotted3 from "../../assets/video/spotted3.mp4";
 
 // css import
 import './spottedwithJIT.css';

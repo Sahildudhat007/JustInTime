@@ -1,11 +1,11 @@
 import React from 'react';
 
 // image import
-import add1 from "../../assets/add1.mp4";
-import add2 from "../../assets/add2.mp4";
-import add3 from "../../assets/add3.mp4";
-import add4 from "../../assets/add4.mp4";
-import add5 from "../../assets/add5.mp4";
+import add1 from "../../assets/video/add1.mp4";
+import add2 from "../../assets/video/add2.mp4";
+import add3 from "../../assets/video/add3.mp4";
+import add4 from "../../assets/video/add4.mp4";
+import add5 from "../../assets/video/add5.mp4";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';

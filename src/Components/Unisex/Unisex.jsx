@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import unisexWatch1 from "../../assets/unisexWatch1.webp"
-import unisexWatch2 from "../../assets/unisexWatch2.webp"
-import unisexWatch3 from "../../assets/unisexWatch3.webp"
-import unisexWatch4 from "../../assets/unisexWatch4.webp"
-import unisexWatch5 from "../../assets/unisexWatch5.webp"
-import unisexWatch6 from "../../assets/unisexWatch6.webp"
-import unisexWatch7 from "../../assets/unisexWatch7.webp"
-import unisexWatch8 from "../../assets/unisexWatch8.webp"
-import unisexWatch9 from "../../assets/unisexWatch9.webp"
-import unisexWatch10 from "../../assets/unisexWatch10.webp"
+import wishlist from "../../assets/images/wishlist.png";
+import unisexWatch1 from "../../assets/images/unisexWatch1.webp";
+import unisexWatch2 from "../../assets/images/unisexWatch2.webp";
+import unisexWatch3 from "../../assets/images/unisexWatch3.webp";
+import unisexWatch4 from "../../assets/images/unisexWatch4.webp";
+import unisexWatch5 from "../../assets/images/unisexWatch5.webp";
+import unisexWatch6 from "../../assets/images/unisexWatch6.webp";
+import unisexWatch7 from "../../assets/images/unisexWatch7.webp";
+import unisexWatch8 from "../../assets/images/unisexWatch8.webp";
+import unisexWatch9 from "../../assets/images/unisexWatch9.webp";
+import unisexWatch10 from "../../assets/images/unisexWatch10.webp";
 
 const unisexWatchData = [
     {

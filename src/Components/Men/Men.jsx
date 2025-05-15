@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import menWatch1 from "../../assets/menWatch1.webp"
-import menWatch2 from "../../assets/menWatch2.webp"
-import menWatch3 from "../../assets/menWatch3.webp"
-import menWatch4 from "../../assets/menWatch4.webp"
-import menWatch5 from "../../assets/menWatch5.webp"
-import menWatch6 from "../../assets/menWatch6.webp"
-import menWatch7 from "../../assets/menWatch7.webp"
-import menWatch8 from "../../assets/menWatch8.webp"
-import menWatch9 from "../../assets/menWatch9.webp"
-import menWatch10 from "../../assets/menWatch10.webp"
+import wishlist from "../../assets/images/wishlist.png"
+import menWatch1 from "../../assets/images/menWatch1.webp"
+import menWatch2 from "../../assets/images/menWatch2.webp"
+import menWatch3 from "../../assets/images/menWatch3.webp"
+import menWatch4 from "../../assets/images/menWatch4.webp"
+import menWatch5 from "../../assets/images/menWatch5.webp"
+import menWatch6 from "../../assets/images/menWatch6.webp"
+import menWatch7 from "../../assets/images/menWatch7.webp"
+import menWatch8 from "../../assets/images/menWatch8.webp"
+import menWatch9 from "../../assets/images/menWatch9.webp"
+import menWatch10 from "../../assets/images/menWatch10.webp"
 
 const menWatchData = [
     {

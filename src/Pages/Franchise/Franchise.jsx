@@ -5,10 +5,10 @@ import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 import Contact from '../Contact/Contact';
 
 // image import
-import desk_franchise from "../../assets/desk_franchise.webp";
-import mobile_franchise from "../../assets/mobile_franchise.webp";
-import boutique_desk from "../../assets/boutique_desk.webp";
-import boutique_mobile from "../../assets/boutique_mobile.avif";
+import desk_franchise from "../../assets/images/desk_franchise.webp";
+import mobile_franchise from "../../assets/images/mobile_franchise.webp";
+import boutique_desk from "../../assets/images/boutique_desk.webp";
+import boutique_mobile from "../../assets/images/boutique_mobile.avif";
 
 function Franchise() {
 

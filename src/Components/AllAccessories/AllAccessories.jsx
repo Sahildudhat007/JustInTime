@@ -1,21 +1,21 @@
 import React from 'react'
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import clock from "../../assets/clock.webp"
-import hover_clock from "../../assets/hover_clock.webp"
-import watch_box from "../../assets/watch_box.webp"
-import hover_watch_box from "../../assets/hover_watch_box.webp"
-import watch2 from "../../assets/watch2.webp"
-import hover_watch2 from "../../assets/hover_watch2.webp"
-import watch3 from "../../assets/watch3.webp"
-import hover_watch3 from "../../assets/hover_watch3.webp"
-import watch4 from "../../assets/watch4.webp"
-import hover_watch4 from "../../assets/hover_watch4.webp"
-import case1 from "../../assets/case1.webp"
-import hover_case1 from "../../assets/hover_case1.webp"
-import case2 from "../../assets/case2.webp"
-import hover_case2 from "../../assets/hover_case2.webp"
+import wishlist from "../../assets/images/wishlist.png"
+import clock from "../../assets/images/clock.webp"
+import hover_clock from "../../assets/images/hover_clock.webp"
+import watch_box from "../../assets/images/watch_box.webp"
+import hover_watch_box from "../../assets/images/hover_watch_box.webp"
+import watch2 from "../../assets/images/watch2.webp"
+import hover_watch2 from "../../assets/images/hover_watch2.webp"
+import watch3 from "../../assets/images/watch3.webp"
+import hover_watch3 from "../../assets/images/hover_watch3.webp"
+import watch4 from "../../assets/images/watch4.webp"
+import hover_watch4 from "../../assets/images/hover_watch4.webp"
+import case1 from "../../assets/images/case1.webp"
+import hover_case1 from "../../assets/images/hover_case1.webp"
+import case2 from "../../assets/images/case2.webp"
+import hover_case2 from "../../assets/images/hover_case2.webp"
 
 const accessories = [
     {

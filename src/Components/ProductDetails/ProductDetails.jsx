@@ -5,16 +5,16 @@ import Popup from 'reactjs-popup';
 import { ADD_CART, ADD_WISHLIST } from "../../Redux/Actions/Action";
 
 // image import
-import group1 from "../../assets/group1.svg";
-import group2 from "../../assets/group2.svg";
-import group3 from "../../assets/group3.svg";
-import just_in_time from "../../assets/just_in_time.png";
-import phone_pay from "../../assets/phone_pay.svg";
-import gpay from "../../assets/gpay.svg";
-import bajaj from "../../assets/bajaj.svg";
-import paytm from "../../assets/paytm.svg";
-import bg_img from "../../assets/bg_img.svg";
-import month from "../../assets/month.webp";
+import group1 from "../../assets/icons/group1.svg";
+import group2 from "../../assets/icons/group2.svg";
+import group3 from "../../assets/icons/group3.svg";
+import just_in_time from "../../assets/images/just_in_time.png";
+import phone_pay from "../../assets/icons/phone_pay.svg";
+import gpay from "../../assets/icons/gpay.svg";
+import bajaj from "../../assets/icons/bajaj.svg";
+import paytm from "../../assets/icons/paytm.svg";
+import bg_img from "../../assets/icons/bg_img.svg";
+import month from "../../assets/images/month.webp";
 
 // react icon
 import { GoArrowRight } from "react-icons/go";

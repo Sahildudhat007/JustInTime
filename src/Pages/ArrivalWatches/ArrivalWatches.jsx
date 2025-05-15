@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // image import
-import arrivals_desk from "../../assets/arrivals_desk.webp";
-import arrivals_mobile from "../../assets/arrivals_mobile.webp";
+import arrivals_desk from "../../assets/images/arrivals_desk.webp";
+import arrivals_mobile from "../../assets/images/arrivals_mobile.webp";
 
 // components import
 import Arrival from './Arrival';

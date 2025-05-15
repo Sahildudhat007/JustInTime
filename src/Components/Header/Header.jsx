@@ -16,7 +16,7 @@ import paylater_offer from "../../assets/images/paylater_offer.webp";
 import mastercard from "../../assets/images/mastercard.avif";
 import rupay from "../../assets/images/rupay.avif";
 import visa from "../../assets/images/visa.avif";
-import upiIcons from "../../assets/images/upi_icons.svg";
+import upiIcons from "../../assets/icons/upi_icons.svg";
 
 import { useSelector, useDispatch } from 'react-redux';
 import { REMOVE_CART, UPDATE_QUANTITY } from '../../Redux/Actions/Action';
@@ -305,25 +305,23 @@ function Header() {
 
                                 {/* Sidebar */}
                                 <div
-                                    className={`fixed top-0 left-0 h-screen overflow-y-scroll w-80 bg-white transform transition-transform duration-300 z-50 ${openMenubar ? 'translate-x-0' : '-translate-x-full'
-                                        }`}
-                                >
+                                    className={`fixed top-0 left-0 h-screen overflow-y-scroll w-80 bg-white transform transition-transform duration-300 z-50 ${openMenubar ? 'translate-x-0' : '-translate-x-full'}`}>
                                     <aside>
                                         <ul className="my-4 pb-[40%]">
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Shop by Brand</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="presentation" className="icon icon-plus" width="15px" height="15px" fill="none" viewBox="0 0 10 10">
                                                             <path fillRule="evenodd" clipRule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
                                                             </path>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/mensWatches" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Men's Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -331,12 +329,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/womensWatches" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Women's Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -344,12 +342,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/smartWatches" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Smart Watches</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -357,12 +355,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/watchAdvisor" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Watch Advisor</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -370,12 +368,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/offers" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Offers</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -383,12 +381,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="/gifiting" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Gifiting</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -396,12 +394,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="watchAccessories" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>Watch Accessories</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -409,12 +407,12 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif flex items-center justify-between'>
+                                                    <Link to="findstores" className='text-2xl font-serif flex items-center justify-between'>
                                                         <span>JIT Boutique</span>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="17.869" height="16.263" viewBox="0 0 17.869 16.263">
                                                             <g id="Group_16235" data-name="Group 16235" transform="translate(-365.5 -105.147)">
@@ -422,33 +420,33 @@ function Header() {
                                                                 <path id="Path_5767" data-name="Path 5767" d="M359.384,105.5h11v11" transform="translate(195.361 -223.222) rotate(45)" fill="none" stroke="#000" strokeWidth="1"></path>
                                                             </g>
                                                         </svg>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif'>
+                                                    <Link to="aboutUs" className='text-2xl font-serif'>
                                                         <span className='flex items-center text-sm gap-[15px] uppercase'>
                                                             <img src={i} alt="" className='' />
                                                             About Us
                                                         </span>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <p className='text-2xl font-serif'>
+                                                    <Link to="" className='text-2xl font-serif'>
                                                         <span className='flex items-center text-sm gap-[15px] uppercase'>
                                                             <img src={book} alt="" className='' />
                                                             Watch Journal
                                                         </span>
-                                                    </p>
+                                                    </Link>
                                                 </div>
                                             </li>
                                         </ul>
                                         <div className='w-full h-[95px] bg-white sticky bottom-0 left-0 flex items-center justify-evenly p-4'>
                                             <div>
-                                                <a href="..." className='text-center'>
+                                                <a href="#" className='text-center'>
                                                     <div className='flex justify-center'>
                                                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="23.675" height="26.318" viewBox="0 0 23.675 26.318">
                                                             <defs>
@@ -464,7 +462,7 @@ function Header() {
                                                             </g>
                                                         </svg>
                                                     </div>
-                                                    <p className='mt-1'>Log in</p>
+                                                    <Link to="/user" className='mt-1'>Log in</Link>
                                                 </a>
                                             </div>
                                             <div>
@@ -493,7 +491,7 @@ function Header() {
                                                 </a>
                                             </div>
                                             <div>
-                                                <a href="..." className='text-center'>
+                                                <a href="#" className='text-center'>
                                                     <div className='flex justify-center'>
                                                         <svg xmlns="http://www.w3.org/2000/svg" id="Group_12592" data-name="Group 12592" width="30.961" height="30.987" viewBox="0 0 30.961 30.987" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                             <defs>
@@ -524,6 +522,7 @@ function Header() {
                         </ul>
                     </div>
                 </header >
+
 
                 {/* navbar */}
                 < nav className='border-t border-t-[#cdc6c6] border-b border-b-[#a5a5a54a] py-2 hidden lg:block' >

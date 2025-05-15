@@ -4,7 +4,7 @@ import React from 'react';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 // image import
-import login_desktop from "../../assets/login_desktop.webp";
+import login_desktop from "../../assets/images/login_desktop.webp";
 
 function User() {
     return (

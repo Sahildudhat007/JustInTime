@@ -1,13 +1,13 @@
 import React from 'react'
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import watch_box from "../../assets/watch_box.webp"
-import hover_watch_box from "../../assets/hover_watch_box.webp"
-import case2 from "../../assets/case2.webp"
-import hover_case2 from "../../assets/hover_case2.webp"
-import case1 from "../../assets/case1.webp"
-import hover_case1 from "../../assets/hover_case1.webp"
+import wishlist from "../../assets/images/wishlist.png"
+import watch_box from "../../assets/images/watch_box.webp"
+import hover_watch_box from "../../assets/images/hover_watch_box.webp"
+import case2 from "../../assets/images/case2.webp"
+import hover_case2 from "../../assets/images/hover_case2.webp"
+import case1 from "../../assets/images/case1.webp"
+import hover_case1 from "../../assets/images/hover_case1.webp"
 
 function WatchCase() {
     return (

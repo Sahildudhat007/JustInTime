@@ -1,7 +1,7 @@
 import React from 'react'
 
-// react icon
-import wishlist from "../../assets/wishlist.png"
+// image import
+import wishlist from "../../assets/images/wishlist.png"
 import { Link } from 'react-router-dom'
 
 function off({ id, img, hover_img, brand, text, price, off }) {

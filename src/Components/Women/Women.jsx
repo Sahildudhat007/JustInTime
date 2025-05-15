@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/wishlist.png"
-import womenWatch1 from "../../assets/womenWatch1.webp"
-import womenWatch2 from "../../assets/womenWatch2.webp"
-import womenWatch3 from "../../assets/womenWatch3.webp"
-import womenWatch4 from "../../assets/womenWatch4.webp"
-import womenWatch5 from "../../assets/womenWatch5.webp"
-import womenWatch6 from "../../assets/womenWatch6.webp"
-import womenWatch7 from "../../assets/womenWatch7.webp"
-import womenWatch8 from "../../assets/womenWatch8.webp"
-import womenWatch9 from "../../assets/womenWatch9.webp"
-import womenWatch10 from "../../assets/womenWatch10.webp"
+import wishlist from "../../assets/images/wishlist.png"
+import womenWatch1 from "../../assets/images/womenWatch1.webp"
+import womenWatch2 from "../../assets/images/womenWatch2.webp"
+import womenWatch3 from "../../assets/images/womenWatch3.webp"
+import womenWatch4 from "../../assets/images/womenWatch4.webp"
+import womenWatch5 from "../../assets/images/womenWatch5.webp"
+import womenWatch6 from "../../assets/images/womenWatch6.webp"
+import womenWatch7 from "../../assets/images/womenWatch7.webp"
+import womenWatch8 from "../../assets/images/womenWatch8.webp"
+import womenWatch9 from "../../assets/images/womenWatch9.webp"
+import womenWatch10 from "../../assets/images/womenWatch10.webp"
 
 const womenWatchData = [
     {

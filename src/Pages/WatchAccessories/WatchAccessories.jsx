@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 // image import
-import festive_desk from "../../assets/festive_desk.webp";
-import festive_mobile from "../../assets/festive_mobile.webp";
-import watch from "../../assets/watch.webp";
-import watch_1 from "../../assets/watch_1.png";
+import festive_desk from "../../assets/images/festive_desk.webp";
+import festive_mobile from "../../assets/images/festive_mobile.webp";
+import watch from "../../assets/images/watch.webp";
+import watch_1 from "../../assets/images/watch_1.png";
 
 // component import
 import AllAccessories from '../../Components/AllAccessories/AllAccessories';

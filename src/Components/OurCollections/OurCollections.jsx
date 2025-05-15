@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 // css import
-import './ourcollections.css'
+import './ourcollections.css';
 
 // import required modules
 import { Mousewheel, Keyboard } from 'swiper/modules';
@@ -16,10 +16,10 @@ import { Mousewheel, Keyboard } from 'swiper/modules';
 import { MdArrowOutward } from "react-icons/md";
 
 // image import
-import our_collactiona1 from "../../assets/our_collactions1.webp"
-import our_collactiona2 from "../../assets/our_collactions2.webp"
-import our_collactiona3 from "../../assets/our_collactions3.webp"
-import our_collactiona4 from "../../assets/our_collactions4.webp"
+import our_collactiona1 from "../../assets/images/our_collactions1.webp";
+import our_collactiona2 from "../../assets/images/our_collactions2.webp";
+import our_collactiona3 from "../../assets/images/our_collactions3.webp";
+import our_collactiona4 from "../../assets/images/our_collactions4.webp";
 
 function OurCollections() {
     return (

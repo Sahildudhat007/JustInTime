@@ -9,10 +9,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // image import
-import white_logo from "../../assets/white_logo.svg";
-import bnpl from "../../assets/bnpl.avif";
-import after from "../../assets/after.png";
-import watches from "../../assets/watches.avif";
+import white_logo from "../../assets/icons/white_logo.svg";
+import bnpl from "../../assets/images/bnpl.avif";
+import after from "../../assets/images/after.png";
+import watches from "../../assets/images/watches.avif";
 
 // css import
 import "./whybuy.css";

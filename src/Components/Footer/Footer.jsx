@@ -158,19 +158,19 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Social Media</h2>
                             <ul className='text-white flex flex-wrap items-center space-x-4'>
                                 <li>
-                                    <a href="https://x.com/" target='blanck' className='text-2xl'><FaXTwitter /></a>
+                                    <a href="https://x.com/i/flow/login?redirect_after_login=%2Fjustintimewatch" target='blanck' className='text-2xl'><FaXTwitter /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/" target='blanck' className='text-2xl'><FaSquareFacebook /></a>
+                                    <a href="https://www.facebook.com/justintime.in" target='blanck' className='text-2xl'><FaSquareFacebook /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/" target='blanck' className='text-2xl'><FaInstagram /></a>
+                                    <a href="https://www.instagram.com/justintime.watches/?igshid=MzRlODBiNWFlZA%3D%3D" target='blanck' className='text-2xl'><FaInstagram /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.youtube.com/" target='blanck' className='text-2xl'><FaYoutube /></a>
+                                    <a href="https://www.youtube.com/channel/UCbA-2akYcV0FAdsiQ72ZoWA" target='blanck' className='text-2xl'><FaYoutube /></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/" target='blanck' className='text-2xl'><FaLinkedinIn /></a>
+                                    <a href="https://www.linkedin.com/company/just-in-time-tr.-pvt.-ltd./" target='blanck' className='text-2xl'><FaLinkedinIn /></a>
                                 </li>
                             </ul>
                             <div className='w-[55%] text-white opacity-55 mt-6'>

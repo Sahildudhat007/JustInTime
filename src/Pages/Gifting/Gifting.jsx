@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 // image import
-import gifting_banner_desk from "../../assets/giting_banner_desk.webp";
-import gifting_banner_mobile from "../../assets/gifting_banner_mobile.webp";
-import watch_her from "../../assets/watch_her.webp";
-import watch_her_mobile from "../../assets/watch_her_mobile.avif";
-import watch_him from "../../assets/watch_him.webp";
-import watch_him_mobile from "../../assets/watch_him_mobile.jpg";
-import watch_advisor from "../../assets/watch_advisor.webp";
-import mask_group from "../../assets/mask_group.webp";
-import mask_group_mobile from "../../assets/mask_group_mobile.avif";
+import gifting_banner_desk from "../../assets/images/gifting_banner_desk.webp";
+import gifting_banner_mobile from "../../assets/images/gifting_banner_mobile.webp";
+import watch_her from "../../assets/images/watch_her.webp";
+import watch_her_mobile from "../../assets/images/watch_her_mobile.avif";
+import watch_him from "../../assets/images/watch_him.webp";
+import watch_him_mobile from "../../assets/images/watch_him_mobile.jpg";
+import watch_advisor from "../../assets/images/watch_advisor.webp";
+import mask_group from "../../assets/images/mask_group.webp";
+import mask_group_mobile from "../../assets/images/mask_group_mobile.avif";
 
 // react icon
 import { MdArrowOutward } from "react-icons/md";

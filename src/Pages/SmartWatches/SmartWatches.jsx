@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // image import
-import smartwatches_desk from "../../assets/smartwatches_desk.webp";
-import smartwatches_mobile from "../../assets/smartwatches-mobile.webp";
+import smartwatches_desk from "../../assets/images/smartwatches_desk.webp";
+import smartwatches_mobile from "../../assets/images/smartwatches-mobile.webp";
 
 // components import
 import Smart from './Smart';

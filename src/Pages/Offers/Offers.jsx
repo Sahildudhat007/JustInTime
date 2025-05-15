@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // image impoer
-import desk_img1 from "../../assets/desk_img1.webp";
-import mobile_img1 from "../../assets/mobile_img1.png";
+import desk_img1 from "../../assets/images/desk_img1.webp";
+import mobile_img1 from "../../assets/images/mobile_img1.png";
 
 // components import
 import Off from './Off';
