@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // image import
-import womens_watches_landing from "../../assets/Womens_watches_landing.webp";
-import womens_watches_lending_mobile from "../../assets/womens_watches_landing_mobile.webp";
+import womens_watches_landing from "../../assets/images/Womens_watches_landing.webp";
+import womens_watches_lending_mobile from "../../assets/images/womens_watches_landing_mobile.webp";
 
 // components import
 import Women from './Women';

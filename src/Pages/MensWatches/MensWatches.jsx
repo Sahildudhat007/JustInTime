@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // image import
-import mens_watches_landing from "../../assets/mens_watches_landing.webp";
-import mens_watches_lending_mobile from "../../assets/mens_watches_landing_mobile.webp";
+import mens_watches_landing from "../../assets/images/mens_watches_landing.webp";
+import mens_watches_lending_mobile from "../../assets/images/mens_watches_landing_mobile.webp";
 
 // components import
 import Men from './Men';

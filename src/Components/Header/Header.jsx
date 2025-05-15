@@ -7,20 +7,21 @@ import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
 
 // image import 
-import white_logo from "../../assets/white_logo.svg";
-import black_logo from "../../assets/black_logo.svg";
-import i from "../../assets/i.svg";
-import book from "../../assets/book.svg";
-import prepaid_offer from "../../assets/prepaid_offer.webp";
-import paylater_offer from "../../assets/paylater_offer.webp";
-import mastercard from "../../assets/mastercard.avif";
-import rupay from "../../assets/rupay.avif";
-import visa from "../../assets/visa.avif";
-import upiIcons from "../../assets/upi_icons.svg";
+import white_logo from "../../assets/icons/white_logo.svg";
+import black_logo from "../../assets/icons/black_logo.svg";
+import i from "../../assets/icons/i.svg";
+import book from "../../assets/icons/book.svg";
+import prepaid_offer from "../../assets/images/prepaid_offer.webp";
+import paylater_offer from "../../assets/images/paylater_offer.webp";
+import mastercard from "../../assets/images/mastercard.avif";
+import rupay from "../../assets/images/rupay.avif";
+import visa from "../../assets/images/visa.avif";
+import upiIcons from "../../assets/images/upi_icons.svg";
 
 import { useSelector, useDispatch } from 'react-redux';
 import { REMOVE_CART, UPDATE_QUANTITY } from '../../Redux/Actions/Action';
 
+// component import
 import OurBrand from '../OurBrand/OurBrand';
 
 // react icon 

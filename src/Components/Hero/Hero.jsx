@@ -13,14 +13,14 @@ import 'swiper/css/navigation';
 import './hero.css';
 
 // image import
-import desk_img1 from "../../assets/desk_img1.webp";
-import mobile_img1 from "../../assets/mobile_img1.png";
-import desk_video1 from "../../assets/desk_video1.mp4";
-import mobile_video1 from "../../assets/mobile_video1.mp4";
-import desk_video2 from "../../assets/desk_video2.mp4";
-import mobile_video2 from "../../assets/mobile_video2.mp4";
-import desk_video3 from "../../assets/desk_video3.mp4";
-import mobile_video3 from "../../assets/mobile_video3.mp4";
+import desk_img1 from "../../assets/images/desk_img1.webp";
+import mobile_img1 from "../../assets/images/mobile_img1.png";
+import desk_video1 from "../../assets/video/desk_video1.mp4";
+import mobile_video1 from "../../assets/video/mobile_video1.mp4";
+import desk_video2 from "../../assets/video/desk_video2.mp4";
+import mobile_video2 from "../../assets/video/mobile_video2.mp4";
+import desk_video3 from "../../assets/video/desk_video3.mp4";
+import mobile_video3 from "../../assets/video/mobile_video3.mp4";
 
 function Hero() {
 

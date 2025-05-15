@@ -1,19 +1,21 @@
 import React from 'react';
 
 // image import
-import mumbai from "../../assets/mumbai.avif";
-import pune from "../../assets/pune.avif";
-import bengaluru from "../../assets/bengaluru.avif";
-import ahmedabad from "../../assets/ahmedabad.png";
-import vadodara from "../../assets/vadodra.avif";
-import surat from "../../assets/surat.png";
-import rajkot from "../../assets/rajkot.png";
-import indore from "../../assets/indore.avif";
-import raipur from "../../assets/raipur.avif";
-import delhi from "../../assets/delhi.avif";
-import noida from "../../assets/noida.webp";
-import chandigarh from "../../assets/chandigarh.webp";
-import bhavnagar from "../../assets/bhavnagar.webp";
+import mumbai from "../../assets/images/mumbai.avif";
+import pune from "../../assets/images/pune.avif";
+import bengaluru from "../../assets/images/bengaluru.avif";
+import ahmedabad from "../../assets/images/ahmedabad.png";
+import vadodara from "../../assets/images/vadodra.avif";
+import surat from "../../assets/images/surat.png";
+import rajkot from "../../assets/images/rajkot.png";
+import indore from "../../assets/images/indore.avif";
+import raipur from "../../assets/images/raipur.avif";
+import delhi from "../../assets/images/delhi.avif";
+import noida from "../../assets/images/noida.webp";
+import chandigarh from "../../assets/images/chandigarh.webp";
+import bhavnagar from "../../assets/images/bhavnagar.webp";
+
+// component import
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 const cityData = [

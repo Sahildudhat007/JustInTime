@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // image import
-import arrival_animation from "../../assets/arrival_animation.webp";
+import arrival_animation from "../../assets/images/arrival_animation.webp";
 
 // component import
 import Men from '../Men/Men';
