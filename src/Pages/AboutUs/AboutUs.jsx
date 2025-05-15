@@ -4,44 +4,44 @@ import React from 'react';
 import about_desktop from "../../assets/about_desktop.webp";
 import about_mobile from "../../assets/about_mobile.webp";
 import black_logo from "../../assets/black_logo.svg";
-import timeline_journey_1 from "../../assets/timeline_journey_1.webp"
-import time_line_mobile from "../../assets/time_line_mobile.webp"
-import raju_sir from "../../assets/raju_sir.jpg"
-import brand_ecosystem1 from "../../assets/brand_ecosystem1.webp"
-import brand_ecosystem2 from "../../assets/brand_ecosystem2.webp"
-import brand_ecosystem3 from "../../assets/brand_ecosystem3.webp"
-import brand_ecosystem4 from "../../assets/brand_ecosystem4.webp"
-import brand_ecosystem5 from "../../assets/brand_ecosystem5.webp"
-import brand_ecosystem6 from "../../assets/brand_ecosystem6.webp"
-import brand_ecosystem7 from "../../assets/brand_ecosystem7.webp"
-import brand_ecosystem8 from "../../assets/brand_ecosystem8.webp"
-import brand_ecosystem9 from "../../assets/brand_ecosystem9.webp"
-import brand_ecosystem10 from "../../assets/brand_ecosystem10.webp"
-import brand_ecosystem11 from "../../assets/brand_ecosystem11.webp"
-import brand_ecosystem12 from "../../assets/brand_ecosystem12.webp"
-import brand_ecosystem13 from "../../assets/brand_ecosystem13.webp"
-import brand_ecosystem14 from "../../assets/brand_ecosystem14.webp"
-import brand_ecosystem15 from "../../assets/brand_ecosystem15.webp"
-import brand_ecosystem16 from "../../assets/brand_ecosystem16.webp"
-import brand_ecosystem17 from "../../assets/brand_ecosystem17.webp"
-import brand_ecosystem18 from "../../assets/brand_ecosystem18.webp"
-import brand_ecosystem19 from "../../assets/brand_ecosystem19.webp"
-import brand_ecosystem20 from "../../assets/brand_ecosystem20.webp"
-import brand_ecosystem21 from "../../assets/brand_ecosystem21.webp"
-import brand_ecosystem22 from "../../assets/brand_ecosystem22.webp"
-import brand_ecosystem23 from "../../assets/brand_ecosystem23.webp"
-import brand_ecosystem24 from "../../assets/brand_ecosystem24.webp"
-import brand_ecosystem25 from "../../assets/brand_ecosystem25.webp"
-import brand_ecosystem26 from "../../assets/brand_ecosystem26.webp"
-import brand_ecosystem27 from "../../assets/brand_ecosystem27.webp"
-import brand_ecosystem28 from "../../assets/brand_ecosystem28.webp"
-import brand_ecosystem29 from "../../assets/brand_ecosystem29.webp"
-import brand_ecosystem30 from "../../assets/brand_ecosystem30.webp"
-import brand_ecosystem31 from "../../assets/brand_ecosystem31.webp"
-import brand_ecosystem32 from "../../assets/brand_ecosystem32.webp"
-import brand_ecosystem33 from "../../assets/brand_ecosystem33.webp"
-import group_desk from "../../assets/group_desk.webp"
-import group_mobile from "../../assets/group_mobile.avif"
+import timeline_journey_1 from "../../assets/timeline_journey_1.webp";
+import time_line_mobile from "../../assets/time_line_mobile.webp";
+import raju_sir from "../../assets/raju_sir.jpg";
+import brand_ecosystem1 from "../../assets/brand_ecosystem1.webp";
+import brand_ecosystem2 from "../../assets/brand_ecosystem2.webp";
+import brand_ecosystem3 from "../../assets/brand_ecosystem3.webp";
+import brand_ecosystem4 from "../../assets/brand_ecosystem4.webp";
+import brand_ecosystem5 from "../../assets/brand_ecosystem5.webp";
+import brand_ecosystem6 from "../../assets/brand_ecosystem6.webp";
+import brand_ecosystem7 from "../../assets/brand_ecosystem7.webp";
+import brand_ecosystem8 from "../../assets/brand_ecosystem8.webp";
+import brand_ecosystem9 from "../../assets/brand_ecosystem9.webp";
+import brand_ecosystem10 from "../../assets/brand_ecosystem10.webp";
+import brand_ecosystem11 from "../../assets/brand_ecosystem11.webp";
+import brand_ecosystem12 from "../../assets/brand_ecosystem12.webp";
+import brand_ecosystem13 from "../../assets/brand_ecosystem13.webp";
+import brand_ecosystem14 from "../../assets/brand_ecosystem14.webp";
+import brand_ecosystem15 from "../../assets/brand_ecosystem15.webp";
+import brand_ecosystem16 from "../../assets/brand_ecosystem16.webp";
+import brand_ecosystem17 from "../../assets/brand_ecosystem17.webp";
+import brand_ecosystem18 from "../../assets/brand_ecosystem18.webp";
+import brand_ecosystem19 from "../../assets/brand_ecosystem19.webp";
+import brand_ecosystem20 from "../../assets/brand_ecosystem20.webp";
+import brand_ecosystem21 from "../../assets/brand_ecosystem21.webp";
+import brand_ecosystem22 from "../../assets/brand_ecosystem22.webp";
+import brand_ecosystem23 from "../../assets/brand_ecosystem23.webp";
+import brand_ecosystem24 from "../../assets/brand_ecosystem24.webp";
+import brand_ecosystem25 from "../../assets/brand_ecosystem25.webp";
+import brand_ecosystem26 from "../../assets/brand_ecosystem26.webp";
+import brand_ecosystem27 from "../../assets/brand_ecosystem27.webp";
+import brand_ecosystem28 from "../../assets/brand_ecosystem28.webp";
+import brand_ecosystem29 from "../../assets/brand_ecosystem29.webp";
+import brand_ecosystem30 from "../../assets/brand_ecosystem30.webp";
+import brand_ecosystem31 from "../../assets/brand_ecosystem31.webp";
+import brand_ecosystem32 from "../../assets/brand_ecosystem32.webp";
+import brand_ecosystem33 from "../../assets/brand_ecosystem33.webp";
+import group_desk from "../../assets/group_desk.webp";
+import group_mobile from "../../assets/group_mobile.avif";
 
 const ecosystembrand = [
     {
@@ -248,7 +248,7 @@ function AboutUs() {
                             <h3 className='text-[5.607vw] lg:text-[1.757vw] mt-4 md:mt-10 lg:mt-0 text-white font-serif '>Find Our Watch <br className='lg:hidden' /> Boutiques</h3>
                             <p className='text-[3.271vw] lg:text-[1.171vw] text-white opacity-70'>Visit our stores in 15+ cities across India to experience the world of watches in person</p>
                             <div className='bg-white px-[3.972vw] lg:px-[1.611vw] py-[2.57vw] lg:py-[0.878vw] mt-5 w-[31vw] lg:w-[10.883vw] flex justify-center items-center rounded-lg'>
-                                <a href="..." className='text-[3.271vw] lg:text-[1.025vw] text-[#080101]'>LOCATE NOW</a>
+                                <a href="#" className='text-[3.271vw] lg:text-[1.025vw] text-[#080101]'>LOCATE NOW</a>
                             </div>
                         </div>
                     </div>

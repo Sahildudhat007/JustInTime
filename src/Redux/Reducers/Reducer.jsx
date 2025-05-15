@@ -1,19 +1,18 @@
 const initial_state = {
-    carts: JSON.parse(localStorage.getItem('carts')) || [],
-    wishlists: JSON.parse(localStorage.getItem('wishlists')) || [],
-    quantities: JSON.parse(localStorage.getItem('quantities')) || {},
+    carts: [],
+    wishlists: [],
+    quantities: {},
 }
 
 export const cartreducer = (state = initial_state, action) => {
     switch (action.type) {
-        case "ADD_TO_CART":
+        case 'ADD_TO_CART':
             state.carts = state.carts.filter((item) => item.id !== action.payload.id)
-            console.log('cartreducer', state.carts);
-
             return {
                 ...state,
                 carts: [...state.carts, action.payload]
             }
+
         case "REMOVE_TO_CART":
             state.carts = state.carts.filter((item) => item.id !== action.payload);
             console.log("filter", state.carts)

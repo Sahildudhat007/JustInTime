@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // image impoer
-import desk_img1 from "../../assets/desk_img1.webp"
-import mobile_img1 from "../../assets/mobile_img1.png"
+import desk_img1 from "../../assets/desk_img1.webp";
+import mobile_img1 from "../../assets/mobile_img1.png";
 
 // components import
 import Off from './Off';
@@ -53,7 +53,7 @@ function Offers() {
             ))}
           </div>
           <div>
-            <a href="..." className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
+            <a href="#" className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
               <FiFilter className='mr-2' />
               FILTER & SORT
             </a>

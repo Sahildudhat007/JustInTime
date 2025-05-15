@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 // image import
 import arrival_animation from "../../assets/arrival_animation.webp";
+
+// component import
 import Men from '../Men/Men';
 import Women from '../Women/Women';
 import Unisex from '../Unisex/Unisex';

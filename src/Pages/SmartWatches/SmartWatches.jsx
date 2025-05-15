@@ -50,7 +50,7 @@ function SmartWatches() {
                         ))}
                     </div>
                     <div>
-                        <a href="..." className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
+                        <a href="#" className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
                             <FiFilter className='mr-2' />
                             FILTER & SORT
                         </a>
@@ -85,9 +85,9 @@ function SmartWatches() {
                             <>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     In this guide, we'll take you through a comprehensive overview of watches tailored for men, explore the different types of watches for men or classic watch for men, and the top watch brands for men, and discuss how to choose the correct watch based on your preferences. Whether you're buying your first men's watch or looking to upgrade your collection, this guide will help you make an informed choice.
-                                    <a href="..." className='text-[#007aff] underline'><span>Helix,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Garmin,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Timex,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Helix,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Garmin,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Timex,</span></a>
                                 </p>
                                 <h3 className='text-sm md:text-[16px] my-[1em]'>
                                     <strong>Why Choose a Smartwatch?</strong>

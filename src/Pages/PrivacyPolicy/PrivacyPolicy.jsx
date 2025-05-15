@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 // component import
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
-import { PiClockAfternoon } from 'react-icons/pi'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 function PrivacyPolicy() {
     return (

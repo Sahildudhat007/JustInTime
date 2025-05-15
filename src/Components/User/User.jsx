@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 // component import
-import Breadcrumb from '../Breadcrumb/Breadcrumb'
+import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 // image import
-import login_desktop from "../../assets/login_desktop.webp"
+import login_desktop from "../../assets/login_desktop.webp";
 
 function User() {
     return (

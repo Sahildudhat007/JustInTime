@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import mumbai from "../../assets/mumbai.avif"
-import pune from "../../assets/pune.avif"
-import bengaluru from "../../assets/bengaluru.avif"
-import ahmedabad from "../../assets/ahmedabad.png"
-import vadodara from "../../assets/vadodra.avif"
-import surat from "../../assets/surat.png"
-import rajkot from "../../assets/rajkot.png"
-import indore from "../../assets/indore.avif"
-import raipur from "../../assets/raipur.avif"
-import delhi from "../../assets/delhi.avif"
-import noida from "../../assets/noida.webp"
-import chandigarh from "../../assets/chandigarh.webp"
-import bhavnagar from "../../assets/bhavnagar.webp"
-import Breadcrumb from '../Breadcrumb/Breadcrumb'
+import mumbai from "../../assets/mumbai.avif";
+import pune from "../../assets/pune.avif";
+import bengaluru from "../../assets/bengaluru.avif";
+import ahmedabad from "../../assets/ahmedabad.png";
+import vadodara from "../../assets/vadodra.avif";
+import surat from "../../assets/surat.png";
+import rajkot from "../../assets/rajkot.png";
+import indore from "../../assets/indore.avif";
+import raipur from "../../assets/raipur.avif";
+import delhi from "../../assets/delhi.avif";
+import noida from "../../assets/noida.webp";
+import chandigarh from "../../assets/chandigarh.webp";
+import bhavnagar from "../../assets/bhavnagar.webp";
+import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 const cityData = [
     {
@@ -99,7 +99,7 @@ function Findstores() {
                     <div className='pt-4 pb-12 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4'>
                         {cityData.map((city) => (
                             <div key={city.id}>
-                                <a href="..." className='relative block'>
+                                <a href="#" className='relative block'>
                                     <img src={city.img} alt={city.cityName} className='w-full h-full object-cover' />
                                     <div className='absolute top-0 left-0 w-full h-full flex items-center pl-6'>
                                         <p className='text-2xl text-[#363535] font-serif uppercase'>{city.cityName}</p>

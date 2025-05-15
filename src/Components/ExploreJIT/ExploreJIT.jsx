@@ -31,7 +31,7 @@ function ExploreJIT() {
                                     Cities all accross India
                                 </p>
                                 <div className='mt-[25px]'>
-                                    <a href="..." className='bg-[#060D36] text-xs md:text-[0.878vw] px-[9px] md:px-2.5 py-[11px] md:py-3.5 rounded-sm text-white'>LOCATE STORE</a>
+                                    <a href="#" className='bg-[#060D36] text-xs md:text-[0.878vw] px-[9px] md:px-2.5 py-[11px] md:py-3.5 rounded-sm text-white'>LOCATE STORE</a>
                                 </div>
                             </div>
                         </div>

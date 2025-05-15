@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // image import
-import womens_watches_landing from "../../assets/Womens_watches_landing.webp"
-import womens_watches_lending_mobile from "../../assets/womens_watches_landing_mobile.webp"
+import womens_watches_landing from "../../assets/Womens_watches_landing.webp";
+import womens_watches_lending_mobile from "../../assets/womens_watches_landing_mobile.webp";
 
 // components import
 import Women from './Women';
@@ -57,7 +57,7 @@ function WomensWatches() {
                         ))}
                     </div>
                     <div>
-                        <a href="..." className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
+                        <a href="#" className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
                             <FiFilter className='mr-2' />
                             FILTER & SORT
                         </a>
@@ -109,27 +109,27 @@ function WomensWatches() {
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Dress Watches: </span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Dress watches for women</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Dress watches for women</span></a>
                                     <span> are classic and sophisticated watches that are supposed to be worn with a gown or a short dress. Dress watches suit almost every woman. They are considered to be luxury watches and symbolize class. Dress watches add a finishing touch to women's daily wear and formal wear outfits. They are often passed down to generations as family assets. A dress watch is something that every woman must own in her wardrobe.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Quartz Watches: </span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Quartz watches for women</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Quartz watches for women</span></a>
                                     <span> are watches that work with quartz crystal oscillation. These watches are known for giving the most accurate time. Quartz women's watches are extremely durable and at the same time, they are highly desirable by millions of women. Styling a quartz watch is pretty easy. They look nice in every outfit. So, a quartz watch can be paired with anything without any doubt.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Chronograph Watches: </span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Women's chronograph watche</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Women's chronograph watche</span></a>
                                     <span> s have a distinctive layout in the dial. Chronograph watches do a lot more than just tell time. They have a stopwatch feature that allows tracking time intervals. Chronograph watches look mesmerizing with an adventurous look and should be styled with pieces of denim, cargo pants, and leather jackets.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Swiss Watches: A Swiss watch is a benchmark for every watchmaker. They are the most recognized, respected, and admired watches in the world. A Swiss watch can easily pass the test of time and can be useful for generations. They are extremely durable and high in quality. Almost all Swiss watches are handmade and well-crafted which makes them so distinguishable from other watches. </span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Swiss watches for women</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Swiss watches for women</span></a>
                                     <span> are made up of strong materials that make them last a lifetime. Hence, things like corrosion, scratches, or normal tear wear are never a problem with Swiss watches. A Swiss watch can complement any woman and in any attire. But they always look best with semi-formals. Every woman should own at least one Swiss watch.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Sports Watches: </span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Sports watches for women</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Sports watches for women</span></a>
                                     <span> combine style with functionality, making it perfect for active lifestyles. Designed with features like water resistance, fitness tracking, and durable materials, it ensures reliability during workouts or outdoor adventures. Sports watches offer comfort and performance, whether you prefer a sleek digital design or a rugged analogue look. Ideal for running, swimming, or gym sessions, they keep you on track while complementing your sporty style.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
@@ -149,7 +149,7 @@ function WomensWatches() {
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Imagine an investment that not only acts as an asset but also adds a spark to your persona. Sounds fantastic, isn't it? A luxury woman's watch is just that. Luxury watches come with a set of values and add charm to a woman's life. Most Swiss watches are luxury watches and are highly valued in the watch market. In India, a premium or a luxury watch can start from Rs. 10000 and can go up to lakhs. Some of the best female watch brands for </span>
-                                    <a href="..." className='text-[#007aff] underline'>luxury women's watches</a>
+                                    <a href="#" className='text-[#007aff] underline'>luxury women's watches</a>
                                     <span> are Calvin Klein, Rado, Tissot, Seiko, Versace, Fossil, Emporio Armani, and many others. For women, luxury watches symbolize their class and independence. She might be wearing the most expensive gown in town, but without a luxury watches, her look might still look incomplete. A luxury watch for a woman is much more than just an accessory; it elegantly tells the onlooker who she is and where she stands in life. And hence, most women love their elegant watches to death. Luxury isn't just about owning an accessory; it's about owning a lifestyle. It's also about showing the world where she belongs. And a luxury watch helps her do that with much style and panache.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
@@ -168,21 +168,21 @@ function WomensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>GUESS: </span>
-                                            <a href="..." className='text-[#007aff] underline'>GUESS watches</a>
+                                            <a href="#" className='text-[#007aff] underline'>GUESS watches</a>
                                             <span> blend fashion and function perfectly, offering bold designs for trend-conscious women. With eye-catching dials, crystal embellishments, and stylish straps, they add a touch of glamour to any outfit. These watches are ideal for casual and semi-formal occasions, making them versatile accessories.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Obaku: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Obaku watches</a>
+                                            <a href="#" className='text-[#007aff] underline'>Obaku watches</a>
                                             <span> reflect Danish minimalism, featuring sleek designs with a timeless appeal. Known for their clean dials and ultra-slim cases, these watches are perfect for women who love elegance without excess. The brand focuses on high-quality materials like stainless steel and leather for a refined look.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Fossil: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Fossil</a>
+                                            <a href="#" className='text-[#007aff] underline'>Fossil</a>
                                             <span> is a go-to watch for women who love a mix of classic and contemporary watch designs. With leather, stainless steel, and mesh straps, these watches suit various styles and occasions. Fossil offers quality craftsmanship with features like chronographs and interchangeable bands for a personalised touch.</span>
                                         </p>
                                     </li>
@@ -194,21 +194,21 @@ function WomensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Movado: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Movado</a>
+                                            <a href="#" className='text-[#007aff] underline'>Movado</a>
                                             <span> is known for its signature minimalist design, featuring a sleek dial with a single dot at noon. These watches exude sophistication and are perfect for women who appreciate understated luxury. Crafted with premium materials like stainless steel and sapphire crystal, they offer durability and elegance. Movado timepieces seamlessly transition from office wear to evening glamour.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Philipp Plein: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Philipp Plein</a>
+                                            <a href="#" className='text-[#007aff] underline'>Philipp Plein</a>
                                             <span> watches are bold, extravagant, and designed for women who love to stand out. They make a strong fashion statement with eye-catching skull motifs, diamond accents, and oversized designs. These watches combine luxury with a rebellious edge, reflecting Philipp Plein’s signature style. Perfect for fashion-forward women, they add a touch of glamour and confidence to any look.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Longines: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Longines</a>
+                                            <a href="#" className='text-[#007aff] underline'>Longines</a>
                                             <span> is a symbol of timeless elegance, offering exquisite designs with Swiss craftsmanship. These watches for women are perfect for women who value precision and sophistication, with delicate dials and luxurious materials. They exude femininity and feature classic Roman numerals, mother-of-pearl dials, and diamond embellishments.</span>
                                         </p>
                                     </li>
@@ -220,7 +220,7 @@ function WomensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Garmin: </span>
-                                            <a href="..." className='text-[#007aff] underline'>Garmin</a>
+                                            <a href="#" className='text-[#007aff] underline'>Garmin</a>
                                             <span> smartwatches blend classic design with modern technology, making them a perfect choice for women who seek style and functionality. They support an active lifestyle with features like heart rate monitoring, activity tracking, and Bluetooth calling. Their durable build, stylish straps, and user-friendly interface make them ideal for everyday wear. Whether for fitness, work, or casual outings, Garmin smartwatches offer ultimate versatility.</span>
                                         </p>
                                     </li>
@@ -250,11 +250,11 @@ function WomensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Budget - Finding a watch within your budget doesn't mean compromising on quality. Affordable brands like Obaku and GUESS offer stylish yet budget-friendly options.</span>
-                                            <span> <a href="..." className='text-[#007aff] underline'>under ₹5,000.</a> </span>
+                                            <span> <a href="#" className='text-[#007aff] underline'>under ₹5,000.</a> </span>
                                             <span>Mid-range brands like Fossil balance price and premium appeal between</span>
-                                            <span> <a href="..." className='text-[#007aff] underline'>₹5,000 - ₹20,000.</a> </span>
+                                            <span> <a href="#" className='text-[#007aff] underline'>₹5,000 - ₹20,000.</a> </span>
                                             <span>For those seeking luxury, brands like Longines and Movado provide timeless elegance</span>
-                                            <span> <a href="..." className='text-[#007aff] underline'> above ₹20,000.</a> </span>
+                                            <span> <a href="#" className='text-[#007aff] underline'> above ₹20,000.</a> </span>
                                             <span>Set a realistic budget to find the perfect watch that fits your style.</span>
                                         </p>
                                     </li>
@@ -285,14 +285,14 @@ function WomensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Workplace: Minimalistic yet professional styles, like</span>
-                                            <span> <a href="..." className='text-[#007aff] underline'>GUESS</a> </span>
+                                            <span> <a href="#" className='text-[#007aff] underline'>GUESS</a> </span>
                                             <span>or Philipp Plein, elevate office attire. Neutral tones and elegant metal or leather straps add sophistication—an excellent choice for business meetings and daily workwear.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Outdoor Adventures: Rugged </span>
-                                            <span><a href="..." className='text-[#007aff] underline'>Timex</a> </span>
+                                            <span><a href="#" className='text-[#007aff] underline'>Timex</a> </span>
                                             <span>smartwatches or sports watches are built for durability. Features like water resistance and fitness tracking support an active lifestyle. Best for hiking, workouts, and outdoor activities.</span>
                                         </p>
                                     </li>
@@ -354,7 +354,7 @@ function WomensWatches() {
                                     <strong>Shop the Perfect Watch at Just In Time!</strong>
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
-                                    Explore our vast collection of premium watches for women at Just In Time. Whether you need a classic timepiece, a sporty smartwatch, or a luxury watch, we have the perfect match for you. Visit <span><a href="..." className='text-[#007aff] underline'>Just In Time</a> </span>today for the best deals!
+                                    Explore our vast collection of premium watches for women at Just In Time. Whether you need a classic timepiece, a sporty smartwatch, or a luxury watch, we have the perfect match for you. Visit <span><a href="#" className='text-[#007aff] underline'>Just In Time</a> </span>today for the best deals!
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
                                     <strong>FAQ</strong>
@@ -419,7 +419,7 @@ function WomensWatches() {
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <strong>3. Where to buy and service women's watches?</strong>
                                     <p>If you want to buy a woman's watch, look no further. You are at the right place,</p>
-                                    <span><a href="..." className='text-[#007aff] underline'> Just in Time.</a></span>
+                                    <span><a href="#" className='text-[#007aff] underline'> Just in Time.</a></span>
                                     <span>Select from our wide range of women's watch collections, featuring top ladies watch brands with price options listed so you get the best value and discounts available. Not just that, we are well-known in the industry for after-purchase services. From battery replacements to changing straps, we cater to every watch need. Visit any Just In Time store near you and enjoy the joy of owning a watch from the leading womens watch brands with price options that suit every budget. We have more than 50+ stores across major cities in India.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { REMOVE_WISHLIST } from '../../Redux/Actions/Action';
 import Breadcrumb from '../Breadcrumb/Breadcrumb';

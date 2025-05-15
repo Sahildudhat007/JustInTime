@@ -97,26 +97,21 @@ function WatchOutinspo() {
                             breakpoints={{
                                 320: {
                                     slidesPerView: 1,
-                                    spaceBetween: 2,
                                 },
                                 375: {
                                     slidesPerView: 1,
-                                    spaceBetween: 1,
                                 },
                                 425: {
                                     slidesPerView: 2,
-                                    spaceBetween: 1,
                                 },
                                 768: {
                                     slidesPerView: 3,
                                 },
                                 1024: {
                                     slidesPerView: 3,
-                                    spaceBetween: 1,
                                 },
                                 1440: {
                                     slidesPerView: 3,
-                                    spaceBetween: 1,
                                 },
                             }}
                             onSlideChange={handleSlideChange}

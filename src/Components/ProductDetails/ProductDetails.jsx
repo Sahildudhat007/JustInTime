@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-
 import { useDispatch } from "react-redux";
+import Popup from 'reactjs-popup';
 import { ADD_CART, ADD_WISHLIST } from "../../Redux/Actions/Action";
 
 // image import
-// import detail_side_img1 from "../../assets/detail_side_img1.webp";
-// import detail_side_img2 from "../../assets/detail_side_img2.jpg";
-// import detail_side_img3 from "../../assets/detail_side_img3.webp";
-// import detail_side_img4 from "../../assets/detail_side_img4.webp";
 import group1 from "../../assets/group1.svg";
 import group2 from "../../assets/group2.svg";
 import group3 from "../../assets/group3.svg";
@@ -19,24 +15,21 @@ import bajaj from "../../assets/bajaj.svg";
 import paytm from "../../assets/paytm.svg";
 import bg_img from "../../assets/bg_img.svg";
 import month from "../../assets/month.webp";
-// import wishlist from "../../assets/wishlist.png";
 
 // react icon
 import { GoArrowRight } from "react-icons/go";
 import { FaHeart } from "react-icons/fa6";
-import { CiHeart } from "react-icons/ci";
 
 // component import
 import MenWomenData from '../MenWomenData/MenWomenData';
 
 // react toastify
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce } from 'react-toastify';
+import Breadcrumb from '../Breadcrumb/Breadcrumb';
 
 function ProductDetails() {
-
-    const [isRed, setIsRed] = useState(false);
 
     const dispatch = useDispatch();
     const { id } = useParams();
@@ -61,16 +54,30 @@ function ProductDetails() {
     // add to wishlist
     const addToWishlist = () => {
         dispatch(ADD_WISHLIST(product));
-        setIsRed(true);
+        toast.success("Added to Wishlist!");
     };
 
     // add to cart
     const addToCart = () => {
         dispatch(ADD_CART(product));
+        toast.success("Added to Cart!");
     };
 
     return (
         <>
+            <ToastContainer
+                position="bottom-left"
+                autoClose={2000}
+                hideProgressBar
+                newestOnTop
+                closeOnClick
+                pauseOnHover
+                theme="dark"
+                transition={Bounce}
+            />
+            <div className=''>
+                <Breadcrumb goBackLink="Home" pageTitle="ProductDetails" />
+            </div>
             <section className='md:w-[87%] mx-auto pt-9 pb-3'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-[2.8rem] md:gap-[3rem]'>
                     <div className=''>
@@ -94,14 +101,14 @@ function ProductDetails() {
                                     <p className='text-[#707071] text-sm leading-3'>(Inc. of all taxes)</p>
                                 </div>
                                 <div>
-                                    <p className='text-sm font-semibold'>Free <span><a href="..." className='underline font-bold'>Shipping</a></span>  on all Orders</p>
+                                    <p className='text-sm font-semibold'>Free <span><a href="#" className='underline font-bold'>Shipping</a></span>  on all Orders</p>
                                 </div>
                             </div>
                             <div className='mt-[30px] mb-[15px]'>
                                 <div className='flex justify-between items-center mb-[5px]'>
                                     <p className='text-[#221c1c] text-lg md:text-xl font-serif'>Select Dial Size</p>
                                     <div className='flex items-center'>
-                                        <a href="..." className='flex items-center gap-[5px]'>
+                                        <a href="#" className='flex items-center gap-[5px]'>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="18.513" viewBox="0 0 15 18.513">
                                                 <g id="Icon" transform="translate(-0.493 -2.5)">
                                                     <g id="Artboard" transform="translate(0.745 3)">
@@ -165,7 +172,7 @@ function ProductDetails() {
                         <div className='flex items-center justify-center space-x-1'>
                             <span className='w-[6%] h-[1px] bg-[#3b3737]'></span>
                             <p className='text-xs font-semibold md:font-normal md:text-sm'>Want to check availability at store?</p>
-                            <a href="..." className='text-[#c1271b] text-[13px] font-semibold'>FIND STORE</a>
+                            <a href="#" className='text-[#c1271b] text-[13px] font-semibold'>FIND STORE</a>
                             <span className='w-[6%] h-[1px] bg-[#3b3737]'></span>
                         </div>
                         <hr className='mt-[35px] text-[#12121233]' />
@@ -246,7 +253,7 @@ function ProductDetails() {
                                 </div>
                                 <div className='mt-2.5'>
                                     <h3 className='md:text-xl text-white font-serif'>24 Months <br />Manufacturer Warranty</h3>
-                                    <a href="..." className='text-xs text-white underline'>T&C Applicable</a>
+                                    <a href="#" className='text-xs text-white underline'>T&C Applicable</a>
                                 </div>
                             </div>
                         </div>
@@ -264,12 +271,64 @@ function ProductDetails() {
                         </div>
                     </div>
                     <div className='flex items-center gap-3.5'>
-                        <button className='py-5 cursor-pointer' onClick={addToWishlist}>
-                            <FaHeart className={`text-[22px] ${isRed ? 'text-red-500' : 'text-stone-400'}`} />
+                        {/* wishlist */}
+                        <button
+                            onClick={addToWishlist}
+                            className='py-5 cursor-pointer'>
+                            <FaHeart className={`text-[22px]`} />
                         </button>
-                        <button className='w-[33.879vw] lg:w-[13.616vw] h-[50px] border text-xs rounded-[5px] uppercase py-[15px] px-2.5 cursor-pointer'>
-                            Buy Now
-                        </button>
+
+                        {/* popup */}
+                        <Popup
+                            trigger={<button className='w-[33.879vw] lg:w-[13.616vw] h-[50px] border text-xs rounded-[5px] uppercase py-[15px] px-2.5 cursor-pointer'>Buy Now</button>}
+                            modal
+                            nested
+                        >
+                            {close => (
+                                <div className="modal bg-gray-200 m-auto w-full max-w-[40%] h-[90vh] rounded-2xl">
+                                    <button className="close" onClick={close}>
+                                        &times;
+                                    </button>
+                                    <div className="header"> Modal Title </div>
+                                    <div className="content">
+                                        {' '}
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nostrum.
+                                        Dolorem, repellat quidem ut, minima sint vel eveniet quibusdam voluptates
+                                        delectus doloremque, explicabo tempore dicta adipisci fugit amet dignissimos?
+                                        <br />
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sit
+                                        commodi beatae optio voluptatum sed eius cumque, delectus saepe repudiandae
+                                        explicabo nemo nam libero ad, doloribus, voluptas rem alias. Vitae?
+                                    </div>
+                                    <div className="actions">
+                                        <Popup
+                                            trigger={<button className="button"> Trigger </button>}
+                                            position="top center"
+                                            nested
+                                        >
+                                            <span>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+                                                magni omnis delectus nemo, maxime molestiae dolorem numquam
+                                                mollitia, voluptate ea, accusamus excepturi deleniti ratione
+                                                sapiente! Laudantium, aperiam doloribus. Odit, aut.
+                                            </span>
+                                        </Popup>
+                                        <button
+                                            className="button"
+                                            onClick={() => {
+                                                console.log('modal closed ');
+                                                close();
+                                            }}
+                                        >
+                                            close modal
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
+                        </Popup>
+
+
+                        {/* cart */}
                         <button
                             onClick={addToCart}
                             className='w-[33.879vw] lg:w-[13.616vw] h-[50px] border text-xs bg-black text-white rounded-[5px] uppercase py-[15px] px-2.5 cursor-pointer flex items-center justify-center gap-4'>

@@ -132,7 +132,7 @@ function TrendingSwipe() {
                 <div className='py-[50px]'>
                     <div className='px-[36px] lg:px-[50px] xl:px-[141px] mb-6 flex items-center justify-between'>
                         <h2 className='md:text-[18px] lg:text-[1.757vw] mb-1.5 font-serif'>Trending Timepieces</h2>
-                        <a href="..." className='text-[16px] underline'>view all</a>
+                        <a href="#" className='text-[16px] underline'>view all</a>
                     </div>
                     <div className='pl-[36px] lg:pl-[50px] xl:pl-[141px]'>
                         <Swiper

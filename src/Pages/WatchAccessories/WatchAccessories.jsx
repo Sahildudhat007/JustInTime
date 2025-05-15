@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // image import
-import festive_desk from "../../assets/festive_desk.webp"
-import festive_mobile from "../../assets/festive_mobile.webp"
-import watch from "../../assets/watch.webp"
-import watch_1 from "../../assets/watch_1.png"
+import festive_desk from "../../assets/festive_desk.webp";
+import festive_mobile from "../../assets/festive_mobile.webp";
+import watch from "../../assets/watch.webp";
+import watch_1 from "../../assets/watch_1.png";
 
 // component import
-import AllAccessories from '../../Components/AllAccessories/AllAccessories'
-import WatchWinder from "../../Components/WatchWinder/WatchWinder"
-import WatchCase from '../../Components/WatchCase/WatchCase'
-import LookBook from '../../Components/LookBook/LookBook'
-import Reading from '../../Components/Reading/Reading'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import AllAccessories from '../../Components/AllAccessories/AllAccessories';
+import WatchWinder from "../../Components/WatchWinder/WatchWinder";
+import WatchCase from '../../Components/WatchCase/WatchCase';
+import LookBook from '../../Components/LookBook/LookBook';
+import Reading from '../../Components/Reading/Reading';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 function WatchAccessories() {
 

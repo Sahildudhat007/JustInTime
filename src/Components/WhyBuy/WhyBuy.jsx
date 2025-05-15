@@ -58,16 +58,16 @@ function WhyBuy() {
                         pagination={{
                             type: "progressbar",
                         }}
-                        className='swiper1 max-w-[79.63%] mx-auto bg-black'
+                        className='swiper1 max-w-[95%] lg:max-w-[79.63%] mx-auto bg-black'
                     >
                         {sliderData.map((item, index) => (
                             <SwiperSlide key={index} className='swiper-slide1 bg-black'>
-                                <div className='why-body flex flex-col items-center text-center gap-[15px] w-[36%] mx-auto bg-black'>
-                                    <div className='flex flex-col justify-center items-center w-[63px] h-[63px]'>
-                                        <img src={item.img} alt="" className='w-[63px] h-[63px]' />
+                                <div className='why-body flex flex-col items-center justify-center text-center gap-[15px] w-[44%] mt-5 mx-auto bg-black'>
+                                    <div className='flex flex-col justify-center items-center w-[50px] lg:w-[63px] h-[50px] lg:h-[63px]'>
+                                        <img src={item.img} alt="" className='' />
                                     </div>
-                                    <h3 className='text-[30px] lg:text-2xl text-white'>{item.title}</h3>
-                                    <p className='text-[16px] text-white opacity-70'>{item.description}</p>
+                                    <h3 className='text-2xl text-white'>{item.title}</h3>
+                                    <p className='text-sm lg:text-[16px] text-white opacity-70'>{item.description}</p>
                                 </div>
                             </SwiperSlide>
                         ))}

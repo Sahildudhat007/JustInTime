@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // react icon
 import { FaXTwitter, FaSquareFacebook, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
@@ -83,25 +83,25 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>About Company</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="aboutUs" className=''>About Us</Link>
+                                    <Link to="aboutUs">About Us</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="findstores" className=''>Store Locator</Link>
+                                    <Link to="findstores">Store Locator</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Blogs</Link>
+                                    <Link to="">Blogs</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="franchise" className=''>Franchise</Link>
+                                    <Link to="franchise">Franchise</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Careers</Link>
+                                    <Link to="">Careers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Annual Results</Link>
+                                    <Link to="">Annual Results</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Press Releases</Link>
+                                    <Link to="pressReleases">Press Releases</Link>
                                 </li>
                             </ul>
                         </div>
@@ -109,22 +109,22 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Online Shopping</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="arrivalWatches" className=''>New Arrivals</Link>
+                                    <Link to="arrivalWatches">New Arrivals</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="mensWatches" className=''>Men's Watches</Link>
+                                    <Link to="mensWatches">Men's Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="womensWatches" className=''>Women's Watches</Link>
+                                    <Link to="womensWatches">Women's Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="smartWatches" className=''>Smart Watches</Link>
+                                    <Link to="smartWatches">Smart Watches</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="offers" className=''>Watch Offers</Link>
+                                    <Link to="offers">Watch Offers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Watch Servicing</Link>
+                                    <Link to="">Watch Servicing</Link>
                                 </li>
                             </ul>
                         </div>
@@ -132,49 +132,49 @@ function Footer() {
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Useful Links</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="corporateGift" className=''>Corporate Gifting</Link>
+                                    <Link to="corporateGift">Corporate Gifting</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Track Order</Link>
+                                    <Link to="">Track Order</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="returnRefunds" className=''>Return Request</Link>
+                                    <Link to="returnRefunds">Return Request</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="termsCondition" className=''>Terms and Condition</Link>
+                                    <Link to="termsCondition">Terms and Condition</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Cancellation Return & Refund</Link>
+                                    <Link to="">Cancellation Return & Refund</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="privacyPolicy" className=''>Privacy Policy</Link>
+                                    <Link to="privacyPolicy">Privacy Policy</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="" className=''>Shipping and Dispatch Policy</Link>
+                                    <Link to="">Shipping and Dispatch Policy</Link>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Social Media</h2>
                             <ul className='text-white flex flex-wrap items-center space-x-4'>
-                                <li className=''>
-                                    <a href="..." className='text-2xl'><FaXTwitter /></a>
+                                <li>
+                                    <a href="https://x.com/" target='blanck' className='text-2xl'><FaXTwitter /></a>
                                 </li>
-                                <li className=''>
-                                    <a href="..." className='text-2xl'><FaSquareFacebook /></a>
+                                <li>
+                                    <a href="https://www.facebook.com/" target='blanck' className='text-2xl'><FaSquareFacebook /></a>
                                 </li>
-                                <li className=''>
-                                    <a href="..." className='text-2xl'><FaInstagram /></a>
+                                <li>
+                                    <a href="https://www.instagram.com/" target='blanck' className='text-2xl'><FaInstagram /></a>
                                 </li>
-                                <li className=''>
-                                    <a href="..." className='text-2xl'><FaYoutube /></a>
+                                <li>
+                                    <a href="https://www.youtube.com/" target='blanck' className='text-2xl'><FaYoutube /></a>
                                 </li>
-                                <li className=''>
-                                    <a href="..." className='text-2xl'><FaLinkedinIn /></a>
+                                <li>
+                                    <a href="https://www.linkedin.com/" target='blanck' className='text-2xl'><FaLinkedinIn /></a>
                                 </li>
                             </ul>
                             <div className='w-[55%] text-white opacity-55 mt-6'>
-                                <small className=''>© Copyright 2025, <a href="...." className='hover:underline'>Just In Time</a></small>
+                                <small>© Copyright 2025, <a href="#" className='hover:underline'>Just In Time</a></small>
                                 <small>, All rights reserved.</small>
                             </div>
                         </div>

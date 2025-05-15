@@ -1,21 +1,23 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // image import
-import gifting_banner_desk from "../../assets/giting_banner_desk.webp"
-import gifting_banner_mobile from "../../assets/gifting_banner_mobile.webp"
-import watch_her from "../../assets/watch_her.webp"
-import watch_her_mobile from "../../assets/watch_her_mobile.avif"
-import watch_him from "../../assets/watch_him.webp"
-import watch_him_mobile from "../../assets/watch_him_mobile.jpg"
-import watch_advisor from "../../assets/watch_advisor.webp"
-import mask_group from "../../assets/mask_group.webp"
-import mask_group_mobile from "../../assets/mask_group_mobile.avif"
+import gifting_banner_desk from "../../assets/giting_banner_desk.webp";
+import gifting_banner_mobile from "../../assets/gifting_banner_mobile.webp";
+import watch_her from "../../assets/watch_her.webp";
+import watch_her_mobile from "../../assets/watch_her_mobile.avif";
+import watch_him from "../../assets/watch_him.webp";
+import watch_him_mobile from "../../assets/watch_him_mobile.jpg";
+import watch_advisor from "../../assets/watch_advisor.webp";
+import mask_group from "../../assets/mask_group.webp";
+import mask_group_mobile from "../../assets/mask_group_mobile.avif";
 
 // react icon
 import { MdArrowOutward } from "react-icons/md";
-import OurCollections from '../../Components/OurCollections/OurCollections'
-import WatchBrands from '../../Components/WatchBrands/WatchBrands'
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+
+// component import
+import OurCollections from '../../Components/OurCollections/OurCollections';
+import WatchBrands from '../../Components/WatchBrands/WatchBrands';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 function Gifting() {
 
@@ -47,7 +49,7 @@ function Gifting() {
                 <div className='container mx-auto px-0 md:px-[9px] xl:px-[55px] pt-[60px] xl:pt-[70px] pb-[30px] xl:pb-[35px]'>
                     <div className='flex flex-wrap md:flex-nowrap items-center justify-between gap-[18.5%] gap-y-[70px] md:gap-y-0'>
                         <div>
-                            <a href="...">
+                            <a href="#">
                                 <div className='relative w-full h-full'>
                                     <img src={watch_her} alt="" className='hidden md:block' />
                                     <img src={watch_her_mobile} alt="" className='block md:hidden pr-[74px] md:pr-0' />
@@ -60,7 +62,7 @@ function Gifting() {
                             </a>
                         </div>
                         <div>
-                            <a href="..." className='pl-[74px] md:pl-0'>
+                            <a href="#" className='pl-[74px] md:pl-0'>
                                 <div className='relative w-full h-full'>
                                     <img src={watch_him} alt="" className='hidden md:block' />
                                     <img src={watch_him_mobile} alt="" className='block md:hidden pl-[74px] md:pl-0' />

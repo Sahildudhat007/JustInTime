@@ -120,13 +120,13 @@ function Header() {
                     <div className='flex items-center'>
                         <ul className='flex items-center'>
                             <li className='cursor-pointer pr-[18px]'>
-                                <a href="..." className={`hidden md:flex items-center pl-3 rounded-md ${isWhiteTheme ? "bg-gray-100" : "bg-white"}`}>
+                                <a href="#" className={`hidden md:flex items-center pl-3 rounded-md ${isWhiteTheme ? "bg-gray-100" : "bg-white"}`}>
                                     <IoIosSearch className="text-xl" />
                                     <span className='text-xs plesholder-text-[#000000] py-[12.4px] pr-[87px] pl-[9px]'>Search Product, Brands</span>
                                 </a>
                             </li>
                             <li className='pr-[18px] block md:hidden'>
-                                <a href="..."><HiOutlineSearch className="text-xl text-white" /></a>
+                                <a href="#"><HiOutlineSearch className="text-xl text-white" /></a>
                             </li>
                             <li className='pr-[18px] hidden md:block'>
                                 <Link to="user"><FaRegUser className={`text-xl ${isWhiteTheme ? "text-black" : "text-white"}`} /></Link>
@@ -180,7 +180,7 @@ function Header() {
                                                 <p className='text-[1.025vw] w-[80%] mx-auto opacity-70 text-center'>There is nothing in your Bag currently. Explore items available exclusively at JIT</p>
                                                 <p className="mt-[55px] mb-[5px] text-[1.2vw] text-[#383838] font-medium text-center">Have an account?</p>
                                                 <p className='text-[1.025vw] mt-2 mb-[13px] text-center'>
-                                                    <a href="#" className="border-b hover:border-b-2 font-medium">Log in </a>
+                                                    <Link to="logIn" className="border-b hover:border-b-2 font-medium">Log in </Link>
                                                     to check out faster.
                                                 </p>
                                             </div>
@@ -189,7 +189,7 @@ function Header() {
                                                 return (
                                                     <>
                                                         <div key={item.id}>
-                                                            <table class="table-auto">
+                                                            <table className="table-auto">
                                                                 <tbody>
                                                                     <tr className='mb-6 grid grid-cols-3 items-center'>
                                                                         <td className='col-span-1 w-[100%] xl:w-[11.714vw] h-auto'>

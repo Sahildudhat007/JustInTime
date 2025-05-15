@@ -45,7 +45,7 @@ function ArrivalWatches() {
                         ))}
                     </div>
                     <div>
-                        <a href="..." className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
+                        <a href="#" className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
                             <FiFilter className='mr-2' />
                             FILTER & SORT
                         </a>

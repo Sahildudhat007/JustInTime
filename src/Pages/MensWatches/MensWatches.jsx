@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 // image import
-import mens_watches_landing from "../../assets/mens_watches_landing.webp"
-import mens_watches_lending_mobile from "../../assets/mens_watches_landing_mobile.webp"
+import mens_watches_landing from "../../assets/mens_watches_landing.webp";
+import mens_watches_lending_mobile from "../../assets/mens_watches_landing_mobile.webp";
 
 // components import
 import Men from './Men';
@@ -58,7 +58,7 @@ function MensWatches() {
                         ))}
                     </div>
                     <div>
-                        <a href="..." className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
+                        <a href="#" className='text-white bg-black rounded-full py-4 px-7 text-sm md:text-[1.1vw] hover:bg-gray-800 transition hidden md:flex items-center'>
                             <FiFilter className='mr-2' />
                             FILTER & SORT
                         </a>
@@ -98,49 +98,49 @@ function MensWatches() {
                                 </h3>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em] space-x-2'>
                                     <span>There are endless options for men's watches. Certain brands stand out in the category, including</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Tissot,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Fossil,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Casio,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Rado,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>Longines,</span></a>
-                                    <a href="..." className='text-[#007aff] underline'><span>versace,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Tissot,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Fossil,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Casio,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Rado,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Longines,</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>versace,</span></a>
                                     <span>and</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Emporio Armani.</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Emporio Armani.</span></a>
                                     <span>Different watches serve varying preferences and occasions and watches for men are categorised into many segments:</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Digital Watches:</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Digital men's watches</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Digital men's watches</span></a>
                                     <span>are an absolute favourite for most men. The watch for men brand are stylish and classy. They add a contemporary vibe to the entire attire. These stylish watches for men are versatile and blend easily with every occasion. Digital watches look best with a pair of denim jeans and T-shirts.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Digital Watches: The</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>analogue mens watch</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>analogue mens watch</span></a>
                                     <span>brands watch can never be the wrong choice for someone looking for a sophisticated old-school look. Analog watches are simple, classic, and evergreen. They are still the widely used type of watch worldwide. An analogue men's watch oozes out charm and politeness. They look superb with simple sweaters and pullovers and have a rich and minimalistic look.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Smartwatches: With technological advancement, smartwatches are the new craze among men.</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Smartwatches for men</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Smartwatches for men</span></a>
                                     <span>are a blend of luxury, functionality, and design. With a smartwatch, one can send a message, record one's footsteps or read an email, the possibilities are endless. For a tech enthusiast, a smartwatch is a perfect investment. Smartwatches can look good with anything. But, they look extremely sophisticated with party shirts and t-shirts. They also look great with athleisure clothes.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Dress watches:</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Dress watches</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Dress watches</span></a>
                                     <span>for men are classic and sophisticated watches that are supposed to be worn with a suit or a tuxedo. Classic watches for men suit almost every man. They are considered to be luxury watches and symbolise class. Dress watches add a finishing touch to men's daily and formal wear outfits. They are often passed down to generations as family assets. A dress watch is something that every man must own in his wardrobe.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Quartz watches: For men, Quartz watches work with quartz crystal oscillation. These watches are known for giving the most accurate time.</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Quartz men's watches</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Quartz men's watches</span></a>
                                     <span>are incredibly durable and are highly desirable to millions of men. Styling a quartz watch is pretty straightforward. They look lovely in every outfit. So, a quartz watch can be paired with anything without any doubt. </span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Chronograph watches:</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Chronograph watches for men</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Chronograph watches for men</span></a>
                                     <span>have a distinctive layout in the dial. Chronograph watches do a lot more than just tell time. They have a stopwatch feature that allows tracking time intervals. Men's chronograph watches look mesmerizing with an adventurous look and should be styled with pieces of denim, cargo pants, and leather jackets.</span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Swiss watches: A Swiss watch is a benchmark for every watchmaker. They are the most recognized, respected, and admired watches in the world. A Swiss watch can easily pass the test of time and can be useful for generations. They are extremely durable and high in quality. Almost all Swiss watches are handmade and well-crafted, which makes them so distinguishable from other watches.</span>
-                                    <a href="..." className='text-[#007aff] underline'><span>Swiss watches for men</span></a>
+                                    <a href="#" className='text-[#007aff] underline'><span>Swiss watches for men</span></a>
                                     <span>are made up of strong materials that make them last a lifetime. Hence, things like corrosion, scratches, or normal wear and tear are never a problem with Swiss watches. While many consider Swiss watches to be among the costly watches for men, they can complement any man and in any attire. But they always look best with semi-formals. Every man should own at least one Swiss watch.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>
@@ -157,7 +157,7 @@ function MensWatches() {
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>When it comes to options for men fashion watches, luxury watches top the chart.</span>
-                                    <a href="..." className='text-[#007aff] underline'>Luxury watches</a>
+                                    <a href="#" className='text-[#007aff] underline'>Luxury watches</a>
                                     <span>come with a set of values and add aesthetics to a man's life. Most Swiss watches are luxury watches and are highly valued in the watch market. In India, a premium or a luxury watch can start from Rs. 10,000 and can go up to lakhs. Some of the best watch brands for men in India for luxury men's watches are Calvin Klein, Rado, Tissot, Seiko, Versace, Fossil, Emporio Armani, and many others. For men, luxury watches symbolize their class and character. It is often said that a man isn't fully dressed till he has a watch on his wrist. </span>
                                 </p>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
@@ -176,21 +176,21 @@ function MensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Timex: One of India's leading brands for men's watches, Timex offers timepieces at affordable prices. Known for its stylish and durable design, a</span>
-                                            <a href="..." className='text-[#007aff] underline'>Timex men's watch</a>
+                                            <a href="#" className='text-[#007aff] underline'>Timex men's watch</a>
                                             <span>is your perfect everyday wear. </span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Fossil: Known for designs that blend classic and contemporary styles, Fossil offers men's watches that can be accessorized with all kinds of outfit. Perfect for casual and formal occasions,</span>
-                                            <a href="..." className='text-[#007aff] underline'>Fossil men's watches</a>
+                                            <a href="#" className='text-[#007aff] underline'>Fossil men's watches</a>
                                             <span>often feature leather bands,chronograph designs, and elegant dials.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Casio: Casio is your go-to brand for affordable yet durable men's watches Known for their practical designs,</span>
-                                            <a href="..." className='text-[#007aff] underline'>Casio watches</a>
+                                            <a href="#" className='text-[#007aff] underline'>Casio watches</a>
                                             <span>are characterised with features such as alarms, backlighting, and water resistance, making them an ideal and reliable timepiece.</span>
                                         </p>
                                     </li>
@@ -202,21 +202,21 @@ function MensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Rado: In the men's watches category,</span>
-                                            <a href="..." className='text-[#007aff] underline'>Rado</a>
+                                            <a href="#" className='text-[#007aff] underline'>Rado</a>
                                             <span>watches are known for their innovative use of materials such as ceramic and high-tech tungsten. Rado men's luxury watches offer sleek, modern designs that stand out for their scratch-resistant surfaces and exceptional durability.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Versace:</span>
-                                            <a href="..." className='text-[#007aff] underline'>Versace</a>
+                                            <a href="#" className='text-[#007aff] underline'>Versace</a>
                                             <span>watches cater to the male customer segment seeking bold style and sophistication. These luxury men's watches are known for unique, eye-catching designs, often featuring the iconic Versace logo and high-quality craftsmanship, making them a perfect statement timepiece.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Ferragamo:</span>
-                                            <a href="..." className='text-[#007aff] underline'>Ferragamo men's watches</a>
+                                            <a href="#" className='text-[#007aff] underline'>Ferragamo men's watches</a>
                                             <span>are the epitome of refined elegance, with the brand's signature being attention to detail. With sleek, minimalist designs, these watches exude sophistication, making them a perfect symbol of understated luxury.</span>
                                         </p>
                                     </li>
@@ -228,7 +228,7 @@ function MensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Garmin: Garmin fitness watches are for men who value performance and innovation. Garmin offers a wide range of watches that track various fitness activities, from running to swimming and golf. Known for their precision and GPS capabilities, Garmin men's watches are engineered to withstand the rigours of outdoor adventures while providing valuable fitness data. Garmin's sports watches, like the</span>
-                                            <a href="..." className='text-[#007aff] underline'>Garmin Unisex Amoled Digital-Smart Watch,</a>
+                                            <a href="#" className='text-[#007aff] underline'>Garmin Unisex Amoled Digital-Smart Watch,</a>
                                             <span>are perfect for athletes or fitness enthusiasts who are involved in intense training sessions.</span>
                                         </p>
                                     </li>
@@ -333,21 +333,21 @@ function MensWatches() {
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Budget-Friendly Watches: We have numerous options for affordable men's watches priced</span>
-                                            <a href="..." className='text-[#007aff] underline'>below ₹5,000.</a>
+                                            <a href="#" className='text-[#007aff] underline'>below ₹5,000.</a>
                                             <span>Timex and Casio offer high-quality yet budget watches for men.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Mid-Range Watches: Men's watches priced between</span>
-                                            <a href="..." className='text-[#007aff] underline'>₹5,000 and ₹20,000</a>
+                                            <a href="#" className='text-[#007aff] underline'>₹5,000 and ₹20,000</a>
                                             <span>offer a balance of style and affordability. Fossil and Citizen have a range of reliable and stylish options.</span>
                                         </p>
                                     </li>
                                     <li>
                                         <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                             <span>Luxury Watches: If budget is not a concern, choose from our range of luxury men's watches. Choose from the appealing designs of Rado and Longines watches that are priced</span>
-                                            <a href="..." className='text-[#007aff] underline'>above ₹20,000.</a>
+                                            <a href="#" className='text-[#007aff] underline'>above ₹20,000.</a>
                                             <span>These luxury watches are a combination of both style and status.</span>
                                         </p>
                                     </li>
@@ -363,7 +363,7 @@ function MensWatches() {
                                 </h2>
                                 <p className='text-sm md:text-[16px] text-[#6F6F6F] my-[1em]'>
                                     <span>Explore the vast collection of premium trending watches for men</span>
-                                    <a href="..." className='text-[#007aff] underline'>men's watches</a>
+                                    <a href="#" className='text-[#007aff] underline'>men's watches</a>
                                     <span>at Just In Time. Whether you need a classic timepiece, a sporty smartwatch, or a luxury watch, we have the perfect match for you. Visit the Just In Time website and shop online watches men today for the best deals! You can also visit our 75+ stores across 15+ cities.</span>
                                 </p>
                                 <h2 className='my-[1em] text-xl md:text-2xl'>

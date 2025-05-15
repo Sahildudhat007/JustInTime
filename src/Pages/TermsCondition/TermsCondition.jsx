@@ -1,7 +1,7 @@
 import React from 'react';
 
 // components import
-import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb'
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 function TermsCondition() {
     return (

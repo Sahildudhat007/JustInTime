@@ -27,6 +27,7 @@ import CorporateGift from './Pages/CorporateGift/CorporateGift';
 import TermsCondition from './Pages/TermsCondition/TermsCondition';
 import ReturnRefunds from './Pages/ReturnRefunds/ReturnRefunds';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
+import PressReleases from './Pages/PressReleases/PressReleases';
 
 function App() {
   return (
@@ -56,6 +57,7 @@ function App() {
             <Route path='/termsCondition' element={<TermsCondition />} />
             <Route path='/returnRefunds' element={<ReturnRefunds />} />
             <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
+            <Route path='/pressReleases' element={<PressReleases />} />
           </Routes>
           <Footer />
         </BrowserRouter>

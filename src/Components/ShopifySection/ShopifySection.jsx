@@ -19,10 +19,10 @@ function ShopifySection() {
                     </div>
                     <div className='md:flex md:flex-nowrap space-y-9 md:gap-[20px] xl:gap-[46px]'>
                         <div className='relative'>
-                            <a href="...">
+                            <a href="#">
                                 <img src={rado_luxe} alt="" className='w-full h-auto rounded-lg' />
                             </a>
-                            <a href="...">
+                            <a href="#">
                                 <div className='relative -mt-[35px] -mr-[35px] md:mr-0'>
                                     <div className='w-[75.4%] mx-auto bg-[#2A2E45] rounded-lg'>
                                         <div className='m-auto w-full py-[25px] pr-[17px] pl-[25px]'>
@@ -35,10 +35,10 @@ function ShopifySection() {
                         </div>
 
                         <div className='relative'>
-                            <a href="...">
+                            <a href="#">
                                 <img src={longinese_luxe} alt="" className='w-full h-auto rounded-lg' />
                             </a>
-                            <a href="...">
+                            <a href="#">
                                 <div className='relative -mt-[35px] -ml-[34px] md:ml-0'>
                                     <div className='w-[75.4%] mx-auto bg-[#2A2E45] rounded-lg'>
                                         <div className='m-auto w-full py-[25px] pr-[17px] pl-[25px]'>
@@ -51,10 +51,10 @@ function ShopifySection() {
                         </div>
 
                         <div className='relative'>
-                            <a href="...">
+                            <a href="#">
                                 <img src={ferragamo} alt="" className='w-full h-auto rounded-lg' />
                             </a>
-                            <a href="...">
+                            <a href="#">
                                 <div className='relative -mt-[35px] -mr-[35px] md:mr-0'>
                                     <div className='w-[75.4%] mx-auto bg-[#2A2E45] rounded-lg'>
                                         <div className='m-auto w-full py-[25px] pr-[17px] pl-[25px]'>
