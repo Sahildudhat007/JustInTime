@@ -28,6 +28,7 @@ import TermsCondition from './Pages/TermsCondition/TermsCondition';
 import ReturnRefunds from './Pages/ReturnRefunds/ReturnRefunds';
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy';
 import PressReleases from './Pages/PressReleases/PressReleases';
+import WatchServicing from './Pages/WatchServicing/WatchServicing';
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
             <Route path='/returnRefunds' element={<ReturnRefunds />} />
             <Route path='/privacyPolicy' element={<PrivacyPolicy />} />
             <Route path='/pressReleases' element={<PressReleases />} />
+            <Route path='/watchServicing' element={<WatchServicing />} />
           </Routes>
           <Footer />
         </BrowserRouter>

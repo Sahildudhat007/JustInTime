@@ -26,7 +26,7 @@ import OurBrand from '../OurBrand/OurBrand';
 
 // react icon 
 import { IoIosSearch } from "react-icons/io";
-import { HiOutlineSearch } from "react-icons/hi";
+import { HiOutlineSearch, HiOutlineX } from "react-icons/hi";
 import { FaRegUser } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa";
 import { FiShoppingBag } from "react-icons/fi";
@@ -35,7 +35,13 @@ import { IoCloseOutline } from "react-icons/io5";
 import { RiDeleteBinLine } from "react-icons/ri";
 import { RiArrowRightSLine } from "react-icons/ri";
 
+// css import
+import './header.css'
+
 function Header() {
+
+    // searchbox
+    const [openSearchBox, setOpenSearchBox] = useState(false);
 
     // view all open
     const [isOpen, setIsOpen] = useState(false);
@@ -116,18 +122,75 @@ function Header() {
                 {/* header */}
                 <header className='container mx-auto px-[15px] md:px-[50px] pt-3.5 pb-3 flex items-center justify-between border-b border-b-[#cdc6c6] lg:border-0'>
                     <Link to={"/"}>
-                        <img src={isWhiteTheme ? black_logo : white_logo} alt="" className='w-full max-w-[182px] h-auto' />
+                        <img src={isWhiteTheme ? black_logo : white_logo} alt="" className='w-full max-w-[142px] md:max-w-[182px] h-auto' />
                     </Link>
                     <div className='flex items-center'>
                         <ul className='flex items-center'>
-                            <li className='cursor-pointer pr-[18px]'>
-                                <a href="#" className={`hidden md:flex items-center pl-3 rounded-md ${isWhiteTheme ? "bg-gray-100" : "bg-white"}`}>
-                                    <IoIosSearch className="text-xl" />
-                                    <span className='text-xs plesholder-text-[#000000] py-[12.4px] pr-[87px] pl-[9px]'>Search Product, Brands</span>
-                                </a>
+                            <li className='pr-[18px]'>
+                                <div className={`hidden md:flex items-center pl-3 rounded-md ${isWhiteTheme ? "bg-gray-200" : "bg-white"}`}>
+                                    <IoIosSearch className="text-xl mt-1" />
+                                    <input type="text" placeholder='Search Product, Brands' className='placeholder:text-xs text-sm plesholder-text-[#000000] flex items-center py-[10px] pr-[50px] pl-[9px] outline-0' />
+                                </div>
                             </li>
-                            <li className='pr-[18px] block md:hidden'>
-                                <a href="#"><HiOutlineSearch className="text-xl text-white" /></a>
+                            <li className='pr-[18px] relative md:hidden'>
+                                <button
+                                    onClick={() => setOpenSearchBox(true)}
+                                    className="p-2"
+                                >
+                                    <HiOutlineSearch className="text-xl text-white" />
+                                </button>
+
+                                {/* Mobile Search */}
+                                {openSearchBox && (
+                                    <div className='fixed inset-0 h-[60%] bg-black z-[100] flex flex-col pt-7 px-3.5 animate-fadeInDown'>
+                                        <div className="flex items-center bg-stone-800 rounded-lg px-5 h-12 shadow-md">
+                                            <HiOutlineSearch className="text-xl text-gray-400" />
+                                            <input
+                                                type="text"
+                                                className="flex-grow outline-none text-sm text-gray-300 pl-2 bg-transparent"
+                                                placeholder='Search Product, Brands'
+                                                autoFocus
+                                            />
+                                            <button onClick={() => setOpenSearchBox(false)}>
+                                                <HiOutlineX className="text-lg text-gray-400" />
+                                            </button>
+                                        </div>
+                                        <div className='py-[10%] grid grid-cols-3 gap-x-[2%] gap-y-[20%]'>
+                                            <a href="#" className='border border-white rounded-full'>
+                                                <div className='flex items-center justify-center gap-[8%]'>
+                                                    <h3 className='text-white my-2 text-center text-[2.570vw]'>Tissot</h3>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.698" height="9.157" viewBox="0 0 15.698 9.157" className='w-[18px] h-[18px]'>
+                                                        <path id="Path_5926" data-name="Path 5926" d="M14.989,12l1.8,1.751-3.83,3.72L9.82,14.419,4,20.078l1.111,1.08L9.82,16.579l3.14,3.052,4.937-4.8,1.8,1.751V12Z" transform="translate(-4 -12)" fill="#fff"></path>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                            <a href="#" className='border border-white rounded-full'>
+                                                <div className='flex items-center justify-center gap-[8%]'>
+                                                    <h3 className='text-white my-2 text-center text-[2.570vw]'>Chronograph</h3>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.698" height="9.157" viewBox="0 0 15.698 9.157" className='w-[18px] h-[18px]'>
+                                                        <path id="Path_5926" data-name="Path 5926" d="M14.989,12l1.8,1.751-3.83,3.72L9.82,14.419,4,20.078l1.111,1.08L9.82,16.579l3.14,3.052,4.937-4.8,1.8,1.751V12Z" transform="translate(-4 -12)" fill="#fff"></path>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                            <a href="#" className='border border-white rounded-full'>
+                                                <div className='flex items-center justify-center gap-[8%]'>
+                                                    <h3 className='text-white my-2 text-center text-[2.570vw]'>Smart Watches</h3>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.698" height="9.157" viewBox="0 0 15.698 9.157" className='w-[18px] h-[18px]'>
+                                                        <path id="Path_5926" data-name="Path 5926" d="M14.989,12l1.8,1.751-3.83,3.72L9.82,14.419,4,20.078l1.111,1.08L9.82,16.579l3.14,3.052,4.937-4.8,1.8,1.751V12Z" transform="translate(-4 -12)" fill="#fff"></path>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                            <a href="#" className='border border-white rounded-full col-span-2'>
+                                                <div className='flex items-center justify-center gap-[8%]'>
+                                                    <h3 className='text-white my-2 text-center text-[2.570vw]'>Watches Under 30K</h3>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="15.698" height="9.157" viewBox="0 0 15.698 9.157" className='w-[18px] h-[18px]'>
+                                                        <path id="Path_5926" data-name="Path 5926" d="M14.989,12l1.8,1.751-3.83,3.72L9.82,14.419,4,20.078l1.111,1.08L9.82,16.579l3.14,3.052,4.937-4.8,1.8,1.751V12Z" transform="translate(-4 -12)" fill="#fff"></path>
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                )}
                             </li>
                             <li className='pr-[18px] hidden md:block'>
                                 <Link to="user"><FaRegUser className={`text-xl ${isWhiteTheme ? "text-black" : "text-white"}`} /></Link>

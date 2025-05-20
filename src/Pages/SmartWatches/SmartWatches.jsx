@@ -7,6 +7,7 @@ import smartwatches_mobile from "../../assets/images/smartwatches-mobile.webp";
 // components import
 import Smart from './Smart';
 import MenWomenData from '../../Components/MenWomenData/MenWomenData';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 // react icon
 import { FiFilter } from "react-icons/fi";
@@ -28,6 +29,9 @@ function SmartWatches() {
 
     return (
         <>
+            <div className='hidden lg:block'>
+                <Breadcrumb goBackLink="Home" pageTitle="Smart Watches" />
+            </div>
             <section className='w-full'>
                 <div className='relative w-full h-full'>
                     <img src={smartwatches_desk} alt="" className='w-full h-full object-cover hidden md:block' />
@@ -36,6 +40,9 @@ function SmartWatches() {
                         <h1 className='text-[9.3vw] md:text-[3.66vw] font-serif text-white'>Smart Watches</h1>
                         <p className='text-[3.33vw] md:text-[1.318vw] text-white uppercase opacity-70'>11 Watches | 35 Brands</p>
                     </div>
+                </div>
+                <div className='block lg:hidden'>
+                    <Breadcrumb goBackLink="Home" pageTitle="Smart Watches" />
                 </div>
                 <div className='container mx-auto py-6 px-2.5 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-4'>
                     <div className='flex flex-wrap gap-3'>

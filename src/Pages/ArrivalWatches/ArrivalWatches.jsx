@@ -7,6 +7,7 @@ import arrivals_mobile from "../../assets/images/arrivals_mobile.webp";
 // components import
 import Arrival from './Arrival';
 import MenWomenData from '../../Components/MenWomenData/MenWomenData';
+import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 
 // react icon
 import { FiFilter } from "react-icons/fi";
@@ -23,6 +24,9 @@ function ArrivalWatches() {
 
     return (
         <>
+            <div className='hidden lg:block'>
+                <Breadcrumb goBackLink="Home" pageTitle="New Arrival Watches" />
+            </div>
             <section className='w-full'>
                 <div className='relative w-full h-full'>
                     <img src={arrivals_desk} alt="" className='w-full h-full object-cover hidden md:block' />
@@ -31,6 +35,9 @@ function ArrivalWatches() {
                         <h1 className='text-[9.3vw] md:text-[3.66vw] font-serif text-white'>New Arrival Watches</h1>
                         <p className='text-[3.33vw] md:text-[1.318vw] text-white uppercase opacity-70'>927 Watches | 30 Brands</p>
                     </div>
+                </div>
+                <div className='block lg:hidden'>
+                    <Breadcrumb goBackLink="Home" pageTitle="New Arrival Watches" />
                 </div>
                 <div className='container mx-auto py-6 px-2.5 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-4'>
                     <div className='flex flex-wrap gap-3'>

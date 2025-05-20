@@ -124,7 +124,7 @@ function Footer() {
                                     <Link to="offers">Watch Offers</Link>
                                 </li>
                                 <li className='mr-6 pb-2'>
-                                    <Link to="">Watch Servicing</Link>
+                                    <Link to="watchServicing">Watch Servicing</Link>
                                 </li>
                             </ul>
                         </div>
