@@ -23,6 +23,7 @@ import { REMOVE_CART, UPDATE_QUANTITY } from '../../Redux/Actions/Action';
 
 // component import
 import OurBrand from '../OurBrand/OurBrand';
+import MenWomenData from '../MenWomenData/MenWomenData';
 
 // react icon 
 import { IoIosSearch } from "react-icons/io";
@@ -71,7 +72,6 @@ function Header() {
     const toggleDropdown = () => {
         setIsOpen((prev) => !prev);
     };
-
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -129,7 +129,11 @@ function Header() {
                             <li className='pr-[18px]'>
                                 <div className={`hidden md:flex items-center pl-3 rounded-md ${isWhiteTheme ? "bg-gray-200" : "bg-white"}`}>
                                     <IoIosSearch className="text-xl mt-1" />
-                                    <input type="text" placeholder='Search Product, Brands' className='placeholder:text-xs text-sm plesholder-text-[#000000] flex items-center py-[10px] pr-[50px] pl-[9px] outline-0' />
+                                    <input
+                                        type="text"
+                                        placeholder='Search Product, Brands'
+                                        className='placeholder:text-xs text-sm plesholder-text-[#000000] flex items-center py-[10px] pr-[50px] pl-[9px] outline-0'
+                                    />
                                 </div>
                             </li>
                             <li className='pr-[18px] relative md:hidden'>

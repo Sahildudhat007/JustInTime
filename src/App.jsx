@@ -1,5 +1,7 @@
-import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// css import
+import './App.css';
 
 // components import
 import Findstores from './Components/Findstores/Findstores';
@@ -31,6 +33,7 @@ import PressReleases from './Pages/PressReleases/PressReleases';
 import WatchServicing from './Pages/WatchServicing/WatchServicing';
 
 function App() {
+
   return (
     <>
       <Provider store={Store}>

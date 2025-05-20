@@ -39,7 +39,6 @@ function Hero() {
         <>
             <div className=''>
                 <Swiper
-                    spaceBetween={30}
                     centeredSlides={true}
                     loop={true}
                     autoplay={{
