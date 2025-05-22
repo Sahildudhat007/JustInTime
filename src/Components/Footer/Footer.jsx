@@ -11,7 +11,7 @@ function Footer() {
             <footer className='bg-[#060d36] py-9'>
                 <div className='pb-[2%]'>
                     <div className='flex justify-evenly items-center pb-4 border-b border-[#707070]'>
-                        <div className='flex items-center gap-4 pl-[3%] md:pl-0'>
+                        <div className='flex items-center gap-2 md:gap-4'>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" id="Group_14580" data-name="Group 14580" width="34.803" height="30.793" viewBox="0 0 34.803 30.793" style={{ fill: "white" }}>
                                     <g id="Group_14577" data-name="Group 14577" transform="translate(1.96)">
@@ -37,7 +37,7 @@ function Footer() {
                                 <p className='text-white text-[2.5vw] lg:text-[1.025vw]'>Easy Returns</p>
                             </div>
                         </div>
-                        <div className='flex items-center gap-4'>
+                        <div className='flex items-center gap-2 md:gap-4'>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="36.38" height="24.794" viewBox="0 0 36.38 24.794" style={{ fill: "white" }}>
                                     <g id="Group_16157" data-name="Group 16157" transform="translate(-1012.571 -464)">
@@ -49,7 +49,7 @@ function Footer() {
                                 <p className='text-white text-[2.5vw] lg:text-[1.025vw]'>Free Shipping</p>
                             </div>
                         </div>
-                        <div className='flex items-center gap-4'>
+                        <div className='flex items-center gap-2 md:gap-4'>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" id="Group_14997" data-name="Group 14997" width="24.553" height="30.541" viewBox="0 0 24.553 30.541" style={{ fill: "white" }}>
                                     <g id="Group_14586" data-name="Group 14586">
@@ -160,7 +160,7 @@ function Footer() {
 
                         <div>
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Social Media</h2>
-                            <ul className='text-white flex flex-wrap items-center space-x-4'>
+                            <ul className='text-white flex flex-wrap items-center align-middle space-x-4 space-y-2'>
                                 <li>
                                     <a href="https://x.com/i/flow/login?redirect_after_login=%2Fjustintimewatch" target='blanck' className='text-2xl'><FaXTwitter /></a>
                                 </li>

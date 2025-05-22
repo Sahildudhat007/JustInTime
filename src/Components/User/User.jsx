@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 // import firebase
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 // component import
 import Breadcrumb from '../Breadcrumb/Breadcrumb';
@@ -39,6 +40,17 @@ function User() {
             } else {
                 toast.error(error.message);
             }
+        }
+    };
+
+    const handleGoogleLogin = async () => {
+        const provider = new GoogleAuthProvider();
+        try {
+            await signInWithPopup(auth, provider);
+            toast.success("Google Login successful!");
+            navigate("/");
+        } catch (error) {
+            toast.error("Google Sign-in failed: " + error.message);
         }
     };
 
@@ -79,7 +91,10 @@ function User() {
                                         className='w-full h-[55px] p-[15px] placeholder:text-xs rounded-[8px] border border-[#d7d7d7] outline-0' />
                                 </div>
                                 <div className='mt-5 text-end'>
-                                    <button className='text-sm font-semibold cursor-pointer'>Forget Password?</button>
+                                    <button
+                                        className='text-sm font-semibold cursor-pointer'>
+                                        Forget Password?
+                                    </button>
                                 </div>
                                 <button type="submit" className='w-full h-[50px] rounded-[8px] my-[15px] px-[30px] text-sm bg-black text-white cursor-pointer'>Sign In</button>
                                 <div className='mt-[17px] flex items-center gap-3.5'>
@@ -87,16 +102,18 @@ function User() {
                                     <span className='text-sm -mt-1 text-gray-400 font-semibold w-[15rem] text-center'>or continue</span>
                                     <span className='w-full h-0.5 bg-gray-200 inline-block'></span>
                                 </div>
-                                <button className='w-full h-[50px] rounded-[8px] mt-5 px-[30px] text-sm font-semibold cursor-pointer border border-[#d7d7d7] flex items-center text-center justify-center'>
+                                <button
+                                    onClick={handleGoogleLogin}
+                                    className='w-full h-[50px] rounded-[8px] mt-5 px-[30px] text-sm font-semibold cursor-pointer border border-[#d7d7d7] flex items-center text-center justify-center'>
                                     <span><FcGoogle className='text-2xl mr-2' /></span>
                                     <span>Log in With Google</span>
                                 </button>
-                                <p className='mt-5 text-xs flex items-center justify-center'>
+                                <button className='mt-5 text-xs flex items-center justify-center'>
                                     <span>
                                         Don't have on account?
                                     </span>
                                     <Link to="/signUp" className='font-semibold hover:underline'>Sign Up</Link>
-                                </p>
+                                </button>
                             </form>
                         </div>
                     </div>

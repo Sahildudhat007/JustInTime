@@ -356,7 +356,7 @@ function Header() {
                                 </div>
                             </div>
 
-                            {/* mobile manubar */}
+                            {/* mobile menubar */}
                             <div className='relative'>
                                 <button onClick={toggleMenubar} className='block lg:hidden'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-hamburger" width="23.098" height="13.628" viewBox="0 0 23.098 13.628">
@@ -371,6 +371,16 @@ function Header() {
                                 {/* Sidebar */}
                                 <div className={`fixed top-0 left-0 h-screen overflow-y-scroll w-80 bg-white transform transition-transform duration-300 z-50 ${openMenubar ? 'translate-x-0' : '-translate-x-full'}`}>
                                     <aside>
+                                        <div className='px-[1rem] py-[1.1rem] flex items-center justify-between'>
+                                            <div>
+                                                <img src={black_logo} alt="" className='max-w-[142px] h-auto' />
+                                            </div>
+                                            <button
+                                                onClick={() => setOpenMenubar(false)}
+                                                className='cursor-pointer'>
+                                                <IoCloseOutline className='text-2xl' />
+                                            </button>
+                                        </div>
                                         <ul className="my-4 pb-[40%]">
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
