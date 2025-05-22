@@ -19,10 +19,11 @@ function CorporateGift() {
 
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Corporate Gifting" />
             </div>
-            <section className=''>
+
+            <section>
                 <div className='relative'>
                     <img src={corporategift_desk} alt="" className='hidden md:block w-full h-auto' />
                     <img src={corporategift_mobile} alt="" className='block md:hidden w-full h-auto' />

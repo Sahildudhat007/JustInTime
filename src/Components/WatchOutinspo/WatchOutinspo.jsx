@@ -87,6 +87,7 @@ function WatchOutinspo() {
                             <span><strong>#WatchOutForInspo</strong></span>
                         </h2>
                     </div>
+
                     <div className='w-[100%] md:w-[70%] lg:w-[70%] h-[80vh] mx-auto'>
                         <Swiper
                             modules={[Navigation]}
@@ -121,9 +122,7 @@ function WatchOutinspo() {
                         >
                             {mediaItems.map((item, index) => (
                                 <SwiperSlide key={index} className=''>
-                                    <div
-                                        className={`h-full transition-all duration-300 rounded-xl overflow-hidden shadow-lg bg-black ${index === activeIndex ? 'scale-90 h-[100px]' : 'scale-75 h-[250px]'}`}
-                                    >
+                                    <div className={`h-full transition-all duration-300 rounded-xl overflow-hidden shadow-lg bg-black ${index === activeIndex ? 'scale-90 h-[100px]' : 'scale-75 h-[250px]'}`}>
                                         <video
                                             ref={(el) => (videoRefs.current[index] = el)}
                                             src={item.video}

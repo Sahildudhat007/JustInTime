@@ -37,7 +37,7 @@ function Hero() {
 
     return (
         <>
-            <div className=''>
+            <section>
                 <Swiper
                     centeredSlides={true}
                     loop={true}
@@ -54,17 +54,18 @@ function Hero() {
                 >
                     <SwiperSlide>
                         <div className='relative w-full h-screen'>
-                            <div className='block md:hidden w-full h-full object-cover'>
-                                <img src={mobile_img1} alt="" className='w-full h-auto object-cover' />
+                            <div className='block md:hidden w-full h-full'>
+                                <img src={mobile_img1} alt="" className='w-full h-full object-cover' />
                             </div>
-                            <div className='hidden md:block w-full h-full object-cover'>
-                                <img src={desk_img1} alt="" className='w-full h-auto object-cover' />
+                            <div className='hidden md:block w-full h-full'>
+                                <img src={desk_img1} alt="" className='w-full h-full object-cover' />
                             </div>
-                            <div className='absolute bottom-36 left-10 md:left-44'>
+                            <div className='absolute left-1/2 md:left-[19.5%] transform -translate-x-1/2 top-[50%] md:top-[66%]'>
                                 <button className='text-sm md:text-base bg-transparent border border-white text-white px-6 py-2 md:px-8 md:py-3 rounded-sm'>SHOPE NOW</button>
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='relative w-full h-screen'>
                             <div className='block md:hidden w-full h-full'>
@@ -79,6 +80,7 @@ function Hero() {
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='w-full h-screen'>
                             <div className='block md:hidden w-full h-full'>
@@ -89,6 +91,7 @@ function Hero() {
                             </div>
                         </div>
                     </SwiperSlide>
+
                     <SwiperSlide>
                         <div className='w-full h-screen'>
                             <div className='block md:hidden w-full h-full'>
@@ -100,7 +103,7 @@ function Hero() {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-            </div>
+            </section>
         </>
     )
 }

@@ -51,7 +51,7 @@ import service4 from "../../assets/images/service4.avif";
 import whatsapp_image1 from "../../assets/images/whatsapp_Image1.webp";
 
 // css import
-import './watchservicing.css'
+import './watchservicing.css';
 
 const mask = [
     {
@@ -129,10 +129,11 @@ const watchJournal = [
 function WatchServicing() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Watch Servicing" />
             </div>
-            <section className=''>
+
+            <section>
                 <div className='relative w-full h-full flex justify-center items-center'>
                     <img src={service_img} alt="" className='w-full h-[420px] object-cover hidden md:block' />
                     <img src={service_img2} alt="" className='w-full h-[420px] object-cover block md:hidden' />
@@ -361,7 +362,7 @@ function WatchServicing() {
                             >
                                 {watchJournal.map((journal) => (
                                     <SwiperSlide key={journal.id}>
-                                        <a href="#" className=''>
+                                        <a href="#">
                                             <div className='rounded-b-[10px] bg-[#f3f3f3]'>
                                                 <hr className='h-[7px] bg-[#E2A362]' />
                                                 <div className='pl-[13px] pr-5 w-full h-[391px]'>

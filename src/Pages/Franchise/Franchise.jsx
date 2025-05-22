@@ -16,9 +16,10 @@ function Franchise() {
 
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Franchise" />
             </div>
+
             <section>
                 <div className='relative'>
                     <img src={desk_franchise} alt="" className='hidden md:block w-full h-auto' />
@@ -27,9 +28,9 @@ function Franchise() {
                         <p className='text-white text-[40px] md:text-[3.66vw] font-serif'>Sell With Us</p>
                     </div>
                 </div>
+
                 <div className='px-[35px] xl:px-[231px] pt-[43px] xl:pt-[51px] pb-[61px] xl:pb-[72px]'>
                     <h2 className='text-2xl md:text-[3.659vw] leading-[7vw] md:leading-[3.927vw] xl:leading-[2.196vw] xl:text-[1.757vw] font-serif w-full md:w-[55vw] xl:w-[25.695vw] mb-[31px] xl:mb-[18px]'>An Opportunity To Own & Run Premium Watch Store</h2>
-
                     {/* contact us */}
                     <button onClick={() => setOpenContact(true)} className='py-[2%] xl:py-[1.5%] text-white text-[2.271vw] md:text-[1.6vw] xl:text-[1.025vw] bg-black w-[104px] md:w-[15%] xl:w-[16%] h-[45px] rounded-[5px] flex justify-center items-center cursor-pointer'>CONTACT US</button>
                     {/* popup */}
@@ -50,6 +51,7 @@ function Franchise() {
                         </div>
                     )}
                 </div>
+
                 <div className='md:px-[35px] xl:px-[16.911vw]'>
                     <div className='bg-black md:rounded-[10px]'>
                         <p className='pt-[30px] md:pt-[2.269vw] pb-[2.269vw] md:pb-[2.269vw] ml-[5.564vw] text-2xl md:text-[2.196vw] text-white font-serif'>Reason To Partner With Us</p>
@@ -92,6 +94,7 @@ function Franchise() {
                         </div>
                     </div>
                 </div>
+
                 <div className='py-[14.019vw] lg:py-[5.857vw] px-[6.308vw] lg:px-[16.911vw]'>
                     <div className='relative'>
                         <img src={boutique_desk} alt="" className='hidden lg:block' />

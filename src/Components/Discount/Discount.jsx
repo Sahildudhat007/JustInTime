@@ -32,6 +32,7 @@ function Discount() {
                 <div className='container mx-auto px-8 md:px-[139px] mb-6'>
                     <h2 className='text-2xl md:text-3xl font-serif'>Offers for You</h2>
                 </div>
+
                 <div className='overflow-hidden px-7'>
                     <div className="marquee-track">
                         {[...offerImages, ...offerImages].map((src, index) => (

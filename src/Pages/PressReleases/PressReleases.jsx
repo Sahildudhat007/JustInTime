@@ -59,9 +59,10 @@ const pressData = [
 function PressReleases() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Press Releases" />
             </div>
+
             <section className='px-[37px] lg:px-[55px] py-[30px] lg:py-[35px] mx-auto'>
                 <h2 className='text-[4.206vw] md:text-[3vw] xl:text-[1.757vw] font-serif my-[18px]'>Press</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-2.5 gap-y-4'>

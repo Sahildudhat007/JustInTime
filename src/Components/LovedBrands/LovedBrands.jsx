@@ -108,7 +108,7 @@ function LovedBrands() {
                         >
                             {brandData.map((brand) => (
                                 <SwiperSlide key={brand.id}>
-                                    <a href={brand.link} className=''>
+                                    <a href={brand.link}>
                                         <div className='bg-[#060d36]'>
                                             <video src={brand.video} autoPlay muted loop className='rounded-t-md'></video>
                                         </div>
@@ -124,6 +124,7 @@ function LovedBrands() {
                         </Swiper>
                     </div>
                 </div>
+
                 <Collections />
             </section>
         </>

@@ -32,6 +32,7 @@ function SmartWatches() {
             <div className='hidden lg:block'>
                 <Breadcrumb goBackLink="Home" pageTitle="Smart Watches" />
             </div>
+
             <section className='w-full'>
                 <div className='relative w-full h-full'>
                     <img src={smartwatches_desk} alt="" className='w-full h-full object-cover hidden md:block' />
@@ -41,9 +42,11 @@ function SmartWatches() {
                         <p className='text-[3.33vw] md:text-[1.318vw] text-white uppercase opacity-70'>11 Watches | 35 Brands</p>
                     </div>
                 </div>
+
                 <div className='block lg:hidden'>
                     <Breadcrumb goBackLink="Home" pageTitle="Smart Watches" />
                 </div>
+
                 <div className='container mx-auto py-6 px-2.5 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-4'>
                     <div className='flex flex-wrap gap-3'>
                         {brands.map((brand, index) => (

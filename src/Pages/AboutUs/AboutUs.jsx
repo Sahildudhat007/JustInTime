@@ -181,8 +181,8 @@ const ecosystembrand = [
 function AboutUs() {
     return (
         <>
-            <section className=''>
-                <div className=''>
+            <section>
+                <div>
                     <img src={about_desktop} alt="" className='w-full hidden md:block' />
                     <img src={about_mobile} alt="" className='w-full block md:hidden' />
                 </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/images/wishlist.png"
-import menWatch1 from "../../assets/images/menWatch1.webp"
-import menWatch2 from "../../assets/images/menWatch2.webp"
-import menWatch3 from "../../assets/images/menWatch3.webp"
-import menWatch4 from "../../assets/images/menWatch4.webp"
-import menWatch5 from "../../assets/images/menWatch5.webp"
-import menWatch6 from "../../assets/images/menWatch6.webp"
-import menWatch7 from "../../assets/images/menWatch7.webp"
-import menWatch8 from "../../assets/images/menWatch8.webp"
-import menWatch9 from "../../assets/images/menWatch9.webp"
-import menWatch10 from "../../assets/images/menWatch10.webp"
+import wishlist from "../../assets/images/wishlist.png";
+import menWatch1 from "../../assets/images/menWatch1.webp";
+import menWatch2 from "../../assets/images/menWatch2.webp";
+import menWatch3 from "../../assets/images/menWatch3.webp";
+import menWatch4 from "../../assets/images/menWatch4.webp";
+import menWatch5 from "../../assets/images/menWatch5.webp";
+import menWatch6 from "../../assets/images/menWatch6.webp";
+import menWatch7 from "../../assets/images/menWatch7.webp";
+import menWatch8 from "../../assets/images/menWatch8.webp";
+import menWatch9 from "../../assets/images/menWatch9.webp";
+import menWatch10 from "../../assets/images/menWatch10.webp";
 
 const menWatchData = [
     {
@@ -111,7 +111,7 @@ function Men() {
     return (
         <>
             <section className='mb-[90px]'>
-                <div className=''>
+                <div>
                     <div className='pl-[36px] lg:pl-[50px] xl:pl-[141px]'>
                         <Swiper
                             cssMode={true}
@@ -154,7 +154,7 @@ function Men() {
                                             <div className='relative overflow-hidden rounded-lg'>
                                                 <img src={trending.img} alt="" className='rounded-lg w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105' />
                                                 <div className='absolute top-5 right-5 w-[20px] h-[18px]'>
-                                                    <img src={wishlist} alt="" className='' />
+                                                    <img src={wishlist} alt="" />
                                                 </div>
                                             </div>
                                             <div className='p-4 pt-[18px] group'>

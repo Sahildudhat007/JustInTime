@@ -3,7 +3,7 @@ import React from 'react'
 function TempItem({ img, name }) {
     return (
         <>
-            <a href="...">
+            <a href="#">
                 <div>
                     <img src={img} alt="" className='w-full h-auto object-cover' />
                 </div>

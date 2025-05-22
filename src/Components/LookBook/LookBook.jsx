@@ -12,11 +12,11 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
 // image impport
-import watch_pouch from "../../assets/images/watch_pouch.webp"
-import watch_winder1 from "../../assets/images/watch_winder1.webp"
-import watch_winder2 from "../../assets/images/watch_winder2.webp"
-import watch_winder3 from "../../assets/images/watch_winder3.webp"
-import watch_cases from "../../assets/images/watch_cases.webp"
+import watch_pouch from "../../assets/images/watch_pouch.webp";
+import watch_winder1 from "../../assets/images/watch_winder1.webp";
+import watch_winder2 from "../../assets/images/watch_winder2.webp";
+import watch_winder3 from "../../assets/images/watch_winder3.webp";
+import watch_cases from "../../assets/images/watch_cases.webp";
 
 function LookBook() {
     return (
@@ -25,6 +25,7 @@ function LookBook() {
                 <div>
                     <h2 className='text-2xl pl-2.5 md:pl-[40.5px] lg:pl-0 lg:text-[1.757vw] mb-4 text-[#070108] font-serif'>The Accessories Lookbook</h2>
                 </div>
+
                 <Swiper
                     breakpoints={{
                         320: {

@@ -81,6 +81,7 @@ function SpottedwithJIT() {
                 <div className='text-center'>
                     <h2 className='text-3xl mb-[18px] font-serif'>Spotted with JIT</h2>
                 </div>
+
                 <div className='xl:px-[50px]'>
                     <Swiper
                         modules={[Navigation, Pagination]}
@@ -114,9 +115,7 @@ function SpottedwithJIT() {
                     >
                         {mediaItems.map((slide, index) => (
                             <SwiperSlide key={index} className=''>
-                                <div
-                                    className={`flex items-center justify-center w-full h-full transition-all duration-300 rounded-xl overflow-hidden shadow-lg bg-black ${index === activeIndex ? 'scale-100 h-[500px]' : 'scale-75 h-full'}`}
-                                >
+                                <div className={`flex items-center justify-center w-full h-full transition-all duration-300 rounded-xl overflow-hidden shadow-lg bg-black ${index === activeIndex ? 'scale-100 h-[500px]' : 'scale-75 h-full'}`}>
                                     <video
                                         ref={(el) => (videoRefs.current[index] = el)}
                                         src={slide.src}

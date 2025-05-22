@@ -6,9 +6,10 @@ import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 function PrivacyPolicy() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Privacy Policy" />
             </div>
+
             <section className='mx-auto px-[1.5rem] md:px-10 lg:px-[120px] py-7 w-full max-w-[72.6rem] font-serif'>
                 <h1 className='text-center text-3xl md:text-6xl font-serif mb-16'>Privacy Policy</h1>
                 <p className='mb-4'>JUST IN TIME ("Us" or "We") revere your privacy and consider it a top priority to secure your personal information. We commit to protecting your personal information collected via the applications installed on the website or native mobile applications, or our official website.</p>

@@ -26,7 +26,8 @@ function Templates() {
                         <h1 className='text-[4.2vw] md:text-[1.757vw] font-serif'>Shop By Brand</h1>
                         <a href="#" className='uppercase underline text-xs md:text-[16px]'>View All</a>
                     </div>
-                    <div className=''>
+
+                    <div>
                         <Swiper
                             cssMode={true}
                             slidesPerView={4.5}

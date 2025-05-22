@@ -89,9 +89,10 @@ const cityData = [
 function Findstores() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Find Stores" />
             </div>
+
             <section>
                 <div className='m-auto px-[5%] pt-[4%] pb-[5%]'>
                     <div>

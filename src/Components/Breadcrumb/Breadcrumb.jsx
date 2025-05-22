@@ -13,7 +13,6 @@ function Breadcrumb({ pageTitle = 'pageTitle', goBackLink }) {
                     <li><MdKeyboardArrowRight className='text-xs opacity-65' /></li>
                     <li className='text-xs lg:text-[1.025vw] font-serif tracking-wider opacity-65'>{pageTitle}</li>
                 </ul>
-
             </section>
         </>
     )

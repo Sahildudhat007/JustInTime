@@ -1,21 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 // image import
-import wishlist from "../../assets/images/wishlist.png"
-import clock from "../../assets/images/clock.webp"
-import hover_clock from "../../assets/images/hover_clock.webp"
-import watch_box from "../../assets/images/watch_box.webp"
-import hover_watch_box from "../../assets/images/hover_watch_box.webp"
-import watch2 from "../../assets/images/watch2.webp"
-import hover_watch2 from "../../assets/images/hover_watch2.webp"
-import watch3 from "../../assets/images/watch3.webp"
-import hover_watch3 from "../../assets/images/hover_watch3.webp"
-import watch4 from "../../assets/images/watch4.webp"
-import hover_watch4 from "../../assets/images/hover_watch4.webp"
-import case1 from "../../assets/images/case1.webp"
-import hover_case1 from "../../assets/images/hover_case1.webp"
-import case2 from "../../assets/images/case2.webp"
-import hover_case2 from "../../assets/images/hover_case2.webp"
+import wishlist from "../../assets/images/wishlist.png";
+import clock from "../../assets/images/clock.webp";
+import hover_clock from "../../assets/images/hover_clock.webp";
+import watch_box from "../../assets/images/watch_box.webp";
+import hover_watch_box from "../../assets/images/hover_watch_box.webp";
+import watch2 from "../../assets/images/watch2.webp";
+import hover_watch2 from "../../assets/images/hover_watch2.webp";
+import watch3 from "../../assets/images/watch3.webp";
+import hover_watch3 from "../../assets/images/hover_watch3.webp";
+import watch4 from "../../assets/images/watch4.webp";
+import hover_watch4 from "../../assets/images/hover_watch4.webp";
+import case1 from "../../assets/images/case1.webp";
+import hover_case1 from "../../assets/images/hover_case1.webp";
+import case2 from "../../assets/images/case2.webp";
+import hover_case2 from "../../assets/images/hover_case2.webp";
 
 const accessories = [
     {
@@ -79,16 +79,16 @@ const accessories = [
 function AllAccessories() {
     return (
         <>
-            <section className=''>
+            <section>
                 <ul className='grid grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-[25px]'>
                     {accessories.map((items) => (
                         <li className='group' key={items.id}>
-                            <a href="..." className='block'>
+                            <a href="#" className='block'>
                                 <div className="relative w-full overflow-hidden rounded-lg">
                                     <img src={items.img} alt="" className="block w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105" />
                                     <img src={items.hover_img} alt="" className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
                                     <div className='absolute top-5 right-5 w-[20px] h-[18px]'>
-                                        <img src={wishlist} alt="" className='' />
+                                        <img src={wishlist} alt="" />
                                     </div>
                                 </div>
                                 <div className='p-4 pt-[18px] group'>
@@ -100,7 +100,6 @@ function AllAccessories() {
                         </li>
                     ))}
                 </ul>
-
             </section>
         </>
     )

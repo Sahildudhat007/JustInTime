@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,33 +10,33 @@ import 'swiper/css';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import brand_armani from "../../assets/images/brand_armani.webp"
-import brand_baring from "../../assets/images/brand_bering.webp"
-import brand_boss from "../../assets/images/brand_boss.webp"
-import brand_casio from "../../assets/images/brand_casio.webp"
-import brand_citize from "../../assets/images/brand_citizen.webp"
-import brand_ck from "../../assets/images/brand_ck.webp"
-import brand_emporio_armani from "../../assets/images/brand_emporio_armani.webp"
-import brand_ferragamo from "../../assets/images/brand_ferregammo.webp"
-import brand_fossil from "../../assets/images/brand_fossil.webp"
-import brand_furla from "../../assets/images/brand_furla.webp"
-import brand_garmin from "../../assets/images/brand_garmin.webp"
-import brand_gc from "../../assets/images/brand_gc.webp"
-import brand_guess from "../../assets/images/brand_guess.webp"
-import brand_longines from "../../assets/images/brand_longines.webp"
-import brand_mk from "../../assets/images/brand_mk.webp"
-import brand_movado from "../../assets/images/brand_movado.webp"
-import brand_obaku from "../../assets/images/brand_obaku.webp"
-import brand_rado from "../../assets/images/brand_rado.webp"
-import brand_roamer from "../../assets/images/brand_roamer.webp"
-import brand_seiko from "../../assets/images/brand_seiko.webp"
-import brand_skagen from "../../assets/images/brand_skagen.webp"
-import brand_timex from "../../assets/images/brand_timex.webp"
-import brand_tissot from "../../assets/images/brand_tissot.webp"
-import brand_versace from "../../assets/images/brand_versace.webp"
+import brand_armani from "../../assets/images/brand_armani.webp";
+import brand_baring from "../../assets/images/brand_bering.webp";
+import brand_boss from "../../assets/images/brand_boss.webp";
+import brand_casio from "../../assets/images/brand_casio.webp";
+import brand_citize from "../../assets/images/brand_citizen.webp";
+import brand_ck from "../../assets/images/brand_ck.webp";
+import brand_emporio_armani from "../../assets/images/brand_emporio_armani.webp";
+import brand_ferragamo from "../../assets/images/brand_ferregammo.webp";
+import brand_fossil from "../../assets/images/brand_fossil.webp";
+import brand_furla from "../../assets/images/brand_furla.webp";
+import brand_garmin from "../../assets/images/brand_garmin.webp";
+import brand_gc from "../../assets/images/brand_gc.webp";
+import brand_guess from "../../assets/images/brand_guess.webp";
+import brand_longines from "../../assets/images/brand_longines.webp";
+import brand_mk from "../../assets/images/brand_mk.webp";
+import brand_movado from "../../assets/images/brand_movado.webp";
+import brand_obaku from "../../assets/images/brand_obaku.webp";
+import brand_rado from "../../assets/images/brand_rado.webp";
+import brand_roamer from "../../assets/images/brand_roamer.webp";
+import brand_seiko from "../../assets/images/brand_seiko.webp";
+import brand_skagen from "../../assets/images/brand_skagen.webp";
+import brand_timex from "../../assets/images/brand_timex.webp";
+import brand_tissot from "../../assets/images/brand_tissot.webp";
+import brand_versace from "../../assets/images/brand_versace.webp";
 
 // css import
-import './watchbrands.css'
+import './watchbrands.css';
 
 const watches = [
     {
@@ -204,7 +204,7 @@ function WatchBrands() {
                     >
                         {watches.map((item) => (
                             <SwiperSlide className='swiper-slide5'>
-                                <a href='...' className=''>
+                                <a href='#'>
                                     <img src={item.img} alt="" className='bg-[#f0f0f0]' />
                                     <p className='pt-[12.65px] text-[16px] text-center font-semibold uppercase bg-[#f0f0f0]'>{item.name}</p>
                                 </a>

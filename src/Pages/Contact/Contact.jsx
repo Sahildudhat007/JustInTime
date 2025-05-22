@@ -14,11 +14,13 @@ function Contact() {
                             </svg>
                         </span> */}
                     </div>
+
                     <div className='border-b border-[#6f6f6f] mb-10'>
                         <p className='text-[3vw] md:text-[1.171vw] text-[#6f6f6f] mb-3.5'>
                             An Opportunity to own and Run a Luxury/Premium Watch Store with Just in Time
                         </p>
                     </div>
+
                     <div className='flex justify-between gap-[1%] my-[0.805vw] mx-[0.366vw]'>
                         <div className='w-[50%]'>
                             <input type="text" name='firstName' placeholder='First Name' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
@@ -27,12 +29,15 @@ function Contact() {
                             <input type="text" name='lastName' placeholder='Last Name' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                         </div>
                     </div>
+
                     <div className='my-[.805vw] mx-[.366vw]'>
                         <input type="text" name='email' placeholder='Email' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                     </div>
+
                     <div className='my-[.805vw] mx-[.366vw]'>
                         <input type="text" name='phone' placeholder='Phone Number' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                     </div>
+
                     <div className='flex justify-between gap-[1%] my-[0.805vw] mx-[0.366vw]'>
                         <div className='w-[50%]'>
                             <input type="text" name='state' placeholder='State' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
@@ -41,42 +46,48 @@ function Contact() {
                             <input type="text" name='city' placeholder='City' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                         </div>
                     </div>
+
                     <div className='my-[0.805vw] mx-[0.366vw]'>
                         <h4 className='mt-[19px]'>Franchise Investment (Select any 1)</h4>
                         <div className='flex justify-between gap-[1%] '>
                             <div className='w-[50%]'>
                                 <input type="radio" name='investment' value={"1-1.5Cr"} className='mt-2 mr-2' />
-                                <label htmlFor="" className=''>1-1.5Cr</label>
+                                <label htmlFor="">1-1.5Cr</label>
                             </div>
                             <div className='w-[50%]'>
                                 <input type="radio" name='investment' value={"1-1.5Cr"} className='mt-2 mr-2' />
-                                <label htmlFor="" className=''>1.5Cr & Above</label>
+                                <label htmlFor="">1.5Cr & Above</label>
                             </div>
                         </div>
                     </div>
+
                     <div className='my-[0.805vw] mx-[0.366vw]'>
                         <h4 className='mt-[19px]'>Property (Select any 1)</h4>
                         <div className='flex justify-between gap-[1%] '>
                             <div className='w-[50%]'>
                                 <input type="radio" name='property' value={"1-1.5Cr"} className='mt-2 mr-2' />
-                                <label htmlFor="" className=''>Owned</label>
+                                <label htmlFor="">Owned</label>
                             </div>
                             <div className='w-[50%]'>
                                 <input type="radio" name='property' value={"1-1.5Cr"} className='mt-2 mr-2' />
-                                <label htmlFor="" className=''>Leased/Rented</label>
+                                <label htmlFor="">Leased/Rented</label>
                             </div>
                         </div>
                     </div>
+
                     <div className='my-[.805vw] mx-[.366vw]'>
                         <input type="text" name='startTime' placeholder='How soon would you like to start?' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                     </div>
+
                     <div className='my-[.805vw] mx-[.366vw]'>
                         <input type="text" name='aboutUsSource' placeholder='How do you know about us?' className='text-[3.5vw] md:text-[1.025vw] mt-2 mr-2 p-[17px] border border-[#6F6F6F] text-[#363535] rounded-[10px] opacity-[1] w-full' />
                     </div>
+
                     <div className='flex items-baseline gap-2.5'>
                         <input type="checkbox" name='acceptTermsSwu' />
                         <label htmlFor="acceptTerms-swu" className='text-[#8e8e8e]'>I Agree to Just In Time contacting me via chat or call to assist further with my form submission.</label>
                     </div>
+
                     <div className='text-center'>
                         <button className='py-2.5 px-10 bg-black text-white rounded-[5px] uppercase my-[5%] text-[1rem] cursor-pointer'>SUBMIT</button>
                     </div>

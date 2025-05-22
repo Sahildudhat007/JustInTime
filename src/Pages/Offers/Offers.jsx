@@ -32,14 +32,17 @@ function Offers() {
       <div className='hidden lg:block'>
         <Breadcrumb goBackLink="Home" pageTitle="Offers" />
       </div>
+
       <section className='w-full'>
         <div className='w-full h-full'>
           <img src={desk_img1} alt="" className='w-full h-full object-cover hidden md:block' />
           <img src={mobile_img1} alt="" className='w-full h-full object-cover block md:hidden' />
         </div>
+
         <div className='block lg:hidden'>
           <Breadcrumb goBackLink="Home" pageTitle="Offers" />
         </div>
+
         <div className='container mx-auto py-6 px-2.5 lg:px-20 flex flex-col md:flex-row justify-between items-center gap-4'>
           <div className='flex flex-wrap gap-3'>
             {brands.map((brand, index) => (

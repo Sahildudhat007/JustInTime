@@ -14,9 +14,10 @@ function Wishlist() {
 
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Find Stores" />
             </div>
+
             <section>
                 <div className='my-[5vw] mx-[10vw] flex items-center justify-between'>
                     <div>

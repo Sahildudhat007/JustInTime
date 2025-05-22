@@ -6,9 +6,10 @@ import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 function ReturnRefunds() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Return & Refunds" />
             </div>
+
             <section className='container max-w-[55.5rem] mx-auto py-[21px]'>
                 <h1 className='text-center text-3xl md:text-4xl lg:text-6xl font-serif mb-[2rem]'>Return & Refunds</h1>
                 <div className='py-[60px] md:py-7 px-10 md:px-36 '>

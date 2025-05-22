@@ -23,6 +23,7 @@ function NewArrivals() {
                             <span className='content-[""] w-[21.2%] md:w-[32%] lg:w-[36.8%] h-[1.3px] bg-black absolute right-0'></span>
                         </div>
                     </div>
+
                     <div className="flex gap-4 flex-wrap px-8 md:px-[50px] xl:px-[139px] w-full justify-between md:justify-center">
                         {['Men', 'Women', 'Unisex'].map((item) => (
                             <button
@@ -35,6 +36,7 @@ function NewArrivals() {
                         ))}
                     </div>
                 </div>
+
                 {isActive === "Men" && <Men />}
                 {isActive === "Women" && <Women />}
                 {isActive === "Unisex" && <Unisex />}

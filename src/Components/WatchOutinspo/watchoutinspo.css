@@ -36,6 +36,8 @@
     box-shadow: 0 0 8px 0 rgba(60, 60, 60, 0.574);
 }
 
+/* responsive */
+
 @media screen and (max-width: 768px) {
     .swiper-button-prev::after {
         width: 30px;

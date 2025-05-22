@@ -216,7 +216,7 @@ function OurBrand() {
     return (
         <>
             {ourBrand.map((brand) => (
-                <a href="..." key={brand.id}>
+                <a href="#" key={brand.id}>
                     <div className='relative w-full'>
                         <img src={brand.img} alt="" className='w-full h-full rounded-b-md' />
                         <div className='absolute bottom-0 w-full bg-black text-white text-center rounded-b-md h-[44px] flex items-center justify-center'>

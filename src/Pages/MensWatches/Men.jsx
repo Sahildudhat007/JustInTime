@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Men({ id, img, hover_img, brand, text, price }) {
     return (
         <>
-            <section className=''>
+            <section>
                 <Link to={`/productDetails/${id}`}>
                     <div className='group'>
                         <div className='relative overflow-hidden rounded-lg'>
@@ -14,6 +14,7 @@ function Men({ id, img, hover_img, brand, text, price }) {
                                 <img src={hover_img} alt="" className="w-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                             </Link>
                         </div>
+
                         <div className='p-4 pt-[18px] group'>
                             <Link to={`/productDetails/${id}`}>
                                 <div className=''>

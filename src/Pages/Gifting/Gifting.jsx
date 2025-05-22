@@ -32,6 +32,7 @@ function Gifting() {
             <div className='hidden lg:block'>
                 <Breadcrumb goBackLink="Home" pageTitle="Gifting" />
             </div>
+
             <section>
                 <div>
                     <div className='relative w-full h-full'>
@@ -97,7 +98,7 @@ function Gifting() {
                     </div>
                 </div>
 
-                <div className=''>
+                <div>
                     <OurCollections />
                     <WatchBrands />
                 </div>

@@ -12,6 +12,7 @@ function ExploreJIT() {
                         <div className='block md:hidden'>
                             <h2 className='text-2xl mb-4 font-serif text-[#080101]'>Explore JIT Boutiques Near you</h2>
                         </div>
+
                         <div className='flex flex-wrap md:flex-nowrap gap-[25px] w-full'>
                             <div className='w-[513px]'>
                                 <div className='w-full'>

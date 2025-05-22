@@ -46,6 +46,7 @@ function WhyBuy() {
                     <h2 className='text-3xl text-white font-serif'>Why Buy from</h2>
                     <img src={white_logo} alt="" className='w-[159px]' />
                 </div>
+
                 <div>
                     <Swiper
                         modules={[Autoplay, Pagination]}
@@ -64,7 +65,7 @@ function WhyBuy() {
                             <SwiperSlide key={index} className='swiper-slide1 bg-black'>
                                 <div className='why-body flex flex-col items-center justify-center text-center gap-[15px] w-[44%] mt-5 mx-auto bg-black'>
                                     <div className='flex flex-col justify-center items-center w-[50px] lg:w-[63px] h-[50px] lg:h-[63px]'>
-                                        <img src={item.img} alt="" className='' />
+                                        <img src={item.img} alt="" />
                                     </div>
                                     <h3 className='text-2xl text-white'>{item.title}</h3>
                                     <p className='text-sm lg:text-[16px] text-white opacity-70'>{item.description}</p>

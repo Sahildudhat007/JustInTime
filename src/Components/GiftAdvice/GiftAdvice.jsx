@@ -15,6 +15,7 @@ function GiftAdvice() {
                             </video>
                         </div>
                     </div>
+
                     <div className='w-full lg:w-[40%] md:border border-[#CBCBCB] flex justify-center items-center'>
                         <div className='w-full'>
                             <div className='text-center'>

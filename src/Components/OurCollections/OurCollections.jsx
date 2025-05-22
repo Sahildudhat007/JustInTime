@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -28,6 +28,7 @@ function OurCollections() {
                 <div className='px-[37px] lg:px-[55px] mx-auto'>
                     <h2 className='text-[4.2vw] md:text-[1.757vw] font-serif mb-[18px]'>Our Curated Collections</h2>
                 </div>
+
                 <div className='pl-[37px] lg:pl-[55px] mx-auto'>
                     <Swiper
                         breakpoints={{
@@ -64,7 +65,7 @@ function OurCollections() {
                     >
                         <SwiperSlide>
                             <div>
-                                <a href='...' className='relative w-full h-full'>
+                                <a href='#' className='relative w-full h-full'>
                                     <img src={our_collactiona1} alt="" className='w-full h-full' />
                                     <div className='bg-[#212121] w-[207px] md:w-[250px] h-[100px] md:h-[135px] rounded-lg flex justify-center items-center absolute right-0 bottom-0'>
                                         <p className='text-white text-[5.647vw] md:text-[2.2vw] font-serif text-left flex'>Swiss <br /> Automatic
@@ -77,7 +78,7 @@ function OurCollections() {
 
                         <SwiperSlide>
                             <div>
-                                <a href='...' className='relative w-full h-full'>
+                                <a href='#' className='relative w-full h-full'>
                                     <img src={our_collactiona2} alt="" className='w-full h-full' />
                                     <div className='bg-[#212121] w-[207px] md:w-[250px] h-[100px] md:h-[135px] rounded-lg flex justify-center items-center absolute right-0 bottom-0'>
                                         <p className='text-white text-[5.647vw] md:text-[2.2vw] font-serif text-left flex'>Chronograph
@@ -90,7 +91,7 @@ function OurCollections() {
 
                         <SwiperSlide>
                             <div>
-                                <a href='...' className='relative w-full h-full'>
+                                <a href='#' className='relative w-full h-full'>
                                     <img src={our_collactiona3} alt="" className='w-full h-full' />
                                     <div className='bg-[#212121] w-[207px] md:w-[250px] h-[100px] md:h-[135px] rounded-lg flex justify-center items-center absolute right-0 bottom-0'>
                                         <p className='text-white text-[5.647vw] md:text-[2.2vw] font-serif text-left flex'>Minimal <br /> Inspired
@@ -103,7 +104,7 @@ function OurCollections() {
 
                         <SwiperSlide>
                             <div>
-                                <a href='...' className='relative w-full h-full'>
+                                <a href='#' className='relative w-full h-full'>
                                     <img src={our_collactiona4} alt="" className='w-full h-full' />
                                     <div className='bg-[#212121] w-[207px] md:w-[250px] h-[100px] md:h-[135px] rounded-lg flex justify-center items-center absolute right-0 bottom-0'>
                                         <p className='text-white text-[5.647vw] md:text-[2.2vw] font-serif text-left flex'>Vintage

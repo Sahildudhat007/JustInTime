@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 import { Link } from 'react-router-dom';
 
 function Smart({ id, img, hover_img, brand, text, price }) {
     return (
         <>
-            <section className=''>
+            <section>
                 <Link to={`/productDetails/${id}`}>
                     <div className='group'>
                         <div className='relative overflow-hidden rounded-lg'>
@@ -16,7 +16,7 @@ function Smart({ id, img, hover_img, brand, text, price }) {
                         </div>
                         <div className='p-4 pt-[18px] group'>
                             <Link to={`/productDetails/${id}`}>
-                                <div className=''>
+                                <div>
                                     <h2 className='text-sm lg:text-[1.951vw] xl:text-[1.318vw] uppercase font-semibold font-serif'>{brand}</h2>
                                 </div>
                                 <h3 className='text-[#070101] mt-[11px] text-sm lg:text-[1.951vw] xl:text-[1.171vw] text-left font-semibold line-clamp-1'>{text}</h3>

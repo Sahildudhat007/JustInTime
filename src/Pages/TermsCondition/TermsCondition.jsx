@@ -6,9 +6,10 @@ import Breadcrumb from '../../Components/Breadcrumb/Breadcrumb';
 function TermsCondition() {
     return (
         <>
-            <div className=''>
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="Terms and Conditions" />
             </div>
+
             <section>
                 <div className='mx-auto px-[1.5rem] md:px-10 lg:px-[120px] py-7 w-full max-w-[72.6rem]'>
                     <h1 className="text-[4rem] leading-16 font-serif text-center mb-12 lg:mb-16">
@@ -33,7 +34,7 @@ function TermsCondition() {
                         <p className='py-4'>
                             <b>Your Rights and Choices</b>
                         </p>
-                        <p className=''>
+                        <p>
                             <span>Under data protection laws, you can exercise the following rights and choices:</span>
                         </p>
                         <ol className='list-decimal my-4 pl-10'>

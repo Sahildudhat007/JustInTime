@@ -23,8 +23,9 @@ function WatchAccessories() {
             <div className='hidden lg:block'>
                 <Breadcrumb goBackLink="Home" pageTitle="Watch Accessories" />
             </div>
-            <section className=''>
-                <div className=''>
+
+            <section>
+                <div>
                     <div className='relative w-full h-full flex items-end md:items-center'>
                         <img src={festive_desk} alt="" className='hidden md:block w-full' />
                         <img src={festive_mobile} alt="" className='block md:hidden w-full' />
@@ -33,21 +34,23 @@ function WatchAccessories() {
                         </div>
                     </div>
                 </div>
+
                 <div className='block lg:hidden'>
                     <Breadcrumb goBackLink="Home" pageTitle="Watch Accessories" />
                 </div>
+
                 <div>
                     <div className='container mx-auto pt-[2.928vw] px-[6.149vw] pb-[3.66vw]'>
                         <div>
                             <h3 className='text-2xl lg:text-[1.757vw] font-serif mb-3'>Our Category</h3>
                         </div>
-                        <div className=''>
+                        <div>
                             <div className='flex items-center justify-between md:justify-start gap-[1.464vw]'>
                                 {/* All Accessories */}
-                                <button onClick={() => setActiveCategory("all")} className='flex flex-col'>
+                                <button onClick={() => setActiveCategory("all")} className='flex flex-col cursor-pointer'>
                                     <div className={`rounded-full w-[88px] h-[88px] flex justify-center items-center ${activeCategory === "all" ? "border border-[#CC8D4B]" : "hover:border border-transparent"}`}>
                                         <div className='bg-[#FAF1E7] w-[78px] h-[78px] flex justify-center items-center rounded-full mx-auto my-[5px]'>
-                                            <span className=''>All</span>
+                                            <span>All</span>
                                         </div>
                                     </div>
                                     <div className='flex justify-center'>
@@ -56,7 +59,7 @@ function WatchAccessories() {
                                 </button>
 
                                 {/* Watch Winder */}
-                                <button onClick={() => setActiveCategory("watchWinder")} className='flex flex-col'>
+                                <button onClick={() => setActiveCategory("watchWinder")} className='flex flex-col cursor-pointer'>
                                     <div className={`hover:border rounded-full w-[88px] h-[88px] flex justify-center items-center ${activeCategory === "watchWinder" ? "border border-[#CC8D4B]" : "hover:border border-transparent"}`}>
                                         <div className='bg-[#FAF1E7] w-[78px] h-[78px] flex justify-center items-center rounded-full mx-auto my-[5px]'>
                                             <img src={watch} alt="" />
@@ -68,7 +71,7 @@ function WatchAccessories() {
                                 </button>
 
                                 {/* Watch Case */}
-                                <button onClick={() => setActiveCategory("watchCase")} className='flex flex-col'>
+                                <button onClick={() => setActiveCategory("watchCase")} className='flex flex-col cursor-pointer'>
                                     <div className={`hover:border border-[#CC8D4B] rounded-full w-[88px] h-[88px] flex justify-center items-center ${activeCategory === "watchCase" ? "border border-[#CC8D4B]" : "hover:border border-transparent"}`}>
                                         <div className='bg-[#FAF1E7] w-[78px] h-[78px] flex justify-center items-center rounded-full mx-auto my-[5px]'>
                                             <img src={watch_1} alt="" />
@@ -88,6 +91,7 @@ function WatchAccessories() {
                     {activeCategory === "watchCase" && <WatchCase />}
                     <LookBook />
                 </div>
+
                 <Reading />
             </section>
         </>

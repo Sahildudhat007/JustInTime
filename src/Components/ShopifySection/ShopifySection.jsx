@@ -17,6 +17,7 @@ function ShopifySection() {
                         </div>
                         <p className='text-white w-full ld:w-[42%] mb-[38px] text-center opacity-[0.7]'>Seize every second with our luxurious offerings of select timepieces from the brands that you would be proud to own.</p>
                     </div>
+
                     <div className='md:flex md:flex-nowrap space-y-9 md:gap-[20px] xl:gap-[46px]'>
                         <div className='relative'>
                             <a href="#">
@@ -33,7 +34,6 @@ function ShopifySection() {
                                 </div>
                             </a>
                         </div>
-
                         <div className='relative'>
                             <a href="#">
                                 <img src={longinese_luxe} alt="" className='w-full h-auto rounded-lg' />
@@ -49,7 +49,6 @@ function ShopifySection() {
                                 </div>
                             </a>
                         </div>
-
                         <div className='relative'>
                             <a href="#">
                                 <img src={ferragamo} alt="" className='w-full h-auto rounded-lg' />

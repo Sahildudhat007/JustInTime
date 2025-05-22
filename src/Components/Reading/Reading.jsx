@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -133,7 +133,7 @@ function Reading() {
                                 <SwiperSlide key={reading.id}>
                                     <a href={reading.link} className='w-full h-[418px] rounded-b-lg'>
                                         <hr className='h-1.5 w-full bg-[#E2A362]' />
-                                        <div className=''>
+                                        <div>
                                             <div className='px-[13px]'>
                                                 <div className='flex items-center mt-3 '>
                                                     <p className='text-sm font-semibold bg-[#EBEBEB] rounded-full uppercase p-2 mr-2.5'>{reading.btn1}</p>
@@ -149,7 +149,7 @@ function Reading() {
                                                     <span>{reading.date}</span>
                                                 </div>
                                                 <div className='text-left'>
-                                                    <a href="..." className='text-[#363535] text-sm opacity-90 uppercase underline'>{reading.read}</a>
+                                                    <a href="#" className='text-[#363535] text-sm opacity-90 uppercase underline'>{reading.read}</a>
                                                 </div>
                                             </div>
                                         </div>

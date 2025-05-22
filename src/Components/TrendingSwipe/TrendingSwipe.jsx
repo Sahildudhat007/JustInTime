@@ -134,6 +134,7 @@ function TrendingSwipe() {
                         <h2 className='md:text-[18px] lg:text-[1.757vw] mb-1.5 font-serif'>Trending Timepieces</h2>
                         <a href="#" className='text-[16px] underline'>view all</a>
                     </div>
+
                     <div className='pl-[36px] lg:pl-[50px] xl:pl-[141px]'>
                         <Swiper
                             cssMode={true}
@@ -176,7 +177,7 @@ function TrendingSwipe() {
                                             <div className='relative overflow-hidden rounded-lg'>
                                                 <img src={trending.img} alt="" className='rounded-lg w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105' />
                                                 <div className='absolute top-5 right-5 w-[20px] h-[18px]'>
-                                                    <img src={wishlist} alt="" className='' />
+                                                    <img src={wishlist} alt="" />
                                                 </div>
                                             </div>
                                             <div className='p-4 pt-[18px] group'>

@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 // image import
-import wishlist from "../../assets/images/wishlist.png"
-import { Link } from 'react-router-dom'
+import wishlist from "../../assets/images/wishlist.png";
 
 function off({ id, img, hover_img, brand, text, price, off }) {
     return (
         <>
-            <section className=''>
+            <section>
                 <Link to={`/productDetails/${id}`}>
                     <div className='group'>
                         <div className='relative overflow-hidden rounded-lg'>
@@ -23,7 +23,7 @@ function off({ id, img, hover_img, brand, text, price, off }) {
                             </Link>
                         </div>
                         <div className='p-4 pt-[18px] group'>
-                            <div className=''>
+                            <div>
                                 <h2 className='text-sm lg:text-[1.951vw] xl:text-[1.318vw] uppercase font-semibold font-serif'>{brand}</h2>
                             </div>
                             <h3 className='text-[#070101] mt-[11px] text-sm lg:text-[1.951vw] xl:text-[1.171vw] text-left font-semibold line-clamp-1'>{text}</h3>

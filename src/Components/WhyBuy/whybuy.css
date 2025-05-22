@@ -19,6 +19,8 @@
     height: 100%;
 }
 
+/* responsive */
+
 @media screen and (max-width: 768px) {
     .swiper1 {
         width: 100%;

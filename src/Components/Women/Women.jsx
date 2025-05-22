@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -12,17 +12,17 @@ import 'swiper/css/pagination';
 import { Mousewheel, Keyboard } from 'swiper/modules';
 
 // image import
-import wishlist from "../../assets/images/wishlist.png"
-import womenWatch1 from "../../assets/images/womenWatch1.webp"
-import womenWatch2 from "../../assets/images/womenWatch2.webp"
-import womenWatch3 from "../../assets/images/womenWatch3.webp"
-import womenWatch4 from "../../assets/images/womenWatch4.webp"
-import womenWatch5 from "../../assets/images/womenWatch5.webp"
-import womenWatch6 from "../../assets/images/womenWatch6.webp"
-import womenWatch7 from "../../assets/images/womenWatch7.webp"
-import womenWatch8 from "../../assets/images/womenWatch8.webp"
-import womenWatch9 from "../../assets/images/womenWatch9.webp"
-import womenWatch10 from "../../assets/images/womenWatch10.webp"
+import wishlist from "../../assets/images/wishlist.png";
+import womenWatch1 from "../../assets/images/womenWatch1.webp";
+import womenWatch2 from "../../assets/images/womenWatch2.webp";
+import womenWatch3 from "../../assets/images/womenWatch3.webp";
+import womenWatch4 from "../../assets/images/womenWatch4.webp";
+import womenWatch5 from "../../assets/images/womenWatch5.webp";
+import womenWatch6 from "../../assets/images/womenWatch6.webp";
+import womenWatch7 from "../../assets/images/womenWatch7.webp";
+import womenWatch8 from "../../assets/images/womenWatch8.webp";
+import womenWatch9 from "../../assets/images/womenWatch9.webp";
+import womenWatch10 from "../../assets/images/womenWatch10.webp";
 
 const womenWatchData = [
     {
@@ -111,7 +111,7 @@ function Women() {
     return (
         <>
             <section className='mb-[90px]'>
-                <div className=''>
+                <div>
                     <div className='pl-[36px] lg:pl-[50px] xl:pl-[141px]'>
                         <Swiper
                             cssMode={true}
@@ -154,7 +154,7 @@ function Women() {
                                             <div className='relative overflow-hidden rounded-lg'>
                                                 <img src={trending.img} alt="" className='rounded-lg w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105' />
                                                 <div className='absolute top-5 right-5 w-[20px] h-[18px]'>
-                                                    <img src={wishlist} alt="" className='' />
+                                                    <img src={wishlist} alt="" />
                                                 </div>
                                             </div>
                                             <div className='p-4 pt-[18px] group'>

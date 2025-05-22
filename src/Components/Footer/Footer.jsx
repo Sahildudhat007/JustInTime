@@ -77,6 +77,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
+
                 <div className='pl-10 lg:pl-40 pb-20'>
                     <div className='grid grid-cols-2 lg:grid-cols-4 gap-2'>
                         <div>
@@ -105,6 +106,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
+
                         <div>
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Online Shopping</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
@@ -128,6 +130,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
+
                         <div>
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Useful Links</h2>
                             <ul className='text-white opacity-55 text-[3vw] lg:text-[1.025vw]'>
@@ -154,6 +157,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
+
                         <div>
                             <h2 className='text-[3.500vw] lg:text-[14.9888px] text-white mb-8 font-serif font-bold'>Social Media</h2>
                             <ul className='text-white flex flex-wrap items-center space-x-4'>

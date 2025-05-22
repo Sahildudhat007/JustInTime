@@ -1,4 +1,6 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { REMOVE_CART, UPDATE_QUANTITY } from '../../Redux/Actions/Action';
 
 // swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -18,12 +20,8 @@ import rupay from "../../assets/images/rupay.avif";
 import visa from "../../assets/images/visa.avif";
 import upiIcons from "../../assets/icons/upi_icons.svg";
 
-import { useSelector, useDispatch } from 'react-redux';
-import { REMOVE_CART, UPDATE_QUANTITY } from '../../Redux/Actions/Action';
-
 // component import
 import OurBrand from '../OurBrand/OurBrand';
-import MenWomenData from '../MenWomenData/MenWomenData';
 
 // react icon 
 import { IoIosSearch } from "react-icons/io";
@@ -37,7 +35,7 @@ import { RiDeleteBinLine } from "react-icons/ri";
 import { RiArrowRightSLine } from "react-icons/ri";
 
 // css import
-import './header.css'
+import './header.css';
 
 function Header() {
 
@@ -248,7 +246,7 @@ function Header() {
                                                 <p className='text-[1.025vw] w-[80%] mx-auto opacity-70 text-center'>There is nothing in your Bag currently. Explore items available exclusively at JIT</p>
                                                 <p className="mt-[55px] mb-[5px] text-[1.2vw] text-[#383838] font-medium text-center">Have an account?</p>
                                                 <p className='text-[1.025vw] mt-2 mb-[13px] text-center'>
-                                                    <Link to="logIn" className="border-b hover:border-b-2 font-medium">Log in </Link>
+                                                    <Link to="user" className="border-b hover:border-b-2 font-medium">Log in </Link>
                                                     to check out faster.
                                                 </p>
                                             </div>
@@ -289,7 +287,7 @@ function Header() {
                                         )}
                                         {cartItems.length > 0 &&
                                             <>
-                                                < div className='' >
+                                                < div>
                                                     <h3 className='font-serif mb-2 text-[18px] tracking-wider'>Bank Offers</h3>
                                                     <Swiper
                                                         modules={[Scrollbar]}
@@ -338,7 +336,7 @@ function Header() {
                                                     </div>
                                                 </div>
                                                 <div className='sticky bottom-0 left-0 w-full border-t border-gray-300 pt-[17px] pr-[6px] pb-6 pl-4 md:px-[22px] md:py-[21px] bg-white flex items-center justify-between z-50'>
-                                                    <div className=''>
+                                                    <div>
                                                         <p className='text-sm lg:text-[1.171vw] text-[#383838]'>Grand Total</p>
                                                         <p className='font-serif text-[16px] lg:text-[1.318vw] mt-1.5 font-semibold'>₹ {subtotal.toFixed(2)}</p>
                                                     </div>
@@ -358,7 +356,7 @@ function Header() {
                                 </div>
                             </div>
 
-                            {/* mobile manu */}
+                            {/* mobile manubar */}
                             <div className='relative'>
                                 <button onClick={toggleMenubar} className='block lg:hidden'>
                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-hamburger" width="23.098" height="13.628" viewBox="0 0 23.098 13.628">
@@ -371,8 +369,7 @@ function Header() {
                                 </button>
 
                                 {/* Sidebar */}
-                                <div
-                                    className={`fixed top-0 left-0 h-screen overflow-y-scroll w-80 bg-white transform transition-transform duration-300 z-50 ${openMenubar ? 'translate-x-0' : '-translate-x-full'}`}>
+                                <div className={`fixed top-0 left-0 h-screen overflow-y-scroll w-80 bg-white transform transition-transform duration-300 z-50 ${openMenubar ? 'translate-x-0' : '-translate-x-full'}`}>
                                     <aside>
                                         <ul className="my-4 pb-[40%]">
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
@@ -494,7 +491,7 @@ function Header() {
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
                                                     <Link to="aboutUs" className='text-2xl font-serif'>
                                                         <span className='flex items-center text-sm gap-[15px] uppercase'>
-                                                            <img src={i} alt="" className='' />
+                                                            <img src={i} alt="" />
                                                             About Us
                                                         </span>
                                                     </Link>
@@ -504,7 +501,7 @@ function Header() {
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
                                                     <Link to="" className='text-2xl font-serif'>
                                                         <span className='flex items-center text-sm gap-[15px] uppercase'>
-                                                            <img src={book} alt="" className='' />
+                                                            <img src={book} alt="" />
                                                             Watch Journal
                                                         </span>
                                                     </Link>
@@ -533,7 +530,7 @@ function Header() {
                                                 </a>
                                             </div>
                                             <div>
-                                                <a href="..." className='text-center'>
+                                                <a href="#" className='text-center'>
                                                     <div className='flex justify-center'>
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="35.222" height="27.906" viewBox="0 0 35.222 27.906" xmlnsXlink="http://www.w3.org/1999/xlink">
                                                             <defs>
@@ -590,9 +587,8 @@ function Header() {
                     </div>
                 </header >
 
-
                 {/* navbar */}
-                < nav className='border-t border-t-[#cdc6c6] border-b border-b-[#a5a5a54a] py-2 hidden lg:block' >
+                <nav className='border-t border-t-[#cdc6c6] border-b border-b-[#a5a5a54a] py-2 hidden lg:block' >
                     <ul className='mx-auto w-[72%] py-1 flex justify-evenly items-center font-serif'>
                         <li className='relative inline-block'>
                             <div>
@@ -603,8 +599,8 @@ function Header() {
                                 </Link>
                             </div>
                             {isOpen && (
-                                <div class="absolute left-0 mt-[10px] z-10 w-[860px] h-[60vh] overflow-y-scroll rounded-b-2xl bg-[#F0F0F0]" ref={dropdownRef} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                                    <div class="px-[44px] py-[22px]" role="none">
+                                <div className="absolute left-0 mt-[10px] z-10 w-[860px] h-[60vh] overflow-y-scroll rounded-b-2xl bg-[#F0F0F0]" ref={dropdownRef} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                                    <div className="px-[44px] py-[22px]" role="none">
                                         <div className='flex justify-between items-center'>
                                             <h3 className='text-[1.757vw] my-[22px] text-[#070101] font-serif'>Our Brands</h3>
                                             <div>
@@ -618,7 +614,7 @@ function Header() {
                                 </div>
                             )}
                         </li>
-                        <li className=''>
+                        <li>
                             <Link to="mensWatches" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>Men's Watches</Link>
                         </li>
                         <li>

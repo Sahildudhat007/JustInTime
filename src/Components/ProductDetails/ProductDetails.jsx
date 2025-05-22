@@ -75,19 +75,21 @@ function ProductDetails() {
                 theme="dark"
                 transition={Bounce}
             />
-            <div className=''>
+
+            <div>
                 <Breadcrumb goBackLink="Home" pageTitle="ProductDetails" />
             </div>
+
             <section className='md:w-[87%] mx-auto pt-9 pb-3'>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-[2.8rem] md:gap-[3rem]'>
-                    <div className=''>
+                    <div>
                         <div>
                             <img src={img} alt="" className='w-full lg:w-[493px] rounded-lg' />
                         </div>
                     </div>
-                    <div className=''>
+                    <div>
                         <div className='px-[7.5%] md:px-0'>
-                            <div className=''>
+                            <div>
                                 <p className='text-[#080101] text-2xl uppercase font-semibold font-serif'>{brand}</p>
                             </div>
                             <hr className='my-[7px] text-[#12121233]' />
@@ -204,7 +206,7 @@ function ProductDetails() {
                             </div>
                             <div>
                                 <span className='pb-[3px] text-sm md:text-[15px]'>
-                                    <span className=''>Buy with</span>
+                                    <span>Buy with</span>
                                     <span className='pl-[3px] mr-[3px]'>3/6</span>
                                     <span>interest-free</span>
                                 </span>
@@ -260,6 +262,7 @@ function ProductDetails() {
                     </div>
                 </div>
             </section >
+
             <div className='fixed bottom-0 z-10 w-full bg-white py-[5px]'>
                 <div className='w-full xl:w-[84%] mx-auto px-5 flex justify-between items-center'>
                     <div className='hidden lg:block'>
@@ -326,7 +329,6 @@ function ProductDetails() {
                                 </div>
                             )}
                         </Popup>
-
 
                         {/* cart */}
                         <button
