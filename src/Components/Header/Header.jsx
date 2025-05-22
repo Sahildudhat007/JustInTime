@@ -231,7 +231,7 @@ function Header() {
                                     ></div>
                                 )}
 
-                                {/* Sidebar */}
+                                {/* cart Sidebar */}
                                 <div className={`fixed top-0 right-0 h-screen w-full max-w-[471px] bg-white shadow-2xl overflow-y-auto transition-transform duration-300 ease-in-out ${cartOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                                     <div className='pt-[30px] pb-5 px-8 flex items-center justify-between'>
                                         <h2 className='text-lg font-semibold'>Your Cart</h2>
@@ -242,10 +242,10 @@ function Header() {
                                     <div className='px-[10px] md:px-5 xl:px-8'>
                                         {cartItems.length === 0 ? (
                                             <div>
-                                                <p className='text-[1.025vw] mb-[30px] text-center'>Your cart is empty.</p>
-                                                <p className='text-[1.025vw] w-[80%] mx-auto opacity-70 text-center'>There is nothing in your Bag currently. Explore items available exclusively at JIT</p>
-                                                <p className="mt-[55px] mb-[5px] text-[1.2vw] text-[#383838] font-medium text-center">Have an account?</p>
-                                                <p className='text-[1.025vw] mt-2 mb-[13px] text-center'>
+                                                <p className='lg:text-[1.025vw] mb-[30px] text-center'>Your cart is empty.</p>
+                                                <p className='lg:text-[1.025vw] w-[80%] mx-auto opacity-70 text-center'>There is nothing in your Bag currently. Explore items available exclusively at JIT</p>
+                                                <p className="mt-[55px] mb-[5px] lg:text-[1.2vw] text-[#383838] font-medium text-center">Have an account?</p>
+                                                <p className='lg:text-[1.025vw] mt-2 mb-[13px] text-center'>
                                                     <Link to="user" className="border-b hover:border-b-2 font-medium">Log in </Link>
                                                     to check out faster.
                                                 </p>
@@ -595,7 +595,7 @@ function Header() {
                             </div>
                         </ul>
                     </div>
-                </header >
+                </header>
 
                 {/* navbar */}
                 <nav className='border-t border-t-[#cdc6c6] border-b border-b-[#a5a5a54a] py-2 hidden lg:block' >
@@ -643,8 +643,8 @@ function Header() {
                             <Link to="findstores" className={`text-sm ${isWhiteTheme ? "text-black" : "text-white"}`}>JIT Boutique</Link>
                         </li>
                     </ul>
-                </nav >
-            </section >
+                </nav>
+            </section>
         </>
     )
 }
