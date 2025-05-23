@@ -509,7 +509,7 @@ function Header() {
                                             </li>
                                             <li className='border-b border-[#e7e3e3] p-[5px] w-[95%]'>
                                                 <div className='px-[2.2rem] py-[1.1rem]'>
-                                                    <Link to="" className='text-2xl font-serif'>
+                                                    <Link to="/watchJournal" className='text-2xl font-serif'>
                                                         <span className='flex items-center text-sm gap-[15px] uppercase'>
                                                             <img src={book} alt="" />
                                                             Watch Journal

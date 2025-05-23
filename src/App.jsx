@@ -29,6 +29,7 @@ import Store from './Store';
 import TermsCondition from './Pages/TermsCondition/TermsCondition';
 import User from './Components/User/User';
 import WatchAccessories from './Pages/WatchAccessories/WatchAccessories';
+import WatchJournal from "./Pages/WatchJournal/WatchJournal";
 import WatchServicing from './Pages/WatchServicing/WatchServicing';
 import Wishlist from './Components/Wishlist/Wishlist';
 import WomensWatches from './Pages/WomensWatches/WomensWatches';
@@ -80,6 +81,7 @@ function App() {
             <Route path='/termsCondition' element={<TermsCondition />} />
             <Route path='/user' element={<User />} />
             <Route path='/watchAccessories' element={<WatchAccessories />} />
+            <Route path='/watchJournal' element={<WatchJournal />} />
             <Route path='/watchServicing' element={<WatchServicing />} />
             <Route path='/wishlist' element={<Wishlist />} />
             <Route path='/womensWatches' element={<WomensWatches />} />
